@@ -31,8 +31,6 @@ public class Q3 {
     public String id;
     public String custom_uri;
     public String node_url;
-    public Resource root;
-    public HashMap<String, Property> propertyMap;
 
 
     public Q3() {
@@ -40,8 +38,6 @@ public class Q3 {
         this.id = null;
         this.custom_uri = "http://www.iiitd.ac.in/winter2020/sweb/a1/";
         this.node_url = "http://api.conceptnet.io";
-//        this.root = null;
-//        this.propertyMap = new HashMap<String, Property>();
     }
 
     public String hit(String link) {
@@ -124,6 +120,7 @@ public class Q3 {
 
                 Start.addProperty(tempProperty, End);
             }
+            this.model.setNsPrefix("custom", this.custom_uri);
         }
         catch (ParseException e) {
             e.printStackTrace();
