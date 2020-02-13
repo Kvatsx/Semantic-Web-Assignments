@@ -30,7 +30,7 @@ public class Q3 {
     public Model model;
     public String id;
     public String custom_uri;
-    public String node_url;
+    public String node_url, rdf;
 
 
     public Q3() {
@@ -38,6 +38,7 @@ public class Q3 {
         this.id = null;
         this.custom_uri = "http://www.iiitd.ac.in/winter2020/sweb/a1/";
         this.node_url = "http://api.conceptnet.io";
+        this.rdf = "http://www.w3.org/2000/01/rdf-schema#";
     }
 
     public String hit(String link) {
@@ -85,8 +86,9 @@ public class Q3 {
         }
     }
 
-    public void parseJSONLD(String jData) {
+    public void parseJSONLD(String url) {
         try {
+            String jData = hit(url);
             JSONParser parser = new JSONParser();
             JSONObject jObject = (JSONObject) parser.parse(jData);
             if (jObject.containsKey("error")) {
@@ -107,20 +109,32 @@ public class Q3 {
                 JSONObject tempObject = (JSONObject) jArray.get(i);
                 Map rel = (Map) tempObject.get("rel");
                 Property tempProperty = this.model.createProperty(custom_uri, String.valueOf(rel.get("label")));
+                tempProperty.addProperty(RDFS.domain, RDFS.Resource);
+                tempProperty.addProperty(RDFS.range, RDFS.Resource);
 
                 Map Node1 = (Map) tempObject.get("start");
+
+                Property label = this.model.createProperty(custom_uri, "label");
+                label.addProperty(RDFS.domain, RDFS.Resource);
+                label.addProperty(RDFS.range, RDFS.Literal);
+                Property language = this.model.createProperty(custom_uri, "language");
+                language.addProperty(RDFS.domain, RDFS.Resource);
+                language.addProperty(RDFS.range, RDFS.Literal);
+
                 Resource Start = this.model.createResource(node_url + String.valueOf(Node1.get("@id")));
-                Start.addProperty(this.model.createProperty(custom_uri, "label"), String.valueOf(Node1.get("label")));
-                Start.addProperty(this.model.createProperty(custom_uri, "language"), String.valueOf(Node1.get("language")));
+                Start.addProperty(label, String.valueOf(Node1.get("label")));
+                Start.addProperty(language, String.valueOf(Node1.get("language")));
 
                 Map Node2 = (Map) tempObject.get("end");
                 Resource End = this.model.createResource(node_url + String.valueOf(Node2.get("@id")));
-                End.addProperty(this.model.createProperty(custom_uri, "label"), String.valueOf(Node2.get("label")));
-                End.addProperty(this.model.createProperty(custom_uri, "language"), String.valueOf(Node2.get("language")));
+                End.addProperty(label, String.valueOf(Node2.get("label")));
+                End.addProperty(language, String.valueOf(Node2.get("language")));
 
                 Start.addProperty(tempProperty, End);
             }
             this.model.setNsPrefix("custom", this.custom_uri);
+            this.model.setNsPrefix("rdf", this.rdf);
+            RDFDataMgr.write(System.out, this.model, RDFFormat.TURTLE_PRETTY) ;
         }
         catch (ParseException e) {
             e.printStackTrace();
@@ -133,11 +147,6 @@ public class Q3 {
 //        BufferedReader Reader = new BufferedReader(new InputStreamReader(System.in));
 //        String word = Reader.readLine();
         String link = "http://api.conceptnet.io/c/en/";
-        String jsonData = q3.hit(link + "example?offset=0&limit=500");
-        String nextPage = q3.getNextUrl(jsonData);
-        System.out.println(nextPage);
-        q3.parseJSONLD(jsonData);
-//        q3.model.write(System.out, "TTL");
-        RDFDataMgr.write(System.out, q3.model, RDFFormat.TURTLE_PRETTY) ;
+        q3.parseJSONLD(link + "example?offset=0&limit=20");
     }
 }
