@@ -1,0 +1,64 @@
+@prefix : <http://www.iiitd.ac.in/sweb/a1/q2/> .
+@prefix property: <http://www.iiitd.ac.in/sweb/a1/q2/property#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+property:Likes a rdf:Property ;
+    rdfs:domain  rdfs:Resource ;
+    rdfs:range   rdfs:Resource .
+
+property:madeOf a rdf:Property ;
+    rdfs:domain  rdfs:Resource ;
+    rdfs:range   rdfs:Resource .
+
+property:Preference a rdf:Property ;
+    rdfs:domain  rdfs:Resource ;
+    rdfs:range   rdfs:Resource .
+
+property:FruitMealPreference  rdf:subPropertyOf property:Preference ;
+    rdfs:domain  rdfs:Resource ;
+    rdfs:range   rdfs:Literal .
+
+:FruitJuice     rdf:type    rdfs:Class .
+
+:OrangeJuice    rdfs:subClassOf    :FruitJuice .
+:AppleJuice     rdfs:subClassOf    :FruitJuice .
+:MixedFruitJuice    rdfs:subClassOf    :FruitJuice .
+
+
+:Mary a foaf:Person ;
+    property:Likes [
+        a rdf:Bag ;
+        rdf:_1  :OrangeJuice ;
+        rdf:_2  :AppleJuice ;
+        rdf:_3  :MixedFruitJuice 
+    ] ;
+    property:Preference [
+        a rdf:Seq ;
+        rdf:_1  :MixedFruitJuice ;
+        rdf:_2  :OrangeJuice ;
+        rdf:_3  :AppleJuice 
+    ] ;
+    property:FruitMealPreference [
+        a rdf:Alt ;
+        rdf:_1  "Pineapple"^^xsd:string ;
+        rdf:_2  "Orange"^^xsd:string ;
+        rdf:_3  "Apple"^^xsd:string
+    ] .
+
+:MixedFruitJuice    property:madeOf     _:item1 .
+_:item1     
+    rdf:first   "Orange"^^xsd:string ;
+    rdf:rest    _:item2 .
+_:item2     
+    rdf:first   "Apple"^^xsd:string ;
+    rdf:rest    _:item3 .
+_:item3     
+    rdf:first   "Papaya"^^xsd:string ;
+    rdf:rest    _:item4 .
+_:item4
+    rdf:first   "Banana"^^xsd:string ;
+    rdf:rest    rdf:nil .
+

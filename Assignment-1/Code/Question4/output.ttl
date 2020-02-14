@@ -1,0 +1,3179 @@
+@prefix node:  <http://netflix.io/node/> .
+@prefix rdf:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix property: <http://netflix.io/property/> .
+@prefix rdfProperty: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+node:81002866  a              node:movie ;
+        property:countries    "Indonesia" ;
+        property:dateAdded    "September 28, 2018" ;
+        property:description  "When a young man leaves home to fulfill the wishes of his late father, he meets and falls in love with a woman from a very different background." ;
+        property:duration     "163 min" ;
+        property:hasCast      node:randy_nidji , node:herjunot_ali , node:arzetti_bilbina , node:kevin_andrean , node:pevita_pearce , node:gesya_shandy , node:reza_rahadian ;
+        property:hasDirector  node:sunil_soraya ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "The Sinking Of Van Der Wijck" ;
+        property:listedIn     "International Movies" , "Dramas" , "Romantic Movies" ;
+        property:releaseYear  "2013" .
+
+node:jooyeon_lee  a  rdf:Resource ;
+        rdf:label  "Joo-yeon Lee" .
+
+node:karam_hussain  a  rdf:Resource ;
+        rdf:label  "Karam Hussain" .
+
+node:stephen_root  a  rdf:Resource ;
+        rdf:label  "Stephen Root" .
+
+node:80052612  a              node:movie ;
+        property:countries    "France" , "United Kingdom" ;
+        property:dateAdded    "September 4, 2018" ;
+        property:description  "A single woman seizes an opportunity when, while standing under a train station clock, she meets a stranger who mistakes her for his blind date." ;
+        property:duration     "88 min" ;
+        property:hasCast      node:phoebe_wallerbridge , node:henry_lloydhughes , node:ken_stott , node:ophelia_lovibond , node:sharon_horgan , node:harriet_walter , node:olivia_williams , node:lake_bell , node:simon_pegg , node:deancharles_chapman , node:rory_kinnear , node:stephen_campbell_moore ;
+        property:hasDirector  node:ben_palmer ;
+        property:hasRating    "R" ;
+        property:hasTitle     "Man Up" ;
+        property:listedIn     "International Movies" , "Comedies" , "Romantic Movies" ;
+        property:releaseYear  "2015" .
+
+node:jeanmichel_balthazar
+        a          rdf:Resource ;
+        rdf:label  "Jean-Michel Balthazar" .
+
+node:tim_blake_nelson
+        a          rdf:Resource ;
+        rdf:label  "Tim Blake Nelson" .
+
+node:rob_riggle  a  rdf:Resource ;
+        rdf:label  "Rob Riggle" .
+
+node:paprika_steen  a  rdf:Resource ;
+        rdf:label  "Paprika Steen" .
+
+node:park_inje  a  rdf:Resource ;
+        rdf:label  "Park In-je" .
+
+node:adam_conover  a  rdf:Resource ;
+        rdf:label  "Adam Conover" .
+
+node:81052275  a              node:movie ;
+        property:countries    "India" ;
+        property:dateAdded    "September 6, 2019" ;
+        property:description  "In Goa and in desperate need of cash, four childhood friends get another shot at making their long-abandoned dreams of becoming filmmakers come true." ;
+        property:duration     "133 min" ;
+        property:hasCast      node:vishwaksen_naidu , node:venkatesh_kakumanu , node:simran_choudhary , node:abhinav_gomatam , node:anisha_ambrose , node:sushanth_reddy ;
+        property:hasDirector  node:tharun_bhascker ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Ee Nagaraniki Emaindi" ;
+        property:listedIn     "Comedies" , "International Movies" ;
+        property:releaseYear  "2018" .
+
+node:sara_ali  a   rdf:Resource ;
+        rdf:label  "Sara Ali" .
+
+node:devin_kelley  a  rdf:Resource ;
+        rdf:label  "Devin Kelley" .
+
+node:natthaweeranuch_thongmee
+        a          rdf:Resource ;
+        rdf:label  "Natthaweeranuch Thongmee" .
+
+node:unnop_chanpaibool
+        a          rdf:Resource ;
+        rdf:label  "Unnop Chanpaibool" .
+
+node:81145628  a              node:movie ;
+        property:countries    "United States" , "South Korea" , "India" , "China" ;
+        property:dateAdded    "September 9, 2019" ;
+        property:description  "Before planning an awesome wedding for his grandfather, a polar bear king must take back a stolen artifact from an evil archaeologist first." ;
+        property:duration     "90 min" ;
+        property:hasCast      node:alan_marriott , node:brian_dobson , node:michael_dobson , node:andrew_toth , node:lisa_durupt , node:cole_howard , node:maya_kay , node:jonathan_holmes , node:lee_tockar , node:jennifer_cameron ;
+        property:hasDirector  node:tim_maltby , node:richard_finn ;
+        property:hasRating    "TV-PG" ;
+        property:hasTitle     "Norm of the North: King Sized Adventure" ;
+        property:listedIn     "Comedies" , "Children & Family Movies" ;
+        property:releaseYear  "2019" .
+
+node:rachel_brann  a  rdf:Resource ;
+        rdf:label  "Rachel Brann" .
+
+node:chelsea_kane  a  rdf:Resource ;
+        rdf:label  "Chelsea Kane" .
+
+node:robert_osman  a  rdf:Resource ;
+        rdf:label  "Robert Osman" .
+
+node:rj_cyler  a   rdf:Resource ;
+        rdf:label  "RJ Cyler" .
+
+node:john_chapman  a  rdf:Resource ;
+        rdf:label  "John Chapman" .
+
+node:klara_kristin  a  rdf:Resource ;
+        rdf:label  "Klara Kristin" .
+
+node:dilad_imek  a  rdf:Resource ;
+        rdf:label  "Dilşad Şimşek" .
+
+node:murat_boz  a  rdf:Resource ;
+        rdf:label  "Murat Boz" .
+
+node:bobby_moynihan  a  rdf:Resource ;
+        rdf:label  "Bobby Moynihan" .
+
+node:jeremy_saulnier  a  rdf:Resource ;
+        rdf:label  "Jeremy Saulnier" .
+
+node:thawat_pornrattanaprasert
+        a          rdf:Resource ;
+        rdf:label  "Thawat Pornrattanaprasert" .
+
+node:ross_r_shuman  a  rdf:Resource ;
+        rdf:label  "Ross R. Shuman" .
+
+node:haluk_bilginer  a  rdf:Resource ;
+        rdf:label  "Haluk Bilginer" .
+
+node:khary_payton  a  rdf:Resource ;
+        rdf:label  "Khary Payton" .
+
+node:mo_gilligan  a  rdf:Resource ;
+        rdf:label  "Mo Gilligan" .
+
+node:tony_hale  a  rdf:Resource ;
+        rdf:label  "Tony Hale" .
+
+node:mekhi_phifer  a  rdf:Resource ;
+        rdf:label  "Mekhi Phifer" .
+
+node:kevin_michael_richardson
+        a          rdf:Resource ;
+        rdf:label  "Kevin Michael Richardson" .
+
+node:dborah_franois  a  rdf:Resource ;
+        rdf:label  "Déborah François" .
+
+node:zhang_jungyi  a  rdf:Resource ;
+        rdf:label  "Zhang Jungyi" .
+
+node:riley_keough  a  rdf:Resource ;
+        rdf:label  "Riley Keough" .
+
+node:hiroto_kanai  a  rdf:Resource ;
+        rdf:label  "Hiroto Kanai" .
+
+node:carice_van_houten
+        a          rdf:Resource ;
+        rdf:label  "Carice van Houten" .
+
+node:70062814  a              node:movie ;
+        property:countries    "Thailand" ;
+        property:dateAdded    "September 5, 2018" ;
+        property:description  "After killing a young girl in a hit-and-run accident, a couple is haunted by more than just the memory of their deadly choice." ;
+        property:duration     "96 min" ;
+        property:hasCast      node:unnop_chanpaibool , node:ananda_everingham , node:titikarn_tongprasearth , node:achita_sikamana , node:natthaweeranuch_thongmee , node:kachormsak_naruepatr , node:sivagorn_muttamara , node:chachchaya_chalemphol ;
+        property:hasDirector  node:parkpoom_wongpoom , node:banjong_pisanthanakun ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Shutter" ;
+        property:listedIn     "International Movies" , "Horror Movies" ;
+        property:releaseYear  "2004" .
+
+node:chrissy_metz  a  rdf:Resource ;
+        rdf:label  "Chrissy Metz" .
+
+node:sanjay_dutt  a  rdf:Resource ;
+        rdf:label  "Sanjay Dutt" .
+
+node:alan_marriott  a  rdf:Resource ;
+        rdf:label  "Alan Marriott" .
+
+node:80060297  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "A filmmaker working on a documentary about love in modern Manhattan becomes personally entangled in the romantic lives of his subjects." ;
+        property:duration     "98 min" ;
+        property:hasCast      node:caitlin_fitzgerald , node:katherine_waterston , node:gaby_hoffmann , node:louis_cancelmi , node:zach_grenier , node:tom_obrien ;
+        property:hasDirector  node:tom_obrien ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Manhattan Romance" ;
+        property:listedIn     "Comedies" , "Romantic Movies" , "Independent Movies" ;
+        property:releaseYear  "2014" .
+
+node:tori_anderson  a  rdf:Resource ;
+        rdf:label  "Tori Anderson" .
+
+node:rose_reid  a  rdf:Resource ;
+        rdf:label  "Rose Reid" .
+
+node:brad_anderson  a  rdf:Resource ;
+        rdf:label  "Brad Anderson" .
+
+node:robert_redford  a  rdf:Resource ;
+        rdf:label  "Robert Redford" .
+
+node:80164077  a              node:movie ;
+        property:countries    "Chile" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "Fabrizio Copano takes audience participation to the next level in this stand-up set while reflecting on sperm banks, family WhatsApp groups and more." ;
+        property:duration     "60 min" ;
+        property:hasCast      node:fabrizio_copano ;
+        property:hasDirector  node:rodrigo_toro , node:francisco_schultz ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Fabrizio Copano: Solo pienso en mi" ;
+        property:listedIn     "Stand-Up Comedy" ;
+        property:releaseYear  "2017" .
+
+node:tim_maltby  a  rdf:Resource ;
+        rdf:label  "Tim Maltby" .
+
+node:kevin_r_adams  a  rdf:Resource ;
+        rdf:label  "Kevin R. Adams" .
+
+node:jason_sudeikis  a  rdf:Resource ;
+        rdf:label  "Jason Sudeikis" .
+
+node:daniel_kaluuya  a  rdf:Resource ;
+        rdf:label  "Daniel Kaluuya" .
+
+node:deuntem_salitul  a  rdf:Resource ;
+        rdf:label  "Deuntem Salitul" .
+
+node:80996949  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 30, 2018" ;
+        property:description  "Education can be fun – and funny. Comedian Adam Conover bursts misconceptions, deconstructs topics and leaves with positive takeaways." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:adam_lustick , node:emily_axford , node:adam_conover ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Adam Ruins Everything" ;
+        property:listedIn     "TV Comedies" ;
+        property:releaseYear  "2018" .
+
+node:michel_fau  a  rdf:Resource ;
+        rdf:label  "Michel Fau" .
+
+node:randy_nidji  a  rdf:Resource ;
+        rdf:label  "Randy Nidji" .
+
+node:president_barack_obama
+        a          rdf:Resource ;
+        rdf:label  "President Barack Obama" .
+
+node:suman  a      rdf:Resource ;
+        rdf:label  "Suman" .
+
+node:derek_lyons  a  rdf:Resource ;
+        rdf:label  "Derek Lyons" .
+
+node:80159880  a              node:movie ;
+        property:countries    "United States" , "Canada" ;
+        property:dateAdded    "September 5, 2018" ;
+        property:description  "When a broken ATM dishes out a fortune, a couple who works at the bank vies to see who can recover the most cash – and the loser must find a new job." ;
+        property:duration     "122 min" ;
+        property:hasCast      node:preechaya_pongthananikorn , node:yanee_tramoth , node:gornpop_janjaroen , node:chantavit_dhanasevi , node:chaleumpol_tikumpornteerawong , node:puttachat_pongsuchat , node:thawat_pornrattanaprasert , node:pongsatorn_jongwilak , node:sananthachat_thanapatpisal , node:pongkool_suebsung ;
+        property:hasDirector  node:mez_tharatorn ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "ATM" ;
+        property:listedIn     "Romantic Movies" , "Comedies" , "International Movies" ;
+        property:releaseYear  "2012" .
+
+node:michael_douglas  a  rdf:Resource ;
+        rdf:label  "Michael Douglas" .
+
+node:nina_kiri  a  rdf:Resource ;
+        rdf:label  "Nina Kiri" .
+
+node:kesava_karri  a  rdf:Resource ;
+        rdf:label  "Kesava Karri" .
+
+node:kachormsak_naruepatr
+        a          rdf:Resource ;
+        rdf:label  "Kachormsak Naruepatr" .
+
+node:charlie_trairat  a  rdf:Resource ;
+        rdf:label  "Charlie Trairat" .
+
+node:sayani_gupta  a  rdf:Resource ;
+        rdf:label  "Sayani Gupta" .
+
+node:80117902  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "As California's 2016 fire season rages, brave backcountry firefighters race to put out the flames, protect homes and save lives in this docuseries." ;
+        property:duration     "1 Season" ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Fire Chasers" ;
+        property:listedIn     "Docuseries" , "Science & Nature TV" ;
+        property:releaseYear  "2017" .
+
+node:70304988  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "In 1899, a young doctor arrives at an asylum for an apprenticeship and becomes suspicious of his mentor's methods while falling for a female patient." ;
+        property:duration     "113 min" ;
+        property:hasCast      node:edmund_kingsley , node:sinad_cusack , node:ben_kingsley , node:brendan_gleeson , node:jim_sturgess , node:michael_caine , node:jason_flemyng , node:kate_beckinsale , node:sophie_kennedy_clark , node:david_thewlis ;
+        property:hasDirector  node:brad_anderson ;
+        property:hasRating    "PG-13" ;
+        property:hasTitle     "Stonehearst Asylum" ;
+        property:listedIn     "Horror Movies" , "Thrillers" ;
+        property:releaseYear  "2014" .
+
+node:julia_konrad  a  rdf:Resource ;
+        rdf:label  "Julia Konrad" .
+
+node:mirza_salihovic  a  rdf:Resource ;
+        rdf:label  "Mirza Salihovic" .
+
+node:nungira_hanwutinanon
+        a          rdf:Resource ;
+        rdf:label  "Nungira Hanwutinanon" .
+
+node:annisa_rawles  a  rdf:Resource ;
+        rdf:label  "Annisa Rawles" .
+
+node:80198585  a              node:movie ;
+        property:countries    "United Kingdom" , "United States" ;
+        property:dateAdded    "September 3, 2018" ;
+        property:description  "A broke martial arts instructor takes a side gig with a mobster, who pairs him with a veteran thug for a weekend of fisticuffs-fueled debt collection." ;
+        property:duration     "96 min" ;
+        property:hasCast      node:selina_lo , node:tony_todd , node:louis_mandylor , node:michael_par , node:rachel_brann , node:vladimir_kulich , node:scott_adkins ;
+        property:hasDirector  node:jesse_v_johnson ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "The Debt Collector" ;
+        property:listedIn     "Action & Adventure" ;
+        property:releaseYear  "2018" .
+
+node:nikolaj_costerwaldau
+        a          rdf:Resource ;
+        rdf:label  "Nikolaj Coster-Waldau" .
+
+node:rocky_soraya  a  rdf:Resource ;
+        rdf:label  "Rocky Soraya" .
+
+node:jake_borelli  a  rdf:Resource ;
+        rdf:label  "Jake Borelli" .
+
+node:kate_walsh  a  rdf:Resource ;
+        rdf:label  "Kate Walsh" .
+
+node:takeshi_masu  a  rdf:Resource ;
+        rdf:label  "Takeshi Masu" .
+
+node:jordan_fisher  a  rdf:Resource ;
+        rdf:label  "Jordan Fisher" .
+
+node:ge_wang  a    rdf:Resource ;
+        rdf:label  "Ge Wang" .
+
+node:michael_b_jordan
+        a          rdf:Resource ;
+        rdf:label  "Michael B. Jordan" .
+
+node:rebekah_graf  a  rdf:Resource ;
+        rdf:label  "Rebekah Graf" .
+
+node:tom_audenaert  a  rdf:Resource ;
+        rdf:label  "Tom Audenaert" .
+
+node:mila_kunis  a  rdf:Resource ;
+        rdf:label  "Mila Kunis" .
+
+node:voke_victoria  a  rdf:Resource ;
+        rdf:label  "Voke Victoria" .
+
+node:maria_bamford  a  rdf:Resource ;
+        rdf:label  "Maria Bamford" .
+
+node:saykoji  a    rdf:Resource ;
+        rdf:label  "Saykoji" .
+
+node:anthony_forrest  a  rdf:Resource ;
+        rdf:label  "Anthony Forrest" .
+
+node:antonio_banderas
+        a          rdf:Resource ;
+        rdf:label  "Antonio Banderas" .
+
+node:81113928  a              node:movie ;
+        property:dateAdded    "September 6, 2019" ;
+        property:description  "From a schoolboy’s crush to a middle-aged bachelor’s office romance, four love stories spanning age, religion and status unfold in a small Indian town." ;
+        property:duration     "142 min" ;
+        property:hasCast      node:nithyasri_goru , node:praneetha_patnaik , node:kesava_karri , node:karthik_rathnam , node:radha_bessy , node:subba_rao_vepada , node:mohan_bhagath , node:praveena_paruchuri ;
+        property:hasDirector  node:maha_venkatesh ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Care of Kancharapalem" ;
+        property:listedIn     "Independent Movies" , "Dramas" , "Comedies" ;
+        property:releaseYear  "2018" .
+
+node:constance_wu  a  rdf:Resource ;
+        rdf:label  "Constance Wu" .
+
+node:riley_smith  a  rdf:Resource ;
+        rdf:label  "Riley Smith" .
+
+node:sarayu_blue  a  rdf:Resource ;
+        rdf:label  "Sarayu Blue" .
+
+node:richard_finn  a  rdf:Resource ;
+        rdf:label  "Richard Finn" .
+
+node:will_friedle  a  rdf:Resource ;
+        rdf:label  "Will Friedle" .
+
+node:joshua_sasse  a  rdf:Resource ;
+        rdf:label  "Joshua Sasse" .
+
+node:hadar_ratzon_rotem
+        a          rdf:Resource ;
+        rdf:label  "Hadar Ratzon Rotem" .
+
+node:najiba_faiz  a  rdf:Resource ;
+        rdf:label  "Najiba Faiz" .
+
+node:ben_palmer  a  rdf:Resource ;
+        rdf:label  "Ben Palmer" .
+
+node:nontapan_chuenwarin
+        a          rdf:Resource ;
+        rdf:label  "Nontapan Chuenwarin" .
+
+node:sora_aoi  a   rdf:Resource ;
+        rdf:label  "Sora Aoi" .
+
+node:gabe_ibez  a  rdf:Resource ;
+        rdf:label  "Gabe Ibáñez" .
+
+node:80184358  a              node:tv_show ;
+        property:dateAdded    "September 3, 2018" ;
+        property:description  "Love and academics get complicated at an all-male college that happens to be located next to an all-female high school." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:nungira_hanwutinanon , node:phumphothingam_nawat , node:kongyingyong_chonlathorn , node:charnmanoon_pannin , node:nontapan_chuenwarin , node:chindavanich_primrose , node:ausavaterakul_ausavapat , node:sirikiet_saejea , node:nuchanart_veerakaarn , node:luangsodsai_anupart ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Lovesick" ;
+        property:listedIn     "Romantic TV Shows" , "International TV Shows" , "TV Dramas" ;
+        property:releaseYear  "2014" .
+
+node:81173255  a              node:movie ;
+        property:countries    "Canada" ;
+        property:dateAdded    "September 4, 2019" ;
+        property:description  "A withdrawn young woman hunted by a malicious cult is abducted by a brooding stranger and undergoes a bizarre transformation." ;
+        property:duration     "88 min" ;
+        property:hasCast      node:nina_kiri , node:jorja_cadence , node:ry_barrett , node:will_king , node:nina_richmond ;
+        property:hasDirector  node:chad_archibald ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "The Heretics" ;
+        property:listedIn     "Horror Movies" ;
+        property:releaseYear  "2017" .
+
+node:john_michael_higgins
+        a          rdf:Resource ;
+        rdf:label  "John Michael Higgins" .
+
+node:fuka_koshiba  a  rdf:Resource ;
+        rdf:label  "Fuka Koshiba" .
+
+node:rodrigo_toro  a  rdf:Resource ;
+        rdf:label  "Rodrigo Toro" .
+
+node:80046728  a              node:movie ;
+        property:countries    "Belgium" , "France" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "A brain-addled war vet, a failing band manager and a Stanley Kubrick impersonator help the CIA construct an epic scam by faking the 1969 moon landing." ;
+        property:duration     "96 min" ;
+        property:hasCast      node:erika_sainte , node:kevin_bishop , node:rupert_grint , node:stephen_campbell_moore , node:eric_lampaert , node:ron_perlman , node:tom_audenaert , node:robert_sheehan ;
+        property:hasDirector  node:antoine_bardoujacquet ;
+        property:hasRating    "R" ;
+        property:hasTitle     "Moonwalkers" ;
+        property:listedIn     "International Movies" , "Action & Adventure" , "Comedies" ;
+        property:releaseYear  "2015" .
+
+node:beverly_hills  a  rdf:Resource ;
+        rdf:label  "Beverly Hills" .
+
+node:hermila_guedes  a  rdf:Resource ;
+        rdf:label  "Hermila Guedes" .
+
+node:francisco_schultz
+        a          rdf:Resource ;
+        rdf:label  "Francisco Schultz" .
+
+node:luangsodsai_anupart
+        a          rdf:Resource ;
+        rdf:label  "Luangsodsai Anupart" .
+
+node:minsik_choi  a  rdf:Resource ;
+        rdf:label  "Min-sik Choi" .
+
+node:theerapat_sajakul
+        a          rdf:Resource ;
+        rdf:label  "Theerapat Sajakul" .
+
+node:gina_gershon  a  rdf:Resource ;
+        rdf:label  "Gina Gershon" .
+
+node:daniele_thompson
+        a          rdf:Resource ;
+        rdf:label  "Daniele Thompson" .
+
+node:81011955  a              node:movie ;
+        property:countries    "Brazil" ;
+        property:dateAdded    "September 29, 2018" ;
+        property:description  "A cop moonlights as the bodyguard for a young drag queen at a nightclub, and grows closer to the family of misfit singers that perform there." ;
+        property:duration     "111 min" ;
+        property:hasCast      node:hermila_guedes , node:jlio_andrade , node:malu_galli , node:erasmo_carlos , node:marjorie_estiano , node:felipe_abib , node:julia_konrad , node:humberto_carro , node:seu_jorge , node:jaloo , node:lee_taylor ;
+        property:hasDirector  node:monique_gardenberg ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Paradise Lost" ;
+        property:listedIn     "Independent Movies" , "International Movies" , "Dramas" ;
+        property:releaseYear  "2018" .
+
+node:80162141  a              node:movie ;
+        property:countries    "United Kingdom" ;
+        property:dateAdded    "September 6, 2017" ;
+        property:description  "A drug dealer who's been emulating his father's successful criminal career is forced to go on the run with a young girl in this fact-based thriller." ;
+        property:duration     "79 min" ;
+        property:hasCast      node:oliver_stark , node:andy_lucas , node:alexandra_newick , node:beverly_hills , node:ralph_brown , node:kat_gellin , node:mem_ferda , node:nathanael_wiseman ;
+        property:hasDirector  node:robert_osman , node:nathanael_wiseman ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Hard Tide" ;
+        property:listedIn     "Dramas" , "Independent Movies" ;
+        property:releaseYear  "2015" .
+
+node:tj_miller  a  rdf:Resource ;
+        rdf:label  "T.J. Miller" .
+
+node:vanessa_bayer  a  rdf:Resource ;
+        rdf:label  "Vanessa Bayer" .
+
+node:patrick_davis  a  rdf:Resource ;
+        rdf:label  "Patrick Davis" .
+
+node:kristine_froseth
+        a          rdf:Resource ;
+        rdf:label  "Kristine Froseth" .
+
+node:helena_kaittani  a  rdf:Resource ;
+        rdf:label  "Helena Kaittani" .
+
+node:adisorn_tresirikasem
+        a          rdf:Resource ;
+        rdf:label  "Adisorn Tresirikasem" .
+
+node:umie_aida  a  rdf:Resource ;
+        rdf:label  "Umie Aida" .
+
+node:lee_tockar  a  rdf:Resource ;
+        rdf:label  "Lee Tockar" .
+
+node:sivagorn_muttamara
+        a          rdf:Resource ;
+        rdf:label  "Sivagorn Muttamara" .
+
+node:isabelle_nicou  a  rdf:Resource ;
+        rdf:label  "Isabelle Nicou" .
+
+node:kevin_bishop  a  rdf:Resource ;
+        rdf:label  "Kevin Bishop" .
+
+node:sam_worthington  a  rdf:Resource ;
+        rdf:label  "Sam Worthington" .
+
+node:kristen_bell  a  rdf:Resource ;
+        rdf:label  "Kristen Bell" .
+
+node:ali_yourtuolu  a  rdf:Resource ;
+        rdf:label  "Ali Yoğurtçuoğlu" .
+
+node:gaspar_no  a  rdf:Resource ;
+        rdf:label  "Gaspar Noé" .
+
+node:aakash_dabhade  a  rdf:Resource ;
+        rdf:label  "Aakash Dabhade" .
+
+node:bryan_batt  a  rdf:Resource ;
+        rdf:label  "Bryan Batt" .
+
+node:darren_criss  a  rdf:Resource ;
+        rdf:label  "Darren Criss" .
+
+node:amy_pietz  a  rdf:Resource ;
+        rdf:label  "Amy Pietz" .
+
+node:sinad_cusack  a  rdf:Resource ;
+        rdf:label  "Sinéad Cusack" .
+
+node:mitchell_whitfield
+        a          rdf:Resource ;
+        rdf:label  "Mitchell Whitfield" .
+
+node:olivia_williams  a  rdf:Resource ;
+        rdf:label  "Olivia Williams" .
+
+node:nathan_lane  a  rdf:Resource ;
+        rdf:label  "Nathan Lane" .
+
+node:scott_william_winters
+        a          rdf:Resource ;
+        rdf:label  "Scott William Winters" .
+
+node:81002850  a              node:movie ;
+        property:countries    "Indonesia" ;
+        property:dateAdded    "September 28, 2018" ;
+        property:description  "Five friends embark on a mission to climb the highest peak in Java, overcoming obstacles on the way and discovering the true meaning of friendship." ;
+        property:duration     "126 min" ;
+        property:hasCast      node:raline_shah , node:herjunot_ali , node:denny_sumargo , node:pevita_pearce , node:firrina_sinatrya , node:didi_petet , node:fedi_nuril , node:saykoji ;
+        property:hasDirector  node:rizal_mantovani ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "5CM" ;
+        property:listedIn     "Dramas" , "International Movies" ;
+        property:releaseYear  "2012" .
+
+node:noah_emmerich  a  rdf:Resource ;
+        rdf:label  "Noah Emmerich" .
+
+node:munjal_shroff  a  rdf:Resource ;
+        rdf:label  "Munjal Shroff" .
+
+node:forest_whitaker  a  rdf:Resource ;
+        rdf:label  "Forest Whitaker" .
+
+node:henry_thomas  a  rdf:Resource ;
+        rdf:label  "Henry Thomas" .
+
+node:80190843  a              node:tv_show ;
+        property:dateAdded    "September 7, 2018" ;
+        property:description  "Take an intimate look at the emotionally charged first and last days of new and soon-to-be released inmates at Georgia's Gwinnett County Jail." ;
+        property:duration     "1 Season" ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "First and Last" ;
+        property:listedIn     "Docuseries" ;
+        property:releaseYear  "2018" .
+
+node:nicolas_cage  a  rdf:Resource ;
+        rdf:label  "Nicolas Cage" .
+
+node:benot_debie  a  rdf:Resource ;
+        rdf:label  "Benoît Debie" .
+
+node:herjunot_ali  a  rdf:Resource ;
+        rdf:label  "Herjunot Ali" .
+
+node:michael_caine  a  rdf:Resource ;
+        rdf:label  "Michael Caine" .
+
+node:ugo_fox  a    rdf:Resource ;
+        rdf:label  "Ugo Fox" .
+
+node:jirayu_laongmanee
+        a          rdf:Resource ;
+        rdf:label  "Jirayu La-ongmanee" .
+
+node:Person  a  rdf:Class .
+
+node:miller_khan  a  rdf:Resource ;
+        rdf:label  "Miller Khan" .
+
+node:omar_sy  a    rdf:Resource ;
+        rdf:label  "Omar Sy" .
+
+node:vernica_echegui  a  rdf:Resource ;
+        rdf:label  "Verónica Echegui" .
+
+node:paul_blake  a  rdf:Resource ;
+        rdf:label  "Paul Blake" .
+
+node:rishi_gambhir  a  rdf:Resource ;
+        rdf:label  "Rishi Gambhir" .
+
+property:dateAdded  a  rdfProperty:Property ;
+        rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+node:judy_greer  a  rdf:Resource ;
+        rdf:label  "Judy Greer" .
+
+node:80058654  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 8, 2018" ;
+        property:description  "When a prison ship crash unleashes hundreds of Decepticons on Earth, Bumblebee leads a new Autobot force to protect humankind." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:constance_zimmer , node:peter_cullen , node:ted_mcginley , node:stuart_allan , node:mitchell_whitfield , node:will_friedle , node:khary_payton , node:darren_criss ;
+        property:hasRating    "TV-Y7" ;
+        property:hasTitle     "Transformers: Robots in Disguise" ;
+        property:listedIn     "Kids' TV" ;
+        property:releaseYear  "2016" .
+
+node:maha_venkatesh  a  rdf:Resource ;
+        rdf:label  "Maha Venkatesh" .
+
+node:chal_inoue  a  rdf:Resource ;
+        rdf:label  "Chal Inoue" .
+
+node:yanee_tramoth  a  rdf:Resource ;
+        rdf:label  "Yanee Tramoth" .
+
+node:alice_lee  a  rdf:Resource ;
+        rdf:label  "Alice Lee" .
+
+node:tom_gianas  a  rdf:Resource ;
+        rdf:label  "Tom Gianas" .
+
+node:jesse_rath  a  rdf:Resource ;
+        rdf:label  "Jesse Rath" .
+
+node:connie_nielsen  a  rdf:Resource ;
+        rdf:label  "Connie Nielsen" .
+
+node:remy_ishak  a  rdf:Resource ;
+        rdf:label  "Remy Ishak" .
+
+node:mohan_bhagath  a  rdf:Resource ;
+        rdf:label  "Mohan Bhagath" .
+
+node:tania_gunadi  a  rdf:Resource ;
+        rdf:label  "Tania Gunadi" .
+
+node:a_l_vijay  a  rdf:Resource ;
+        rdf:label  "A. L. Vijay" .
+
+node:ungsumalynn_sirapatsakmetha
+        a          rdf:Resource ;
+        rdf:label  "Ungsumalynn Sirapatsakmetha" .
+
+node:preechaya_pongthananikorn
+        a          rdf:Resource ;
+        rdf:label  "Preechaya Pongthananikorn" .
+
+node:anthony_ruivivar
+        a          rdf:Resource ;
+        rdf:label  "Anthony Ruivivar" .
+
+node:ted_mcginley  a  rdf:Resource ;
+        rdf:label  "Ted McGinley" .
+
+node:didi_petet  a  rdf:Resource ;
+        rdf:label  "Didi Petet" .
+
+node:andy_pessoa  a  rdf:Resource ;
+        rdf:label  "Andy Pessoa" .
+
+node:dborah_rvy  a  rdf:Resource ;
+        rdf:label  "Déborah Révy" .
+
+node:david_dencik  a  rdf:Resource ;
+        rdf:label  "David Dencik" .
+
+node:peter_cullen  a  rdf:Resource ;
+        rdf:label  "Peter Cullen" .
+
+node:erma_fatima  a  rdf:Resource ;
+        rdf:label  "Erma Fatima" .
+
+node:bel_powley  a  rdf:Resource ;
+        rdf:label  "Bel Powley" .
+
+node:kumud_mishra  a  rdf:Resource ;
+        rdf:label  "Kumud Mishra" .
+
+node:rita_rudaini  a  rdf:Resource ;
+        rdf:label  "Rita Rudaini" .
+
+node:jonathan_langdon
+        a          rdf:Resource ;
+        rdf:label  "Jonathan Langdon" .
+
+node:austin_stark  a  rdf:Resource ;
+        rdf:label  "Austin Stark" .
+
+node:tom_obrien  a  rdf:Resource ;
+        rdf:label  "Tom O'Brien" .
+
+node:80057969  a              node:movie ;
+        property:countries    "France" , "Belgium" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "A man in an unsatisfying marriage recalls the details of an intense past relationship with an ex-girlfriend when he gets word that she may be missing." ;
+        property:duration     "135 min" ;
+        property:hasCast      node:ugo_fox , node:karl_glusman , node:klara_kristin , node:juan_saavedra , node:benot_debie , node:isabelle_nicou , node:gaspar_no , node:aomi_muyock , node:vincent_maraval , node:dborah_rvy ;
+        property:hasDirector  node:gaspar_no ;
+        property:hasRating    "NR" ;
+        property:hasTitle     "Love" ;
+        property:listedIn     "Dramas" , "Cult Movies" , "Independent Movies" ;
+        property:releaseYear  "2015" .
+
+node:stephen_campbell_moore
+        a          rdf:Resource ;
+        rdf:label  "Stephen Campbell Moore" .
+
+node:emily_axford  a  rdf:Resource ;
+        rdf:label  "Emily Axford" .
+
+node:80221550  a              node:tv_show ;
+        property:dateAdded    "September 6, 2019" ;
+        property:description  "Happy-go-lucky chicken Archibald may not remember to do his chores, but he never forgets to have fun. After all, life's an adventure!" ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:rosamund_pike , node:tony_hale , node:kari_wahlgren , node:adam_pally , node:jordan_fisher , node:chelsea_kane ;
+        property:hasRating    "TV-Y7" ;
+        property:hasTitle     "Archibald's Next Big Thing" ;
+        property:listedIn     "Kids' TV" , "TV Comedies" ;
+        property:releaseYear  "2019" .
+
+node:takashi_taniguchi
+        a          rdf:Resource ;
+        rdf:label  "Takashi Taniguchi" .
+
+node:nuchanart_veerakaarn
+        a          rdf:Resource ;
+        rdf:label  "Nuchanart Veerakaarn" .
+
+node:80177405  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 5, 2017" ;
+        property:description  "Battle-scarred stand-up comedian Marc Maron unleashes a storm of ideas about meditation, mortality, documentary films and our weird modern world." ;
+        property:duration     "70 min" ;
+        property:hasCast      node:marc_maron ;
+        property:hasDirector  node:lynn_shelton ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Marc Maron: Too Real" ;
+        property:listedIn     "Stand-Up Comedy" ;
+        property:releaseYear  "2017" .
+
+node:thomas_arnold  a  rdf:Resource ;
+        rdf:label  "Thomas Arnold" .
+
+node:pevita_pearce  a  rdf:Resource ;
+        rdf:label  "Pevita Pearce" .
+
+node:nassim_lyes  a  rdf:Resource ;
+        rdf:label  "Nassim Lyes" .
+
+node:angus_macinnes  a  rdf:Resource ;
+        rdf:label  "Angus MacInnes" .
+
+node:isha_talwar  a  rdf:Resource ;
+        rdf:label  "Isha Talwar" .
+
+property:hasCast  a  rdfProperty:Property ;
+        rdf:domain  rdf:Resource ;
+        rdf:range   node:Person .
+
+node:lindsay_burdge  a  rdf:Resource ;
+        rdf:label  "Lindsay Burdge" .
+
+node:caleb_castille  a  rdf:Resource ;
+        rdf:label  "Caleb Castille" .
+
+node:mana_yasuda  a  rdf:Resource ;
+        rdf:label  "Mana Yasuda" .
+
+property:countries  a  rdfProperty:Property ;
+        rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+node:80199032  a              node:tv_show ;
+        property:countries    "United Kingdom" ;
+        property:dateAdded    "September 29, 2017" ;
+        property:description  "Gear up for a fast-paced journey as celebrity chef and avid auto enthusiast Paul Hollywood takes in the cars and culture of France, Italy and Germany." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:paul_hollywood ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Paul Hollywood's Big Continental Road Trip" ;
+        property:listedIn     "International TV Shows" , "British TV Shows" , "Docuseries" ;
+        property:releaseYear  "2017" .
+
+node:julie_recoing  a  rdf:Resource ;
+        rdf:label  "Julie Recoing" .
+
+node:panissara_phimpru
+        a          rdf:Resource ;
+        rdf:label  "Panissara Phimpru" .
+
+node:80182481  a              node:movie ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "Animal minstrels narrate stories about a monkey's friendship with a crocodile, two monkeys' foolishness and a villager's encounter with a demon." ;
+        property:duration     "58 min" ;
+        property:hasCast      node:smita_malhotra , node:damandeep_singh_baggan , node:baba_sehgal ;
+        property:hasRating    "TV-Y7" ;
+        property:hasTitle     "Krish Trish and Baltiboy: Part II" ;
+        property:listedIn     "Children & Family Movies" ;
+        property:releaseYear  "2010" .
+
+node:han_yan  a    rdf:Resource ;
+        rdf:label  "Han Yan" .
+
+node:ryosuke_yusa  a  rdf:Resource ;
+        rdf:label  "Ryosuke Yusa" .
+
+node:jintanutda_lummakanon
+        a          rdf:Resource ;
+        rdf:label  "Jintanutda Lummakanon" .
+
+node:81132437  a              node:movie ;
+        property:dateAdded    "September 6, 2019" ;
+        property:description  "Bogged down with money problems, a couple grows cautious of each other but hit the lottery and decide to stay together – till death do they part." ;
+        property:duration     "100 min" ;
+        property:hasCast      node:seda_gven , node:aelya_topalolu , node:zgr_emre_yldrm , node:dilad_imek , node:ali_yourtuolu , node:seda_bakan , node:murat_boz , node:yosi_mizrahi ;
+        property:hasDirector  node:enol_snmez ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Kill Me If You Dare" ;
+        property:listedIn     "Romantic Movies" , "International Movies" , "Comedies" ;
+        property:releaseYear  "2019" .
+
+node:danai_gurira  a  rdf:Resource ;
+        rdf:label  "Danai Gurira" .
+
+node:madeleine_gavin  a  rdf:Resource ;
+        rdf:label  "Madeleine Gavin" .
+
+node:wendee_lee  a  rdf:Resource ;
+        rdf:label  "Wendee Lee" .
+
+node:brian_dobson  a  rdf:Resource ;
+        rdf:label  "Brian Dobson" .
+
+node:munishkanth  a  rdf:Resource ;
+        rdf:label  "Munishkanth" .
+
+node:alexander_siddig
+        a          rdf:Resource ;
+        rdf:label  "Alexander Siddig" .
+
+node:pam_rose  a   rdf:Resource ;
+        rdf:label  "Pam Rose" .
+
+node:winston_duke  a  rdf:Resource ;
+        rdf:label  "Winston Duke" .
+
+node:pok_piyatida_woramusik
+        a          rdf:Resource ;
+        rdf:label  "Pok Piyatida Woramusik" .
+
+node:nina_richmond  a  rdf:Resource ;
+        rdf:label  "Nina Richmond" .
+
+node:lynn_shelton  a  rdf:Resource ;
+        rdf:label  "Lynn Shelton" .
+
+node:aelya_topalolu  a  rdf:Resource ;
+        rdf:label  "Açelya Topaloğlu" .
+
+node:ornjira_lamwilai
+        a          rdf:Resource ;
+        rdf:label  "Ornjira Lamwilai" .
+
+node:80159586  a              node:movie ;
+        property:countries    "United States" , "Belgium" , "United Kingdom" ;
+        property:dateAdded    "September 7, 2018" ;
+        property:description  "In 1930s Paris, an actress famous for her gory death scenes at the Grand Guignol Theater contends with a mysterious stalker and ghosts from her past." ;
+        property:duration     "102 min" ;
+        property:hasCast      node:andr_wilms , node:maya_coline , node:sissi_duparc , node:eric_godon , node:julie_recoing , node:jeanmichel_balthazar , node:michel_fau , node:constance_doll , node:niels_schneider , node:anna_mouglalis ;
+        property:hasDirector  node:franck_ribire ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "The Most Assassinated Woman in the World" ;
+        property:listedIn     "International Movies" , "Thrillers" , "Dramas" ;
+        property:releaseYear  "2018" .
+
+node:daryl_sabara  a  rdf:Resource ;
+        rdf:label  "Daryl Sabara" .
+
+node:vinessa_shaw  a  rdf:Resource ;
+        rdf:label  "Vinessa Shaw" .
+
+node:abhinav_gomatam  a  rdf:Resource ;
+        rdf:label  "Abhinav Gomatam" .
+
+node:theeradej_wongpuapan
+        a          rdf:Resource ;
+        rdf:label  "Theeradej Wongpuapan" .
+
+node:michelle_obama  a  rdf:Resource ;
+        rdf:label  "Michelle Obama" .
+
+node:mike_flanagan  a  rdf:Resource ;
+        rdf:label  "Mike Flanagan" .
+
+node:70299204  a              node:movie ;
+        property:countries    "Netherlands" , "United States" , "United Kingdom" , "Belgium" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "When beer magnate Alfred \"Freddy\" Heineken is kidnapped in 1983, his abductors make the largest ransom demand in history." ;
+        property:duration     "95 min" ;
+        property:hasCast      node:sam_worthington , node:jim_sturgess , node:jemima_west , node:anthony_hopkins , node:mark_van_eeuwen , node:thomas_cocquerel , node:ryan_kwanten , node:david_dencik ;
+        property:hasDirector  node:daniel_alfredson ;
+        property:hasRating    "R" ;
+        property:hasTitle     "Kidnapping Mr. Heineken" ;
+        property:listedIn     "International Movies" , "Action & Adventure" , "Dramas" ;
+        property:releaseYear  "2015" .
+
+node:monique_gardenberg
+        a          rdf:Resource ;
+        rdf:label  "Monique Gardenberg" .
+
+node:80117401  a              node:movie ;
+        property:countries    "United Kingdom" ;
+        property:dateAdded    "September 9, 2016" ;
+        property:description  "Jandino Asporaat riffs on the challenges of raising kids and serenades the audience with a rousing rendition of \"Sex on Fire\" in his comedy show." ;
+        property:duration     "94 min" ;
+        property:hasCast      node:jandino_asporaat ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Jandino: Whatever it Takes" ;
+        property:listedIn     "Stand-Up Comedy" ;
+        property:releaseYear  "2016" .
+
+node:lee_taylor  a  rdf:Resource ;
+        rdf:label  "Lee Taylor" .
+
+node:phyllis_somerville
+        a          rdf:Resource ;
+        rdf:label  "Phyllis Somerville" .
+
+node:dylan_mcdermott  a  rdf:Resource ;
+        rdf:label  "Dylan McDermott" .
+
+node:zach_grenier  a  rdf:Resource ;
+        rdf:label  "Zach Grenier" .
+
+node:jeremy_bulloch  a  rdf:Resource ;
+        rdf:label  "Jeremy Bulloch" .
+
+node:imran_aslam  a  rdf:Resource ;
+        rdf:label  "Imran Aslam" .
+
+node:chad_archibald  a  rdf:Resource ;
+        rdf:label  "Chad Archibald" .
+
+node:movie  a      rdf:Class ;
+        rdf:label  "Movie" .
+
+node:jonathan_holmes  a  rdf:Resource ;
+        rdf:label  "Jonathan Holmes" .
+
+node:brendan_byrne  a  rdf:Resource ;
+        rdf:label  "Brendan Byrne" .
+
+node:kate_hudson  a  rdf:Resource ;
+        rdf:label  "Kate Hudson" .
+
+node:taksaorn_paksukcharern
+        a          rdf:Resource ;
+        rdf:label  "Taksaorn Paksukcharern" .
+
+node:stan_lee  a   rdf:Resource ;
+        rdf:label  "Stan Lee" .
+
+node:christa_campbell
+        a          rdf:Resource ;
+        rdf:label  "Christa Campbell" .
+
+node:ted_danson  a  rdf:Resource ;
+        rdf:label  "Ted Danson" .
+
+node:john_krasinski  a  rdf:Resource ;
+        rdf:label  "John Krasinski" .
+
+node:babe_cabita  a  rdf:Resource ;
+        rdf:label  "Babe Cabita" .
+
+node:byeongeun_park  a  rdf:Resource ;
+        rdf:label  "Byeong-eun Park" .
+
+node:edmund_kingsley  a  rdf:Resource ;
+        rdf:label  "Edmund Kingsley" .
+
+property:hasDirector  a  rdfProperty:Property ;
+        rdf:domain  rdf:Resource ;
+        rdf:range   node:Person .
+
+node:diana_hardcastle
+        a          rdf:Resource ;
+        rdf:label  "Diana Hardcastle" .
+
+node:mem_ferda  a  rdf:Resource ;
+        rdf:label  "Mem Ferda" .
+
+node:andr_wilms  a  rdf:Resource ;
+        rdf:label  "André Wilms" .
+
+node:alexandra_newick
+        a          rdf:Resource ;
+        rdf:label  "Alexandra Newick" .
+
+node:tara_strong  a  rdf:Resource ;
+        rdf:label  "Tara Strong" .
+
+node:sunny_suwanmethanont
+        a          rdf:Resource ;
+        rdf:label  "Sunny Suwanmethanont" .
+
+node:todd_haberkorn  a  rdf:Resource ;
+        rdf:label  "Todd Haberkorn" .
+
+node:anuskha_sharma  a  rdf:Resource ;
+        rdf:label  "Anuskha Sharma" .
+
+node:venkatesh_kakumanu
+        a          rdf:Resource ;
+        rdf:label  "Venkatesh Kakumanu" .
+
+node:marsha_wattanapanich
+        a          rdf:Resource ;
+        rdf:label  "Marsha Wattanapanich" .
+
+node:81154455  a              node:movie ;
+        property:countries    "India" ;
+        property:dateAdded    "September 6, 2019" ;
+        property:description  "The grim realities of caste discrimination come to light as an entitled but upright city cop ventures into India’s heartland to investigate a murder." ;
+        property:duration     "125 min" ;
+        property:hasCast      node:nassar , node:isha_talwar , node:aakash_dabhade , node:sayani_gupta , node:subhrajyoti_barat , node:manoj_pahwa , node:mohammed_zeeshan_ayyub , node:ayushmann_khurrana , node:kumud_mishra , node:sushil_pandey ;
+        property:hasDirector  node:anubhav_sinha ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Article 15" ;
+        property:listedIn     "Thrillers" , "Dramas" , "International Movies" ;
+        property:releaseYear  "2019" .
+
+node:engin_altan_dzyatan
+        a          rdf:Resource ;
+        rdf:label  "Engin Altan Düzyatan" .
+
+node:felipe_abib  a  rdf:Resource ;
+        rdf:label  "Felipe Abib" .
+
+node:lupita_nyongo  a  rdf:Resource ;
+        rdf:label  "Lupita Nyong'o" .
+
+node:cole_howard  a  rdf:Resource ;
+        rdf:label  "Cole Howard" .
+
+node:sacha_baron_cohen
+        a          rdf:Resource ;
+        rdf:label  "Sacha Baron Cohen" .
+
+node:nithyasri_goru  a  rdf:Resource ;
+        rdf:label  "Nithyasri Goru" .
+
+node:nesta_cooper  a  rdf:Resource ;
+        rdf:label  "Nesta Cooper" .
+
+node:mohammed_azaay  a  rdf:Resource ;
+        rdf:label  "Mohammed Azaay" .
+
+node:maya_kay  a   rdf:Resource ;
+        rdf:label  "Maya Kay" .
+
+node:sirin_horwang  a  rdf:Resource ;
+        rdf:label  "Sirin Horwang" .
+
+node:isabelle_candelier
+        a          rdf:Resource ;
+        rdf:label  "Isabelle Candelier" .
+
+node:karthik_rathnam  a  rdf:Resource ;
+        rdf:label  "Karthik Rathnam" .
+
+node:mohammed_zeeshan_ayyub
+        a          rdf:Resource ;
+        rdf:label  "Mohammed Zeeshan Ayyub" .
+
+node:maya_coline  a  rdf:Resource ;
+        rdf:label  "Maya Coline" .
+
+node:81155784  a              node:movie ;
+        property:countries    "India" ;
+        property:dateAdded    "September 4, 2019" ;
+        property:description  "Rushing to pay off a loan shark, a young man breaks into a bungalow to steal the cash, unprepared for the dog standing guard – or the trouble inside." ;
+        property:duration     "93 min" ;
+        property:hasCast      node:suman , node:yogi_babu , node:raj_arjun , node:munishkanth , node:samyuktha_hegde , node:gv_prakash_kumar ;
+        property:hasDirector  node:a_l_vijay ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Watchman" ;
+        property:listedIn     "Comedies" , "Dramas" , "International Movies" ;
+        property:releaseYear  "2019" .
+
+node:ritesh_batra  a  rdf:Resource ;
+        rdf:label  "Ritesh Batra" .
+
+node:jemima_west  a  rdf:Resource ;
+        rdf:label  "Jemima West" .
+
+node:lake_bell  a  rdf:Resource ;
+        rdf:label  "Lake Bell" .
+
+node:jeffrey_combs  a  rdf:Resource ;
+        rdf:label  "Jeffrey Combs" .
+
+node:montse_hernandez
+        a          rdf:Resource ;
+        rdf:label  "Montse Hernandez" .
+
+node:andy_lucas  a  rdf:Resource ;
+        rdf:label  "Andy Lucas" .
+
+node:sabine_azma  a  rdf:Resource ;
+        rdf:label  "Sabine Azéma" .
+
+node:anna_mouglalis  a  rdf:Resource ;
+        rdf:label  "Anna Mouglalis" .
+
+node:keanu_chi  a  rdf:Resource ;
+        rdf:label  "Keanu Chi" .
+
+node:david_prowse  a  rdf:Resource ;
+        rdf:label  "David Prowse" .
+
+node:dwight_schultz  a  rdf:Resource ;
+        rdf:label  "Dwight Schultz" .
+
+node:sharrieff_pugh  a  rdf:Resource ;
+        rdf:label  "Sharrieff Pugh" .
+
+node:james_badge_dale
+        a          rdf:Resource ;
+        rdf:label  "James Badge Dale" .
+
+node:80239337  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 30, 2018" ;
+        property:description  "Ben can transform into ten types of aliens. He'll try 'em all while adventuring across the country with his cousin Gwen and Grandpa Max." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:dwight_schultz , node:todd_haberkorn , node:daryl_sabara , node:david_kaye , node:montse_hernandez , node:tara_strong , node:roger_craig_smith ;
+        property:hasRating    "TV-Y7" ;
+        property:hasTitle     "Ben 10" ;
+        property:listedIn     "Kids' TV" ;
+        property:releaseYear  "2016" .
+
+node:deepak_chachra  a  rdf:Resource ;
+        rdf:label  "Deepak Chachra" .
+
+node:jason_ritter  a  rdf:Resource ;
+        rdf:label  "Jason Ritter" .
+
+node:kari_wahlgren  a  rdf:Resource ;
+        rdf:label  "Kari Wahlgren" .
+
+node:su_ke  a      rdf:Resource ;
+        rdf:label  "Su Ke" .
+
+node:michael_par  a  rdf:Resource ;
+        rdf:label  "Michael Paré" .
+
+node:farhan_alam  a  rdf:Resource ;
+        rdf:label  "Farhan Alam" .
+
+node:yong_armchair  a  rdf:Resource ;
+        rdf:label  "Yong Armchair" .
+
+node:humberto_carro  a  rdf:Resource ;
+        rdf:label  "Humberto Carrão" .
+
+node:shofia_shireen  a  rdf:Resource ;
+        rdf:label  "Shofia Shireen" .
+
+node:jaloo  a      rdf:Resource ;
+        rdf:label  "Jaloo" .
+
+node:rahim_razali  a  rdf:Resource ;
+        rdf:label  "Rahim Razali" .
+
+node:fedi_nuril  a  rdf:Resource ;
+        rdf:label  "Fedi Nuril" .
+
+node:ralph_brown  a  rdf:Resource ;
+        rdf:label  "Ralph Brown" .
+
+node:marc_maron  a  rdf:Resource ;
+        rdf:label  "Marc Maron" .
+
+node:dylan_howitt  a  rdf:Resource ;
+        rdf:label  "Dylan Howitt" .
+
+node:america_young  a  rdf:Resource ;
+        rdf:label  "America Young" .
+
+node:70233894  a              node:movie ;
+        property:countries    "United States" , "Turkey" ;
+        property:dateAdded    "September 29, 2018" ;
+        property:description  "Two Turkish agents are sent to New York City on a mission to capture a notorious terrorist known only as \"Dejjal\" (Arabic for Antichrist)." ;
+        property:duration     "112 min" ;
+        property:hasCast      node:robert_patrick , node:mustafa_sandal , node:scott_william_winters , node:mahsun_krmzgl , node:sharrieff_pugh , node:danny_glover , node:gina_gershon , node:haluk_bilginer , node:engin_altan_dzyatan ;
+        property:hasDirector  node:mahsun_krmzgl ;
+        property:hasRating    "NR" ;
+        property:hasTitle     "Act of Vengeance" ;
+        property:listedIn     "International Movies" , "Action & Adventure" ;
+        property:releaseYear  "2010" .
+
+node:81054495  a              node:movie ;
+        property:countries    "United Kingdom" ;
+        property:dateAdded    "September 30, 2019" ;
+        property:description  "Comedian Mo Gilligan blends smooth moves and sharp humor as he riffs on humble beginnings, family dynamics and the complex art of dancing in the club." ;
+        property:duration     "64 min" ;
+        property:hasCast      node:mo_gilligan ;
+        property:hasDirector  node:chris_howe ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Mo Gilligan: Momentum" ;
+        property:listedIn     "Stand-Up Comedy" ;
+        property:releaseYear  "2019" .
+
+node:kongyingyong_chonlathorn
+        a          rdf:Resource ;
+        rdf:label  "Kongyingyong Chonlathorn" .
+
+node:sushant_singh_rajput
+        a          rdf:Resource ;
+        rdf:label  "Sushant Singh Rajput" .
+
+node:denny_sumargo  a  rdf:Resource ;
+        rdf:label  "Denny Sumargo" .
+
+node:carel_struycken  a  rdf:Resource ;
+        rdf:label  "Carel Struycken" .
+
+node:saleem_mairaj  a  rdf:Resource ;
+        rdf:label  "Saleem Mairaj" .
+
+node:jennifer_lafleur
+        a          rdf:Resource ;
+        rdf:label  "Jennifer Lafleur" .
+
+node:thomas_cocquerel
+        a          rdf:Resource ;
+        rdf:label  "Thomas Cocquerel" .
+
+node:81016045  a              node:movie ;
+        property:countries    "Thailand" ;
+        property:dateAdded    "September 5, 2018" ;
+        property:description  "When his colleague (and crush) temporarily loses her memory, an overlooked geek seizes the chance to make an impression before she remembers again." ;
+        property:duration     "135 min" ;
+        property:hasCast      node:chantavit_dhanasevi , node:kris_srepoomseth , node:theerapat_sajakul , node:kaz_sawamura , node:prim_bulakul , node:nittha_jirayungyurn , node:somyos_matures , node:sutthatip_wutichaipradit , node:rermthon_kemapech ;
+        property:hasDirector  node:banjong_pisanthanakun ;
+        property:hasRating    "TV-PG" ;
+        property:hasTitle     "One Day" ;
+        property:listedIn     "International Movies" , "Dramas" , "Romantic Movies" ;
+        property:releaseYear  "2016" .
+
+node:susan_sarandon  a  rdf:Resource ;
+        rdf:label  "Susan Sarandon" .
+
+node:manoj_pahwa  a  rdf:Resource ;
+        rdf:label  "Manoj Pahwa" .
+
+node:angela_bassett  a  rdf:Resource ;
+        rdf:label  "Angela Bassett" .
+
+node:80182115  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 29, 2017" ;
+        property:description  "When Juan Catalan is arrested for a murder he didn't commit, he builds his case for innocence around raw footage from a popular TV show. A documentary." ;
+        property:duration     "40 min" ;
+        property:hasDirector  node:jacob_lamendola ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Long Shot" ;
+        property:listedIn     "Documentaries" ;
+        property:releaseYear  "2017" .
+
+node:arzetti_bilbina  a  rdf:Resource ;
+        rdf:label  "Arzetti Bilbina" .
+
+node:chadwick_boseman
+        a          rdf:Resource ;
+        rdf:label  "Chadwick Boseman" .
+
+node:tinna_harahap  a  rdf:Resource ;
+        rdf:label  "Tinna Harahap" .
+
+property:description  a  rdfProperty:Property ;
+        rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+node:derry_drajat  a  rdf:Resource ;
+        rdf:label  "Derry Drajat" .
+
+node:laura_bailey  a  rdf:Resource ;
+        rdf:label  "Laura Bailey" .
+
+node:parikshat_sahni  a  rdf:Resource ;
+        rdf:label  "Parikshat Sahni" .
+
+node:harriet_walter  a  rdf:Resource ;
+        rdf:label  "Harriet Walter" .
+
+node:nick_swardson  a  rdf:Resource ;
+        rdf:label  "Nick Swardson" .
+
+node:hidetoshi_hoshida
+        a          rdf:Resource ;
+        rdf:label  "Hidetoshi Hoshida" .
+
+node:rukhsar  a    rdf:Resource ;
+        rdf:label  "Rukhsar" .
+
+node:oliver_stark  a  rdf:Resource ;
+        rdf:label  "Oliver Stark" .
+
+node:david_thewlis  a  rdf:Resource ;
+        rdf:label  "David Thewlis" .
+
+node:70212504  a              node:movie ;
+        property:countries    "United Kingdom" , "United States" ;
+        property:dateAdded    "September 30, 2018" ;
+        property:description  "After a reporter writes about whales trapped in the Arctic Circle, the U.S. and U.S.S.R. team up to rescue them in this tale inspired by true events." ;
+        property:duration     "107 min" ;
+        property:hasCast      node:kristen_bell , node:tim_blake_nelson , node:rob_riggle , node:drew_barrymore , node:ted_danson , node:vinessa_shaw , node:john_krasinski , node:michael_gaston , node:stephen_root , node:dermot_mulroney ;
+        property:hasDirector  node:ken_kwapis ;
+        property:hasRating    "PG" ;
+        property:hasTitle     "Big Miracle" ;
+        property:listedIn     "Dramas" , "Children & Family Movies" ;
+        property:releaseYear  "2012" .
+
+node:sohail_malik  a  rdf:Resource ;
+        rdf:label  "Sohail Malik" .
+
+node:elvira_devinamira
+        a          rdf:Resource ;
+        rdf:label  "Elvira Devinamira" .
+
+node:anthony_hopkins  a  rdf:Resource ;
+        rdf:label  "Anthony Hopkins" .
+
+node:80057700  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "A New Orleans politician finds his idealistic plans for rebuilding after a toxic oil spill unraveling thanks to a sex scandal." ;
+        property:duration     "90 min" ;
+        property:hasCast      node:sarah_paulson , node:wendell_pierce , node:connie_nielsen , node:bryan_batt , node:dana_gourrier , node:peter_fonda , node:nicolas_cage ;
+        property:hasDirector  node:austin_stark ;
+        property:hasRating    "R" ;
+        property:hasTitle     "The Runner" ;
+        property:listedIn     "Dramas" , "Independent Movies" ;
+        property:releaseYear  "2015" .
+
+node:hyeyoung_ryu  a  rdf:Resource ;
+        rdf:label  "Hye-young Ryu" .
+
+node:80126507  a              node:movie ;
+        property:countries    "United Kingdom" , "Ireland" ;
+        property:dateAdded    "September 28, 2017" ;
+        property:description  "In 1981, an imprisoned Irish Republican Army soldier went on a hunger strike that galvanized his movement and made him a controversial global icon." ;
+        property:duration     "106 min" ;
+        property:hasDirector  node:brendan_byrne ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Bobby Sands: 66 Days" ;
+        property:listedIn     "Documentaries" ;
+        property:releaseYear  "2016" .
+
+node:laurie_goode  a  rdf:Resource ;
+        rdf:label  "Laurie Goode" .
+
+node:joshua_leonard  a  rdf:Resource ;
+        rdf:label  "Joshua Leonard" .
+
+node:akarat_nimitchai
+        a          rdf:Resource ;
+        rdf:label  "Akarat Nimitchai" .
+
+node:80187061  a              node:movie ;
+        property:countries    "South Korea" ;
+        property:dateAdded    "September 30, 2017" ;
+        property:description  "With the presidency in mind, the incumbent mayor of Seoul runs for an unprecedented third term – and will stop at nothing to keep his secrets hidden." ;
+        property:duration     "130 min" ;
+        property:hasCast      node:sori_moon , node:hyeyoung_ryu , node:minsik_choi , node:sungyu_jin , node:dowon_kwak , node:ki_hong_lee , node:eunkyung_shim , node:jooyeon_lee , node:miran_ra , node:byeongeun_park ;
+        property:hasDirector  node:park_inje ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "The Mayor" ;
+        property:listedIn     "Dramas" , "International Movies" ;
+        property:releaseYear  "2017" .
+
+node:80201906  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 4, 2018" ;
+        property:description  "T'Challa, the superpowered new leader of the hidden, highly advanced African nation of Wakanda, strives to protect his home from enemies old and new." ;
+        property:duration     "135 min" ;
+        property:hasCast      node:danai_gurira , node:angela_bassett , node:michael_b_jordan , node:john_kani , node:winston_duke , node:chadwick_boseman , node:letitia_wright , node:florence_kasumba , node:david_s_lee , node:stan_lee , node:forest_whitaker , node:daniel_kaluuya , node:lupita_nyongo , node:sterling_k_brown , node:martin_freeman , node:andy_serkis ;
+        property:hasDirector  node:ryan_coogler ;
+        property:hasRating    "PG-13" ;
+        property:hasTitle     "Black Panther" ;
+        property:listedIn     "Action & Adventure" , "Sci-Fi & Fantasy" ;
+        property:releaseYear  "2018" .
+
+node:sunil_soraya  a  rdf:Resource ;
+        rdf:label  "Sunil Soraya" .
+
+node:iain_armitage  a  rdf:Resource ;
+        rdf:label  "Iain Armitage" .
+
+node:ayushmann_khurrana
+        a          rdf:Resource ;
+        rdf:label  "Ayushmann Khurrana" .
+
+node:80178151  a              node:tv_show ;
+        property:countries    "France" ;
+        property:dateAdded    "September 6, 2019" ;
+        property:description  "In the 1960s, Israeli clerk-turned-secret agent Eli Cohen goes deep undercover inside Syria on a perilous, years-long mission to spy for Mossad." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:hadar_ratzon_rotem , node:waleed_zuaiter , node:alexander_siddig , node:noah_emmerich , node:sacha_baron_cohen , node:nassim_lyes ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "The Spy" ;
+        property:listedIn     "TV Thrillers" , "TV Dramas" , "International TV Shows" ;
+        property:releaseYear  "2019" .
+
+node:eric_edelstein  a  rdf:Resource ;
+        rdf:label  "Eric Edelstein" .
+
+node:baba_sehgal  a  rdf:Resource ;
+        rdf:label  "Baba Sehgal" .
+
+node:mark_van_eeuwen  a  rdf:Resource ;
+        rdf:label  "Mark van Eeuwen" .
+
+node:80182483  a              node:movie ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "An artisan is cheated of his payment, a lion of his throne and a brother of his inheritance in these three stories of deception and justice." ;
+        property:duration     "62 min" ;
+        property:hasCast      node:baba_sehgal , node:deepak_chachra , node:smita_malhotra , node:damandeep_singh_baggan ;
+        property:hasDirector  node:munjal_shroff , node:tilak_shetty ;
+        property:hasRating    "TV-Y7" ;
+        property:hasTitle     "Krish Trish and Baltiboy: Battle of Wits" ;
+        property:listedIn     "Children & Family Movies" ;
+        property:releaseYear  "2013" .
+
+node:loretta_devine  a  rdf:Resource ;
+        rdf:label  "Loretta Devine" .
+
+node:70142798  a              node:movie ;
+        property:countries    "Thailand" ;
+        property:dateAdded    "September 5, 2018" ;
+        property:description  "From disfiguring punishments to festering souls, Thai horror masters present five supernatural tales of karma in this sequel to the 4bia anthology." ;
+        property:duration     "125 min" ;
+        property:hasCast      node:gacha_plienwithi , node:worrawech_danuwong , node:peeratchai_roompol , node:charlie_trairat , node:marsha_wattanapanich , node:suteerush_channukool , node:nicole_theriault , node:chumphorn_thepphithak , node:nattapong_chartpong , node:jirayu_laongmanee ;
+        property:hasDirector  node:banjong_pisanthanakun , node:paween_purikitpanya , node:parkpoom_wongpoom , node:songyos_sugmakanan , node:visute_poolvoralaks ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Phobia 2" ;
+        property:listedIn     "Horror Movies" , "International Movies" ;
+        property:releaseYear  "2009" .
+
+node:80147760  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 5, 2017" ;
+        property:description  "A socially awkward 19-year-old genius makes big plans to step out of her shell and make a friend, get a job and – maybe – even go on a date." ;
+        property:duration     "98 min" ;
+        property:hasCast      node:bel_powley , node:nathan_lane , node:desmin_borges , node:vanessa_bayer , node:jason_ritter , node:william_moseley , node:gabriel_byrne , node:colin_odonoghue ;
+        property:hasDirector  node:susan_johnson ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Carrie Pilby" ;
+        property:listedIn     "Dramas" , "Comedies" ;
+        property:releaseYear  "2016" .
+
+node:kornpassorn_duaysianklao
+        a          rdf:Resource ;
+        rdf:label  "Kornpassorn Duaysianklao" .
+
+node:samyuktha_hegde  a  rdf:Resource ;
+        rdf:label  "Samyuktha Hegde" .
+
+node:sutatta_udomsilp
+        a          rdf:Resource ;
+        rdf:label  "Sutatta Udomsilp" .
+
+node:ken_stott  a  rdf:Resource ;
+        rdf:label  "Ken Stott" .
+
+node:michael_pea  a  rdf:Resource ;
+        rdf:label  "Michael Peña" .
+
+node:peeratchai_roompol
+        a          rdf:Resource ;
+        rdf:label  "Peeratchai Roompol" .
+
+node:anne_winters  a  rdf:Resource ;
+        rdf:label  "Anne Winters" .
+
+node:mahsun_krmzgl  a  rdf:Resource ;
+        rdf:label  "Mahsun Kırmızıgül" .
+
+node:charlyne_yi  a  rdf:Resource ;
+        rdf:label  "Charlyne Yi" .
+
+node:kate_beckinsale  a  rdf:Resource ;
+        rdf:label  "Kate Beckinsale" .
+
+node:vincent_maraval  a  rdf:Resource ;
+        rdf:label  "Vincent Maraval" .
+
+node:80163890  a              node:tv_show ;
+        property:countries    "Spain" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "A young journalist is forced into a life of crime to save his father and family in this series based on the novel by Miguel Sáez Carral." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:alberto_ammann , node:luca_jimnez , node:vernica_echegui , node:claudia_traisac , node:eloy_azorn ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Apaches" ;
+        property:listedIn     "Crime TV Shows" , "International TV Shows" , "Spanish-Language TV Shows" ;
+        property:releaseYear  "2016" .
+
+node:henry_lloydhughes
+        a          rdf:Resource ;
+        rdf:label  "Henry Lloyd-Hughes" .
+
+node:kim_a_snyder  a  rdf:Resource ;
+        rdf:label  "Kim A. Snyder" .
+
+node:frank_welker  a  rdf:Resource ;
+        rdf:label  "Frank Welker" .
+
+node:constance_zimmer
+        a          rdf:Resource ;
+        rdf:label  "Constance Zimmer" .
+
+node:70234439  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 8, 2018" ;
+        property:description  "With the help of three human allies, the Autobots once again protect Earth from the onslaught of the Decepticons and their leader, Megatron." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:andy_pessoa , node:kevin_michael_richardson , node:jeffrey_combs , node:daran_norris , node:frank_welker , node:will_friedle , node:peter_cullen , node:josh_keaton , node:steve_blum , node:tania_gunadi , node:sumalee_montano , node:ernie_hudson ;
+        property:hasRating    "TV-Y7-FV" ;
+        property:hasTitle     "Transformers Prime" ;
+        property:listedIn     "Kids' TV" ;
+        property:releaseYear  "2013" .
+
+node:david_s_lee  a  rdf:Resource ;
+        rdf:label  "David S. Lee" .
+
+node:andrew_toth  a  rdf:Resource ;
+        rdf:label  "Andrew Toth" .
+
+node:worrawech_danuwong
+        a          rdf:Resource ;
+        rdf:label  "Worrawech Danuwong" .
+
+node:81053893  a              node:movie ;
+        property:dateAdded    "September 28, 2019" ;
+        property:description  "An in-depth look at the full-cycle breeding program for bluefin Kindai tuna pioneered by Kinki University’s Aqua Culture Research Institute." ;
+        property:duration     "45 min" ;
+        property:hasDirector  node:mana_yasuda ;
+        property:hasRating    "TV-G" ;
+        property:hasTitle     "Cultivating the Seas: History and Future of the Full-Cycle Cultured Kindai Tuna" ;
+        property:listedIn     "International Movies" , "Documentaries" ;
+        property:releaseYear  "2019" .
+
+node:kaz_sawamura  a  rdf:Resource ;
+        rdf:label  "Kaz Sawamura" .
+
+node:jason_flemyng  a  rdf:Resource ;
+        rdf:label  "Jason Flemyng" .
+
+node:oliver_dimsdale  a  rdf:Resource ;
+        rdf:label  "Oliver Dimsdale" .
+
+node:john_farley  a  rdf:Resource ;
+        rdf:label  "John Farley" .
+
+node:ryan_coogler  a  rdf:Resource ;
+        rdf:label  "Ryan Coogler" .
+
+node:yijuan_li  a  rdf:Resource ;
+        rdf:label  "Yijuan Li" .
+
+node:william_lau  a  rdf:Resource ;
+        rdf:label  "William Lau" .
+
+node:sushanth_reddy  a  rdf:Resource ;
+        rdf:label  "Sushanth Reddy" .
+
+node:selina_lo  a  rdf:Resource ;
+        rdf:label  "Selina Lo" .
+
+node:80201933  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 28, 2018" ;
+        property:description  "These Mexico City socialites may lead opulent lives, but a peek behind the curtain reveals a tangled web of intrigue, envy and personal struggles." ;
+        property:duration     "1 Season" ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Made in Mexico" ;
+        property:listedIn     "Spanish-Language TV Shows" , "Reality TV" , "International TV Shows" ;
+        property:releaseYear  "2018" .
+
+node:robert_forster  a  rdf:Resource ;
+        rdf:label  "Robert Forster" .
+
+node:chantavit_dhanasevi
+        a          rdf:Resource ;
+        rdf:label  "Chantavit Dhanasevi" .
+
+node:raline_shah  a  rdf:Resource ;
+        rdf:label  "Raline Shah" .
+
+node:70303496  a              node:movie ;
+        property:countries    "India" ;
+        property:dateAdded    "September 6, 2018" ;
+        property:description  "Aamir Khan teams with director Rajkumar Hirani to play a social crusader in a political satire on the state of corruption in India." ;
+        property:duration     "146 min" ;
+        property:hasCast      node:rukhsar , node:anuskha_sharma , node:parikshat_sahni , node:saurabh_shukla , node:boman_irani , node:aamir_khan , node:sushant_singh_rajput , node:sanjay_dutt ;
+        property:hasDirector  node:rajkumar_hirani ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "PK" ;
+        property:listedIn     "Dramas" , "Comedies" , "International Movies" ;
+        property:releaseYear  "2014" .
+
+node:hannah_fidell  a  rdf:Resource ;
+        rdf:label  "Hannah Fidell" .
+
+node:praveena_paruchuri
+        a          rdf:Resource ;
+        rdf:label  "Praveena Paruchuri" .
+
+node:80157072  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 28, 2018" ;
+        property:description  "In the grim Alaskan winter, a naturalist hunts for wolves blamed for killing a local boy, but he soon finds himself swept into a chilling mystery." ;
+        property:duration     "126 min" ;
+        property:hasCast      node:riley_keough , node:peter_mcrobbie , node:jeffrey_wright , node:alexander_skarsgrd , node:julian_black_antelope , node:jonathan_whitesell , node:tantoo_cardinal , node:macon_blair , node:james_badge_dale ;
+        property:hasDirector  node:jeremy_saulnier ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Hold the Dark" ;
+        property:listedIn     "Action & Adventure" , "Dramas" ;
+        property:releaseYear  "2018" .
+
+node:80182621  a              node:movie ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "The consequences of trickery are explored in stories involving an inconsiderate husband, two greedy courtiers, and a kind man who loses everything." ;
+        property:duration     "60 min" ;
+        property:hasCast      node:baba_sehgal , node:smita_malhotra , node:damandeep_singh_baggan ;
+        property:hasDirector  node:tilak_shetty , node:munjal_shroff ;
+        property:hasRating    "TV-Y7" ;
+        property:hasTitle     "Krish Trish and Baltiboy: The Greatest Trick" ;
+        property:listedIn     "Children & Family Movies" ;
+        property:releaseYear  "2013" .
+
+node:jane_fonda  a  rdf:Resource ;
+        rdf:label  "Jane Fonda" .
+
+node:80182597  a              node:movie ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "A cat, monkey and donkey learn the consequences of cheating through stories from the Indian regions of Rajasthan, West Bengal and Maharashtra." ;
+        property:duration     "65 min" ;
+        property:hasCast      node:smita_malhotra , node:deepak_chachra , node:rishi_gambhir ;
+        property:hasDirector  node:tilak_shetty ;
+        property:hasRating    "TV-Y7" ;
+        property:hasTitle     "Krish Trish and Baltiboy: Oversmartness Never Pays" ;
+        property:listedIn     "Children & Family Movies" ;
+        property:releaseYear  "2017" .
+
+node:colin_odonoghue  a  rdf:Resource ;
+        rdf:label  "Colin O'Donoghue" .
+
+node:joaqun_reyes  a  rdf:Resource ;
+        rdf:label  "Joaquín Reyes" .
+
+node:80158839  a              node:movie ;
+        property:countries    "Thailand" ;
+        property:dateAdded    "September 5, 2018" ;
+        property:description  "When his boyhood crush Ern returns, Ped forms a band with his friend to impress her. Romantic rivalries bloom after the talented Ern joins the group." ;
+        property:duration     "130 min" ;
+        property:hasCast      node:jirayu_laongmanee , node:thawat_pornrattanaprasert , node:nattasha_nauljam , node:pachara_chirathivat ;
+        property:hasDirector  node:chayanop_boonprakob ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Suckseed" ;
+        property:listedIn     "International Movies" , "Comedies" ;
+        property:releaseYear  "2011" .
+
+node:eriq_ebouaney  a  rdf:Resource ;
+        rdf:label  "Eriq Ebouaney" .
+
+node:steve_blum  a  rdf:Resource ;
+        rdf:label  "Steve Blum" .
+
+node:alicia_sanz  a  rdf:Resource ;
+        rdf:label  "Alicia Sanz" .
+
+node:claudia_traisac  a  rdf:Resource ;
+        rdf:label  "Claudia Traisac" .
+
+node:jason_newman  a  rdf:Resource ;
+        rdf:label  "Jason Newman" .
+
+node:brian_baugh  a  rdf:Resource ;
+        rdf:label  "Brian Baugh" .
+
+node:noah_centineo  a  rdf:Resource ;
+        rdf:label  "Noah Centineo" .
+
+node:lea_thompson  a  rdf:Resource ;
+        rdf:label  "Lea Thompson" .
+
+node:80244601  a              node:tv_show ;
+        property:dateAdded    "September 7, 2018" ;
+        property:description  "As four couples with different lifestyles go through the ebbs and flows of joy and sorrow, each must learn how to live a good life." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:jintanutda_lummakanon , node:ornjira_lamwilai , node:worrawech_danuwong , node:yong_armchair , node:nattapong_chartpong , node:keerati_mahapreukpong , node:kornpassorn_duaysianklao , node:akarat_nimitchai , node:chaiyapol_pupart ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Castle of Stars" ;
+        property:listedIn     "International TV Shows" , "Romantic TV Shows" , "TV Comedies" ;
+        property:releaseYear  "2015" .
+
+node:constance_doll  a  rdf:Resource ;
+        rdf:label  "Constance Dollé" .
+
+node:william_moseley  a  rdf:Resource ;
+        rdf:label  "William Moseley" .
+
+node:80116921  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 30, 2018" ;
+        property:description  "Grizzly, Panda and Ice Bear are three adopted bear brothers struggling against their animal instincts to fit into the civilized, modern human world." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:eric_edelstein , node:demetri_martin , node:bobby_moynihan ;
+        property:hasRating    "TV-Y7" ;
+        property:hasTitle     "We Bare Bears" ;
+        property:listedIn     "TV Comedies" , "Kids' TV" ;
+        property:releaseYear  "2017" .
+
+node:mitch_dickman  a  rdf:Resource ;
+        rdf:label  "Mitch Dickman" .
+
+node:david_cross  a  rdf:Resource ;
+        rdf:label  "David Cross" .
+
+node:jacob_lamendola  a  rdf:Resource ;
+        rdf:label  "Jacob LaMendola" .
+
+node:tilak_shetty  a  rdf:Resource ;
+        rdf:label  "Tilak Shetty" .
+
+node:michael_gaston  a  rdf:Resource ;
+        rdf:label  "Michael Gaston" .
+
+node:nora_danish  a  rdf:Resource ;
+        rdf:label  "Nora Danish" .
+
+node:karl_glusman  a  rdf:Resource ;
+        rdf:label  "Karl Glusman" .
+
+node:demetri_martin  a  rdf:Resource ;
+        rdf:label  "Demetri Martin" .
+
+node:80046727  a              node:movie ;
+        property:countries    "United States" , "Uruguay" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "As the newspaper industry takes a hit, The Denver Post breaks new ground with a section dedicated to cannabis culture." ;
+        property:duration     "79 min" ;
+        property:hasDirector  node:mitch_dickman ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Rolling Papers" ;
+        property:listedIn     "Documentaries" ;
+        property:releaseYear  "2015" .
+
+node:erika_sainte  a  rdf:Resource ;
+        rdf:label  "Erika Sainte" .
+
+node:sushil_pandey  a  rdf:Resource ;
+        rdf:label  "Sushil Pandey" .
+
+node:garrick_hagon  a  rdf:Resource ;
+        rdf:label  "Garrick Hagon" .
+
+node:melanie_griffith
+        a          rdf:Resource ;
+        rdf:label  "Melanie Griffith" .
+
+node:sissi_duparc  a  rdf:Resource ;
+        rdf:label  "Sissi Duparc" .
+
+node:daniel_bonjour  a  rdf:Resource ;
+        rdf:label  "Daniel Bonjour" .
+
+node:rupert_grint  a  rdf:Resource ;
+        rdf:label  "Rupert Grint" .
+
+node:pongkool_suebsung
+        a          rdf:Resource ;
+        rdf:label  "Pongkool Suebsung" .
+
+node:jon_spira  a  rdf:Resource ;
+        rdf:label  "Jon Spira" .
+
+node:diarmaid_murtagh
+        a          rdf:Resource ;
+        rdf:label  "Diarmaid Murtagh" .
+
+node:eunkyung_shim  a  rdf:Resource ;
+        rdf:label  "Eun-kyung Shim" .
+
+node:mary_pat_gleason
+        a          rdf:Resource ;
+        rdf:label  "Mary Pat Gleason" .
+
+node:tom_wilkinson  a  rdf:Resource ;
+        rdf:label  "Tom Wilkinson" .
+
+node:julia_reichert  a  rdf:Resource ;
+        rdf:label  "Julia Reichert" .
+
+node:dede_yusuf  a  rdf:Resource ;
+        rdf:label  "Dede Yusuf" .
+
+node:eric_lampaert  a  rdf:Resource ;
+        rdf:label  "Eric Lampaert" .
+
+node:steven_bognar  a  rdf:Resource ;
+        rdf:label  "Steven Bognar" .
+
+node:daniyal_yousuf  a  rdf:Resource ;
+        rdf:label  "Daniyal Yousuf" .
+
+node:aomi_muyock  a  rdf:Resource ;
+        rdf:label  "Aomi Muyock" .
+
+node:80095641  a              node:movie ;
+        property:countries    "United Kingdom" ;
+        property:dateAdded    "September 6, 2016" ;
+        property:description  "Then and now footage of bit players who appeared in \"Star Wars\" tells the story of how the film and its legions of fans changed their lives forever." ;
+        property:duration     "102 min" ;
+        property:hasCast      node:derek_lyons , node:john_chapman , node:pam_rose , node:angus_macinnes , node:david_prowse , node:anthony_forrest , node:paul_blake , node:laurie_goode , node:jeremy_bulloch , node:garrick_hagon ;
+        property:hasDirector  node:jon_spira ;
+        property:hasRating    "TV-PG" ;
+        property:hasTitle     "Elstree 1976" ;
+        property:listedIn     "Documentaries" ;
+        property:releaseYear  "2015" .
+
+node:marjorie_estiano
+        a          rdf:Resource ;
+        rdf:label  "Marjorie Estiano" .
+
+node:subba_rao_vepada
+        a          rdf:Resource ;
+        rdf:label  "Subba Rao Vepada" .
+
+node:nittha_jirayungyurn
+        a          rdf:Resource ;
+        rdf:label  "Nittha Jirayungyurn" .
+
+node:achita_sikamana  a  rdf:Resource ;
+        rdf:label  "Achita Sikamana" .
+
+node:visute_poolvoralaks
+        a          rdf:Resource ;
+        rdf:label  "Visute Poolvoralaks" .
+
+node:eloy_azorn  a  rdf:Resource ;
+        rdf:label  "Eloy Azorín" .
+
+node:bob_odenkirk  a  rdf:Resource ;
+        rdf:label  "Bob Odenkirk" .
+
+node:matthias_schoenaerts
+        a          rdf:Resource ;
+        rdf:label  "Matthias Schoenaerts" .
+
+node:pachara_chirathivat
+        a          rdf:Resource ;
+        rdf:label  "Pachara Chirathivat" .
+
+node:boman_irani  a  rdf:Resource ;
+        rdf:label  "Boman Irani" .
+
+node:81078908  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 4, 2019" ;
+        property:description  "A teenage equestrian and a local football player for each other, but simmering racism in their small town puts their relationship to the test." ;
+        property:duration     "108 min" ;
+        property:hasCast      node:rose_reid , node:caleb_castille , node:gregory_alan_williams , node:kevin_sizemore ;
+        property:hasDirector  node:brian_baugh ;
+        property:hasRating    "PG" ;
+        property:hasTitle     "The World We Make" ;
+        property:listedIn     "Dramas" , "Romantic Movies" ;
+        property:releaseYear  "2019" .
+
+node:keith_powers  a  rdf:Resource ;
+        rdf:label  "Keith Powers" .
+
+node:pandji_pragiwaksono
+        a          rdf:Resource ;
+        rdf:label  "Pandji Pragiwaksono" .
+
+node:michael_jibson  a  rdf:Resource ;
+        rdf:label  "Michael Jibson" .
+
+node:guillaume_canet  a  rdf:Resource ;
+        rdf:label  "Guillaume Canet" .
+
+node:parkpoom_wongpoom
+        a          rdf:Resource ;
+        rdf:label  "Parkpoom Wongpoom" .
+
+node:ben_kingsley  a  rdf:Resource ;
+        rdf:label  "Ben Kingsley" .
+
+node:jessica_mila  a  rdf:Resource ;
+        rdf:label  "Jessica Mila" .
+
+node:tom_fujita  a  rdf:Resource ;
+        rdf:label  "Tom Fujita" .
+
+node:jlio_andrade  a  rdf:Resource ;
+        rdf:label  "Júlio Andrade" .
+
+node:kevin_sizemore  a  rdf:Resource ;
+        rdf:label  "Kevin Sizemore" .
+
+node:roger_craig_smith
+        a          rdf:Resource ;
+        rdf:label  "Roger Craig Smith" .
+
+node:rinna_hassim  a  rdf:Resource ;
+        rdf:label  "Rinna Hassim" .
+
+node:brendan_gleeson  a  rdf:Resource ;
+        rdf:label  "Brendan Gleeson" .
+
+node:kid_ink  a    rdf:Resource ;
+        rdf:label  "Kid Ink" .
+
+node:louis_cancelmi  a  rdf:Resource ;
+        rdf:label  "Louis Cancelmi" .
+
+node:vladimir_kulich  a  rdf:Resource ;
+        rdf:label  "Vladimir Kulich" .
+
+node:yogi_babu  a  rdf:Resource ;
+        rdf:label  "Yogi Babu" .
+
+node:80163293  a              node:tv_show ;
+        property:dateAdded    "September 29, 2017" ;
+        property:description  "A woman with an entrepreneurial spirit takes life into her own hands by starting a beauty cream business that inspires other women to take chances." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:umie_aida , node:erma_fatima , node:rahim_razali , node:nora_danish ;
+        property:hasRating    "TV-PG" ;
+        property:hasTitle     "Mak Cun" ;
+        property:listedIn     "TV Comedies" , "International TV Shows" , "TV Dramas" ;
+        property:releaseYear  "2015" .
+
+node:rod_blackhurst  a  rdf:Resource ;
+        rdf:label  "Rod Blackhurst" .
+
+node:daniel_alfredson
+        a          rdf:Resource ;
+        rdf:label  "Daniel Alfredson" .
+
+node:sahajak_boonthanakit
+        a          rdf:Resource ;
+        rdf:label  "Sahajak Boonthanakit" .
+
+node:letitia_wright  a  rdf:Resource ;
+        rdf:label  "Letitia Wright" .
+
+node:deancharles_chapman
+        a          rdf:Resource ;
+        rdf:label  "Dean-Charles Chapman" .
+
+node:franck_ribire  a  rdf:Resource ;
+        rdf:label  "Franck Ribière" .
+
+node:peter_vack  a  rdf:Resource ;
+        rdf:label  "Peter Vack" .
+
+node:70304990  a              node:movie ;
+        property:countries    "Sweden" , "United States" , "United Kingdom" , "Denmark" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "A struggling couple can't believe their luck when they find a stash of money in the apartment of a neighbor who was recently murdered." ;
+        property:duration     "90 min" ;
+        property:hasCast      node:sam_spruell , node:anna_friel , node:kate_hudson , node:james_franco , node:omar_sy , node:tom_wilkinson , node:oliver_dimsdale , node:thomas_arnold , node:diana_hardcastle , node:diarmaid_murtagh , node:michael_jibson ;
+        property:hasDirector  node:henrik_ruben_genz ;
+        property:hasRating    "R" ;
+        property:hasTitle     "Good People" ;
+        property:listedIn     "Thrillers" , "Action & Adventure" ;
+        property:releaseYear  "2014" .
+
+node:citra_prima  a  rdf:Resource ;
+        rdf:label  "Citra Prima" .
+
+node:saurabh_shukla  a  rdf:Resource ;
+        rdf:label  "Saurabh Shukla" .
+
+node:seu_jorge  a  rdf:Resource ;
+        rdf:label  "Seu Jorge" .
+
+node:anna_friel  a  rdf:Resource ;
+        rdf:label  "Anna Friel" .
+
+node:gaby_hoffmann  a  rdf:Resource ;
+        rdf:label  "Gaby Hoffmann" .
+
+node:raditya_dika  a  rdf:Resource ;
+        rdf:label  "Raditya Dika" .
+
+node:81001809  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 28, 2018" ;
+        property:description  "Two priests – one from Dunblane, Scotland, the other from Newtown, Connecticut – bond over school tragedies that occurred 16 years apart." ;
+        property:duration     "24 min" ;
+        property:hasDirector  node:kim_a_snyder ;
+        property:hasRating    "TV-PG" ;
+        property:hasTitle     "Lessons from a School Shooting: Notes from Dunblane" ;
+        property:listedIn     "Documentaries" ;
+        property:releaseYear  "2018" .
+
+node:somyos_matures  a  rdf:Resource ;
+        rdf:label  "Somyos Matures" .
+
+node:tim_mcinnerny  a  rdf:Resource ;
+        rdf:label  "Tim McInnerny" .
+
+node:sori_moon  a  rdf:Resource ;
+        rdf:label  "So-ri Moon" .
+
+property:duration  a  rdfProperty:Property ;
+        rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+node:sungyu_jin  a  rdf:Resource ;
+        rdf:label  "Sun-gyu Jin" .
+
+node:sutthatip_wutichaipradit
+        a          rdf:Resource ;
+        rdf:label  "Sutthatip Wutichaipradit" .
+
+node:sren_malling  a  rdf:Resource ;
+        rdf:label  "Søren Malling" .
+
+node:ben_rosenfield  a  rdf:Resource ;
+        rdf:label  "Ben Rosenfield" .
+
+node:nattasha_nauljam
+        a          rdf:Resource ;
+        rdf:label  "Nattasha Nauljam" .
+
+node:80119349  a              node:movie ;
+        property:dateAdded    "September 29, 2017" ;
+        property:description  "Picking up 40 years after six were convicted for two strange murders in Iceland, this chilling documentary proves confessions can’t always be trusted." ;
+        property:duration     "85 min" ;
+        property:hasDirector  node:dylan_howitt ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Out of Thin Air" ;
+        property:listedIn     "International Movies" , "Documentaries" ;
+        property:releaseYear  "2017" .
+
+node:70304989  a              node:movie ;
+        property:countries    "United States" , "Canada" , "Bulgaria" , "Spain" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "In a dystopian future, an insurance adjuster for a tech company investigates a robot killed for violating protocol and discovers a global conspiracy." ;
+        property:duration     "110 min" ;
+        property:hasCast      node:andy_nyman , node:dylan_mcdermott , node:david_ryall , node:robert_forster , node:antonio_banderas , node:melanie_griffith , node:christa_campbell , node:birgitte_hjort_srensen , node:tim_mcinnerny ;
+        property:hasDirector  node:gabe_ibez ;
+        property:hasRating    "R" ;
+        property:hasTitle     "Automata" ;
+        property:listedIn     "International Movies" , "Sci-Fi & Fantasy" , "Thrillers" ;
+        property:releaseYear  "2014" .
+
+node:taissa_farmiga  a  rdf:Resource ;
+        rdf:label  "Taissa Farmiga" .
+
+node:fernando_lebrija
+        a          rdf:Resource ;
+        rdf:label  "Fernando Lebrija" .
+
+node:lenny_jacobson  a  rdf:Resource ;
+        rdf:label  "Lenny Jacobson" .
+
+node:praneetha_patnaik
+        a          rdf:Resource ;
+        rdf:label  "Praneetha Patnaik" .
+
+node:john_kani  a  rdf:Resource ;
+        rdf:label  "John Kani" .
+
+node:phumphothingam_nawat
+        a          rdf:Resource ;
+        rdf:label  "Phumphothingam Nawat" .
+
+node:rachel_staman  a  rdf:Resource ;
+        rdf:label  "Rachel Staman" .
+
+node:adam_lustick  a  rdf:Resource ;
+        rdf:label  "Adam Lustick" .
+
+node:chachchaya_chalemphol
+        a          rdf:Resource ;
+        rdf:label  "Chachchaya Chalemphol" .
+
+node:jesse_v_johnson  a  rdf:Resource ;
+        rdf:label  "Jesse V. Johnson" .
+
+node:sumalee_montano  a  rdf:Resource ;
+        rdf:label  "Sumalee Montano" .
+
+node:tony_todd  a  rdf:Resource ;
+        rdf:label  "Tony Todd" .
+
+node:josh_keaton  a  rdf:Resource ;
+        rdf:label  "Josh Keaton" .
+
+node:ernie_hudson  a  rdf:Resource ;
+        rdf:label  "Ernie Hudson" .
+
+node:ry_barrett  a  rdf:Resource ;
+        rdf:label  "Ry Barrett" .
+
+node:80182480  a              node:movie ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "A team of minstrels, including a monkey, cat and donkey, narrate folktales from the Indian regions of Rajasthan, Kerala and Punjab." ;
+        property:duration     "58 min" ;
+        property:hasCast      node:damandeep_singh_baggan , node:baba_sehgal , node:smita_malhotra ;
+        property:hasRating    "TV-Y7" ;
+        property:hasTitle     "Krish Trish and Baltiboy" ;
+        property:listedIn     "Children & Family Movies" ;
+        property:releaseYear  "2009" .
+
+node:rosamund_pike  a  rdf:Resource ;
+        rdf:label  "Rosamund Pike" .
+
+node:enol_snmez  a  rdf:Resource ;
+        rdf:label  "Şenol Sönmez" .
+
+node:guillaume_gallienne
+        a          rdf:Resource ;
+        rdf:label  "Guillaume Gallienne" .
+
+node:katherine_waterston
+        a          rdf:Resource ;
+        rdf:label  "Katherine Waterston" .
+
+node:jeffrey_wright  a  rdf:Resource ;
+        rdf:label  "Jeffrey Wright" .
+
+node:reza_rahadian  a  rdf:Resource ;
+        rdf:label  "Reza Rahadian" .
+
+node:danny_glover  a  rdf:Resource ;
+        rdf:label  "Danny Glover" .
+
+node:arif_bahlim  a  rdf:Resource ;
+        rdf:label  "Arif Bahlim" .
+
+node:80113482  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 5, 2017" ;
+        property:description  "Her straitjacketed life turned topsy-turvy by hunky Xavier, Evie discovers a new freedom – even though her man just might be an end-of-days crackpot." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:jonathan_langdon , node:sarayu_blue , node:joshua_sasse , node:tori_anderson , node:jesse_rath , node:amy_pietz ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "No Tomorrow" ;
+        property:listedIn     "Romantic TV Shows" , "TV Dramas" , "TV Comedies" ;
+        property:releaseYear  "2016" .
+
+node:niels_schneider  a  rdf:Resource ;
+        rdf:label  "Niels Schneider" .
+
+node:nassar  a     rdf:Resource ;
+        rdf:label  "Nassar" .
+
+node:subhrajyoti_barat
+        a          rdf:Resource ;
+        rdf:label  "Subhrajyoti Barat" .
+
+node:ausavaterakul_ausavapat
+        a          rdf:Resource ;
+        rdf:label  "Ausavaterakul Ausavapat" .
+
+node:dewi_hughes  a  rdf:Resource ;
+        rdf:label  "Dewi Hughes" .
+
+node:giorgia_whigham  a  rdf:Resource ;
+        rdf:label  "Giorgia Whigham" .
+
+node:ken_kwapis  a  rdf:Resource ;
+        rdf:label  "Ken Kwapis" .
+
+node:peter_mcrobbie  a  rdf:Resource ;
+        rdf:label  "Peter McRobbie" .
+
+node:epy_kusnandar  a  rdf:Resource ;
+        rdf:label  "Epy Kusnandar" .
+
+property:listedIn  a  rdfProperty:Property ;
+        rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+node:james_franco  a  rdf:Resource ;
+        rdf:label  "James Franco" .
+
+node:puttachat_pongsuchat
+        a          rdf:Resource ;
+        rdf:label  "Puttachat Pongsuchat" .
+
+node:adam_pally  a  rdf:Resource ;
+        rdf:label  "Adam Pally" .
+
+node:ki_hong_lee  a  rdf:Resource ;
+        rdf:label  "Ki Hong Lee" .
+
+node:gesya_shandy  a  rdf:Resource ;
+        rdf:label  "Gesya Shandy" .
+
+node:ian_samuels  a  rdf:Resource ;
+        rdf:label  "Ian Samuels" .
+
+node:miran_ra  a   rdf:Resource ;
+        rdf:label  "Mi-ran Ra" .
+
+node:jennifer_coolidge
+        a          rdf:Resource ;
+        rdf:label  "Jennifer Coolidge" .
+
+node:chaiyapol_pupart
+        a          rdf:Resource ;
+        rdf:label  "Chaiyapol Pupart" .
+
+node:molly_mcmichael  a  rdf:Resource ;
+        rdf:label  "Molly McMichael" .
+
+node:michael_dobson  a  rdf:Resource ;
+        rdf:label  "Michael Dobson" .
+
+node:chumphorn_thepphithak
+        a          rdf:Resource ;
+        rdf:label  "Chumphorn Thepphithak" .
+
+node:simran_choudhary
+        a          rdf:Resource ;
+        rdf:label  "Simran Choudhary" .
+
+node:saharat_sangkapreecha
+        a          rdf:Resource ;
+        rdf:label  "Saharat Sangkapreecha" .
+
+node:robert_sheehan  a  rdf:Resource ;
+        rdf:label  "Robert Sheehan" .
+
+node:rizal_mantovani  a  rdf:Resource ;
+        rdf:label  "Rizal Mantovani" .
+
+node:chris_howe  a  rdf:Resource ;
+        rdf:label  "Chris Howe" .
+
+node:rory_kinnear  a  rdf:Resource ;
+        rdf:label  "Rory Kinnear" .
+
+node:tharun_bhascker  a  rdf:Resource ;
+        rdf:label  "Tharun Bhascker" .
+
+node:ron_perlman  a  rdf:Resource ;
+        rdf:label  "Ron Perlman" .
+
+node:vishwaksen_naidu
+        a          rdf:Resource ;
+        rdf:label  "Vishwaksen Naidu" .
+
+node:kris_srepoomseth
+        a          rdf:Resource ;
+        rdf:label  "Kris Srepoomseth" .
+
+node:li_yi_feng  a  rdf:Resource ;
+        rdf:label  "Li Yi Feng" .
+
+node:athipich_chutiwatkajornchai
+        a          rdf:Resource ;
+        rdf:label  "Athipich Chutiwatkajornchai" .
+
+node:wendell_pierce  a  rdf:Resource ;
+        rdf:label  "Wendell Pierce" .
+
+node:brian_de_palma  a  rdf:Resource ;
+        rdf:label  "Brian De Palma" .
+
+node:joe_ksander  a  rdf:Resource ;
+        rdf:label  "Joe Ksander" .
+
+node:freya_mavor  a  rdf:Resource ;
+        rdf:label  "Freya Mavor" .
+
+node:jennifer_cameron
+        a          rdf:Resource ;
+        rdf:label  "Jennifer Cameron" .
+
+node:macon_blair  a  rdf:Resource ;
+        rdf:label  "Macon Blair" .
+
+node:louis_mandylor  a  rdf:Resource ;
+        rdf:label  "Louis Mandylor" .
+
+node:yousef_erakat  a  rdf:Resource ;
+        rdf:label  "Yousef Erakat" .
+
+node:81176188  a              node:movie ;
+        property:dateAdded    "September 5, 2019" ;
+        property:description  "Barack and Michelle Obama talk with directors Steven Bognar and Julia Reichert about the documentary and the importance of storytelling." ;
+        property:duration     "10 min" ;
+        property:hasCast      node:julia_reichert , node:michelle_obama , node:president_barack_obama , node:steven_bognar ;
+        property:hasRating    "TV-G" ;
+        property:hasTitle     "American Factory: A Conversation with the Obamas" ;
+        property:listedIn     "Documentaries" ;
+        property:releaseYear  "2019" .
+
+node:smita_malhotra  a  rdf:Resource ;
+        rdf:label  "Smita Malhotra" .
+
+node:jim_sturgess  a  rdf:Resource ;
+        rdf:label  "Jim Sturgess" .
+
+node:80181555  a              node:tv_show ;
+        property:countries    "United Kingdom" ;
+        property:dateAdded    "September 30, 2017" ;
+        property:description  "Drawing on newly available info, this show traces how the British royal family has survived the last 100 years of power struggles, politics and more." ;
+        property:duration     "1 Season" ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "The Royal House of Windsor" ;
+        property:listedIn     "Docuseries" , "British TV Shows" , "International TV Shows" ;
+        property:releaseYear  "2017" .
+
+node:81160036  a              node:movie ;
+        property:countries    "Pakistan" ;
+        property:dateAdded    "September 4, 2019" ;
+        property:description  "Outcast from society and left to die in the wilderness, a young boy with polio embarks on a journey to connect with his mother. Based on a true story." ;
+        property:duration     "128 min" ;
+        property:hasCast      node:imran_aslam , node:daniyal_yousuf , node:karam_hussain , node:ali_hafiz , node:sohail_malik , node:saleem_mairaj , node:najiba_faiz , node:arif_bahlim ;
+        property:hasDirector  node:farhan_alam ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Saawan" ;
+        property:listedIn     "Independent Movies" , "International Movies" , "Dramas" ;
+        property:releaseYear  "2016" .
+
+node:andy_serkis  a  rdf:Resource ;
+        rdf:label  "Andy Serkis" .
+
+node:robert_patrick  a  rdf:Resource ;
+        rdf:label  "Robert Patrick" .
+
+node:dowon_kwak  a  rdf:Resource ;
+        rdf:label  "Do-won Kwak" .
+
+node:firrina_sinatrya
+        a          rdf:Resource ;
+        rdf:label  "Firrina Sinatrya" .
+
+node:erasmo_carlos  a  rdf:Resource ;
+        rdf:label  "Erasmo Carlos" .
+
+node:chayanop_boonprakob
+        a          rdf:Resource ;
+        rdf:label  "Chayanop Boonprakob" .
+
+node:80988892  a              node:movie ;
+        property:countries    "China" , "Canada" , "United States" ;
+        property:dateAdded    "September 7, 2018" ;
+        property:description  "When lonely Mai forms an unlikely bond with a top-secret robot, they embark on an intense, action-packed adventure to foil the plot of a vicious villain." ;
+        property:duration     "106 min" ;
+        property:hasCast      node:michael_pea , node:constance_wu , node:jason_sudeikis , node:john_krasinski , node:david_cross , node:charlyne_yi ;
+        property:hasDirector  node:kevin_r_adams , node:joe_ksander ;
+        property:hasRating    "TV-PG" ;
+        property:hasTitle     "Next Gen" ;
+        property:listedIn     "Children & Family Movies" , "Sci-Fi & Fantasy" , "Comedies" ;
+        property:releaseYear  "2018" .
+
+node:80125979  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "When nerdy high schooler Dani finally attracts the interest of her longtime crush, she lands in the cross hairs of his ex, a social media celebrity." ;
+        property:duration     "99 min" ;
+        property:hasCast      node:yousef_erakat , node:rebekah_graf , node:alicia_sanz , node:nesta_cooper , node:patrick_davis , node:jake_borelli , node:keith_powers , node:john_michael_higgins , node:kid_ink , node:kate_walsh , node:anne_winters , node:peter_gilroy ;
+        property:hasDirector  node:fernando_lebrija ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "#realityhigh" ;
+        property:listedIn     "Comedies" ;
+        property:releaseYear  "2017" .
+
+node:tv_show  a    rdf:Class ;
+        rdf:label  "TV Show" .
+
+node:alberto_ammann  a  rdf:Resource ;
+        rdf:label  "Alberto Ammann" .
+
+node:sarah_paulson  a  rdf:Resource ;
+        rdf:label  "Sarah Paulson" .
+
+node:lvaro_longoria  a  rdf:Resource ;
+        rdf:label  "Álvaro Longoria" .
+
+node:zgr_emre_yldrm  a  rdf:Resource ;
+        rdf:label  "Özgür Emre Yıldırım" .
+
+node:kevin_andrean  a  rdf:Resource ;
+        rdf:label  "Kevin Andrean" .
+
+node:will_king  a  rdf:Resource ;
+        rdf:label  "Will King" .
+
+node:80104068  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 29, 2017" ;
+        property:description  "After widowed neighbors Addie and Louis begin sleeping in bed together platonically to alleviate their loneliness, a real romance begins to blossom." ;
+        property:duration     "103 min" ;
+        property:hasCast      node:iain_armitage , node:bruce_dern , node:judy_greer , node:phyllis_somerville , node:matthias_schoenaerts , node:jane_fonda , node:robert_redford ;
+        property:hasDirector  node:ritesh_batra ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Our Souls at Night" ;
+        property:listedIn     "Dramas" , "Romantic Movies" ;
+        property:releaseYear  "2017" .
+
+node:80203094  a              node:movie ;
+        property:countries    "United States," ;
+        property:dateAdded    "September 7, 2018" ;
+        property:description  "Women who've been sexually brutalized in war-torn Congo begin to heal at City of Joy, a center that helps them regain a sense of self and empowerment." ;
+        property:duration     "77 min" ;
+        property:hasDirector  node:madeleine_gavin ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "City of Joy" ;
+        property:listedIn     "Documentaries" ;
+        property:releaseYear  "2018" .
+
+node:ananda_everingham
+        a          rdf:Resource ;
+        rdf:label  "Ananda Everingham" .
+
+node:lisa_durupt  a  rdf:Resource ;
+        rdf:label  "Lisa Durupt" .
+
+node:81027384  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 30, 2018" ;
+        property:description  "This U.S.-focused series dives into the cultural and political changes that swept the last decade of the 20th century. Executive produced by Tom Hanks." ;
+        property:duration     "1 Season" ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "The Nineties" ;
+        property:listedIn     "Docuseries" ;
+        property:releaseYear  "2017" .
+
+node:laurent_stocker  a  rdf:Resource ;
+        rdf:label  "Laurent Stocker" .
+
+node:gabriel_byrne  a  rdf:Resource ;
+        rdf:label  "Gabriel Byrne" .
+
+node:malu_galli  a  rdf:Resource ;
+        rdf:label  "Malu Galli" .
+
+node:david_kaye  a  rdf:Resource ;
+        rdf:label  "David Kaye" .
+
+node:81016750  a              node:movie ;
+        property:countries    "Indonesia" ;
+        property:dateAdded    "September 28, 2018" ;
+        property:description  "When her little sister claims she sees the dead, Alia consults a psychic, who opens her own eyes to the vengeful ghosts haunting their childhood home." ;
+        property:duration     "108 min" ;
+        property:hasCast      node:citra_prima , node:epy_kusnandar , node:afdhal_yusman , node:anita_hara , node:bianca_hello , node:shofia_shireen , node:jessica_mila , node:denny_sumargo , node:voke_victoria , node:derry_drajat ;
+        property:hasDirector  node:rocky_soraya ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "The 3rd Eye" ;
+        property:listedIn     "International Movies" , "Horror Movies" ;
+        property:releaseYear  "2018" .
+
+node:gerardo_olivares
+        a          rdf:Resource ;
+        rdf:label  "Gerardo Olivares" .
+
+node:anubhav_sinha  a  rdf:Resource ;
+        rdf:label  "Anubhav Sinha" .
+
+node:alexander_skarsgrd
+        a          rdf:Resource ;
+        rdf:label  "Alexander Skarsgård" .
+
+node:chaleumpol_tikumpornteerawong
+        a          rdf:Resource ;
+        rdf:label  "Chaleumpol Tikumpornteerawong" .
+
+node:peter_fonda  a  rdf:Resource ;
+        rdf:label  "Peter Fonda" .
+
+node:susan_johnson  a  rdf:Resource ;
+        rdf:label  "Susan Johnson" .
+
+node:drew_barrymore  a  rdf:Resource ;
+        rdf:label  "Drew Barrymore" .
+
+node:80200087  a              node:movie ;
+        property:countries    "Denmark" , "Netherlands" , "Belgium" , "France" , "Italy" ;
+        property:dateAdded    "September 28, 2019" ;
+        property:description  "A Copenhagen police officer hunts for the man who attacked his partner, only to stumble into a high-stakes game of espionage." ;
+        property:duration     "89 min" ;
+        property:hasCast      node:eriq_ebouaney , node:helena_kaittani , node:guy_pearce , node:carice_van_houten , node:paprika_steen , node:mohammed_azaay , node:nikolaj_costerwaldau , node:sren_malling ;
+        property:hasDirector  node:brian_de_palma ;
+        property:hasRating    "R" ;
+        property:hasTitle     "Domino" ;
+        property:listedIn     "International Movies" , "Thrillers" ;
+        property:releaseYear  "2019" .
+
+node:hafizul_kamal  a  rdf:Resource ;
+        rdf:label  "Hafizul Kamal" .
+
+node:antoine_bardoujacquet
+        a          rdf:Resource ;
+        rdf:label  "Antoine Bardou-Jacquet" .
+
+node:daran_norris  a  rdf:Resource ;
+        rdf:label  "Daran Norris" .
+
+node:sharon_horgan  a  rdf:Resource ;
+        rdf:label  "Sharon Horgan" .
+
+node:alice_pol  a  rdf:Resource ;
+        rdf:label  "Alice Pol" .
+
+node:seda_gven  a  rdf:Resource ;
+        rdf:label  "Seda Güven" .
+
+node:81002864  a              node:movie ;
+        property:countries    "Indonesia" ;
+        property:dateAdded    "September 28, 2018" ;
+        property:description  "Unemployed and immature, a somewhat pathetic bachelor sets his sights on finding a date for the wedding of his younger, more successful brother." ;
+        property:duration     "127 min" ;
+        property:hasCast      node:pandji_pragiwaksono , node:raditya_dika , node:tinna_harahap , node:pevita_pearce , node:elvira_devinamira , node:rinna_hassim , node:dede_yusuf , node:annisa_rawles , node:chandra_liow , node:dewi_hughes , node:babe_cabita ;
+        property:hasDirector  node:raditya_dika ;
+        property:hasRating    "TV-PG" ;
+        property:hasTitle     "Single" ;
+        property:listedIn     "Romantic Movies" , "International Movies" , "Comedies" ;
+        property:releaseYear  "2015" .
+
+node:bianca_hello  a  rdf:Resource ;
+        rdf:label  "Bianca Hello" .
+
+node:80128317  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 30, 2018" ;
+        property:description  "This nostalgic documentary series relives the 1980s from a variety of angles, exploring its impact on the politics, technology and culture of today." ;
+        property:duration     "1 Season" ;
+        property:hasRating    "TV-PG" ;
+        property:hasTitle     "The Eighties" ;
+        property:listedIn     "Docuseries" ;
+        property:releaseYear  "2016" .
+
+node:81016044  a              node:movie ;
+        property:countries    "Thailand" ;
+        property:dateAdded    "September 5, 2018" ;
+        property:description  "After an encounter with an engineer working the night shift for the city train, a 30-year-old woman struggles against all odds to pursue true love." ;
+        property:duration     "126 min" ;
+        property:hasCast      node:theeradej_wongpuapan , node:charlie_trairat , node:taksaorn_paksukcharern , node:panissara_phimpru , node:sirin_horwang , node:ungsumalynn_sirapatsakmetha , node:kazuki_yano ;
+        property:hasDirector  node:adisorn_tresirikasem ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Bangkok Traffic (Love) Story" ;
+        property:listedIn     "Comedies" , "Romantic Movies" , "International Movies" ;
+        property:releaseYear  "2009" .
+
+node:gacha_plienwithi
+        a          rdf:Resource ;
+        rdf:label  "Gacha Plienwithi" .
+
+node:80019931  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 29, 2015" ;
+        property:description  "Cleo is invited to a gala in the big city celebrating a magical comet and brings her best friends along. But the sinister Nefera has other plans." ;
+        property:duration     "72 min" ;
+        property:hasCast      node:wendee_lee , node:laura_bailey , node:karen_strassman , node:rachel_staman , node:tj_smith , node:celeste_henderson , node:america_young ;
+        property:hasDirector  node:william_lau ;
+        property:hasRating    "TV-Y7" ;
+        property:hasTitle     "Monster High: Boo York, Boo York" ;
+        property:listedIn     "Children & Family Movies" , "Music & Musicals" ;
+        property:releaseYear  "2015" .
+
+node:martin_freeman  a  rdf:Resource ;
+        rdf:label  "Martin Freeman" .
+
+node:dermot_mulroney  a  rdf:Resource ;
+        rdf:label  "Dermot Mulroney" .
+
+node:chandra_liow  a  rdf:Resource ;
+        rdf:label  "Chandra Liow" .
+
+node:chindavanich_primrose
+        a          rdf:Resource ;
+        rdf:label  "Chindavanich Primrose" .
+
+node:80169755  a              node:movie ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "Comedian and celebrity impersonator Joaquín Reyes decides to be his zesty self for a night of stories about buses, bathroom habits, royalty and more." ;
+        property:duration     "78 min" ;
+        property:hasCast      node:joaqun_reyes ;
+        property:hasDirector  node:jos_miguel_contreras ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Joaquín Reyes: Una y no más" ;
+        property:listedIn     "Stand-Up Comedy" ;
+        property:releaseYear  "2017" .
+
+node:david_ryall  a  rdf:Resource ;
+        rdf:label  "David Ryall" .
+
+node:henrik_ruben_genz
+        a          rdf:Resource ;
+        rdf:label  "Henrik Ruben Genz" .
+
+property:hasRating  a  rdfProperty:Property ;
+        rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+node:caitlin_fitzgerald
+        a          rdf:Resource ;
+        rdf:label  "Caitlin Fitzgerald" .
+
+node:suteerush_channukool
+        a          rdf:Resource ;
+        rdf:label  "Suteerush Channukool" .
+
+node:sirikiet_saejea  a  rdf:Resource ;
+        rdf:label  "Sirikiet Saejea" .
+
+node:songyos_sugmakanan
+        a          rdf:Resource ;
+        rdf:label  "Songyos Sugmakanan" .
+
+node:rajkumar_hirani  a  rdf:Resource ;
+        rdf:label  "Rajkumar Hirani" .
+
+node:peter_gilroy  a  rdf:Resource ;
+        rdf:label  "Peter Gilroy" .
+
+node:waleed_zuaiter  a  rdf:Resource ;
+        rdf:label  "Waleed Zuaiter" .
+
+node:juan_saavedra  a  rdf:Resource ;
+        rdf:label  "Juan Saavedra" .
+
+node:scott_adkins  a  rdf:Resource ;
+        rdf:label  "Scott Adkins" .
+
+node:eric_godon  a  rdf:Resource ;
+        rdf:label  "Eric Godon" .
+
+node:paul_hollywood  a  rdf:Resource ;
+        rdf:label  "Paul Hollywood" .
+
+node:80182482  a              node:movie ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "In three comic-strip-style tales, a boy tries to sell wisdom, a demon is released from captivity, and a king assigns impossible tasks to his minister." ;
+        property:duration     "61 min" ;
+        property:hasCast      node:damandeep_singh_baggan , node:baba_sehgal , node:smita_malhotra ;
+        property:hasDirector  node:tilak_shetty ;
+        property:hasRating    "TV-Y7" ;
+        property:hasTitle     "Krish Trish and Baltiboy: Comics of India" ;
+        property:listedIn     "Children & Family Movies" ;
+        property:releaseYear  "2012" .
+
+node:bingkun_cao  a  rdf:Resource ;
+        rdf:label  "Bingkun Cao" .
+
+node:julian_black_antelope
+        a          rdf:Resource ;
+        rdf:label  "Julian Black Antelope" .
+
+node:jos_miguel_contreras
+        a          rdf:Resource ;
+        rdf:label  "José Miguel Contreras" .
+
+node:chiara_aurelia  a  rdf:Resource ;
+        rdf:label  "Chiara Aurelia" .
+
+property:releaseYear  a  rdfProperty:Property ;
+        rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+node:popetorn_soonthornyanakij
+        a          rdf:Resource ;
+        rdf:label  "Popetorn Soonthornyanakij" .
+
+node:shuri_tanaka  a  rdf:Resource ;
+        rdf:label  "Shuri Tanaka" .
+
+node:80239639  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 7, 2018" ;
+        property:description  "A wrong-number text sparks a virtual romance between a smart but unpopular teen and a sweet jock who thinks he's talking to a gorgeous cheerleader." ;
+        property:duration     "106 min" ;
+        property:hasCast      node:lea_thompson , node:mary_pat_gleason , node:alan_ruck , node:kristine_froseth , node:alice_lee , node:noah_centineo , node:shannon_purser , node:loretta_devine , node:rj_cyler , node:giorgia_whigham , node:chrissy_metz ;
+        property:hasDirector  node:ian_samuels ;
+        property:hasRating    "PG-13" ;
+        property:hasTitle     "Sierra Burgess Is A Loser" ;
+        property:listedIn     "Romantic Movies" , "Comedies" ;
+        property:releaseYear  "2018" .
+
+node:mustafa_sandal  a  rdf:Resource ;
+        rdf:label  "Mustafa Sandal" .
+
+node:gregory_alan_williams
+        a          rdf:Resource ;
+        rdf:label  "Gregory Alan Williams" .
+
+node:shannon_purser  a  rdf:Resource ;
+        rdf:label  "Shannon Purser" .
+
+node:birgitte_hjort_srensen
+        a          rdf:Resource ;
+        rdf:label  "Birgitte Hjort Sørensen" .
+
+node:ryan_kwanten  a  rdf:Resource ;
+        rdf:label  "Ryan Kwanten" .
+
+node:ali_hafiz  a  rdf:Resource ;
+        rdf:label  "Ali Hafiz" .
+
+node:80113641  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 4, 2017" ;
+        property:description  "A detective seizes a precious opportunity to change the past when she finds she can communicate with her deceased, estranged father via a time warp." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:peyton_list , node:devin_kelley , node:lenny_jacobson , node:mekhi_phifer , node:daniel_bonjour , node:riley_smith , node:anthony_ruivivar ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Frequency" ;
+        property:listedIn     "TV Dramas" , "TV Mysteries" , "Crime TV Shows" ;
+        property:releaseYear  "2016" .
+
+node:sopon_sukdapisit
+        a          rdf:Resource ;
+        rdf:label  "Sopon Sukdapisit" .
+
+node:81053892  a              node:movie ;
+        property:dateAdded    "September 28, 2019" ;
+        property:description  "A clumsy but cheerful fisheries student struggles to find her place at a research institute renowned for its tuna cultivation. The work isn't easy." ;
+        property:duration     "90 min" ;
+        property:hasCast      node:hiroto_kanai , node:takashi_taniguchi , node:takeshi_masu , node:tom_fujita , node:hidetoshi_hoshida , node:chal_inoue , node:fuka_koshiba , node:shuri_tanaka , node:ryosuke_yusa ;
+        property:hasDirector  node:mana_yasuda ;
+        property:hasRating    "TV-PG" ;
+        property:hasTitle     "TUNA GIRL" ;
+        property:listedIn     "International Movies" , "Dramas" ;
+        property:releaseYear  "2019" .
+
+node:bruce_greenwood  a  rdf:Resource ;
+        rdf:label  "Bruce Greenwood" .
+
+node:80128722  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 29, 2017" ;
+        property:description  "When her husband's sex game goes wrong, Jessie – handcuffed to a bed in a remote lake house – faces warped visions, dark secrets and a dire choice." ;
+        property:duration     "103 min" ;
+        property:hasCast      node:bruce_greenwood , node:carel_struycken , node:chiara_aurelia , node:henry_thomas , node:carla_gugino ;
+        property:hasDirector  node:mike_flanagan ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Gerald's Game" ;
+        property:listedIn     "Horror Movies" , "Thrillers" ;
+        property:releaseYear  "2017" .
+
+node:andy_nyman  a  rdf:Resource ;
+        rdf:label  "Andy Nyman" .
+
+node:81011682  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 30, 2018" ;
+        property:description  "A contextual, acculturated dive into how adults in six, big global cities celebrate love and accentuate sex. CNN's Christiane Amanpour reports." ;
+        property:duration     "1 Season" ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Christiane Amanpour: Sex & Love Around the World" ;
+        property:listedIn     "Docuseries" ;
+        property:releaseYear  "2018" .
+
+node:anita_hara  a  rdf:Resource ;
+        rdf:label  "Anita Hara" .
+
+node:prim_bulakul  a  rdf:Resource ;
+        rdf:label  "Prim Bulakul" .
+
+node:nicole_theriault
+        a          rdf:Resource ;
+        rdf:label  "Nicole Theriault" .
+
+node:nattapong_chartpong
+        a          rdf:Resource ;
+        rdf:label  "Nattapong Chartpong" .
+
+node:fabrizio_copano  a  rdf:Resource ;
+        rdf:label  "Fabrizio Copano" .
+
+node:sterling_k_brown
+        a          rdf:Resource ;
+        rdf:label  "Sterling K. Brown" .
+
+node:charnmanoon_pannin
+        a          rdf:Resource ;
+        rdf:label  "Charnmanoon Pannin" .
+
+node:karen_strassman  a  rdf:Resource ;
+        rdf:label  "Karen Strassman" .
+
+node:simon_pegg  a  rdf:Resource ;
+        rdf:label  "Simon Pegg" .
+
+node:80992039  a              node:movie ;
+        property:countries    "Spain" ;
+        property:dateAdded    "September 28, 2018" ;
+        property:description  "Lawmakers and activists with conflicting ideologies speak about the complexities of Catalonia's politics and the fight for its independence from Spain." ;
+        property:duration     "117 min" ;
+        property:hasDirector  node:lvaro_longoria , node:gerardo_olivares ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Two Catalonias" ;
+        property:listedIn     "Documentaries" , "International Movies" ;
+        property:releaseYear  "2018" .
+
+node:damandeep_singh_baggan
+        a          rdf:Resource ;
+        rdf:label  "Damandeep Singh Baggan" .
+
+property:hasTitle  a  rdfProperty:Property ;
+        rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+node:anisha_ambrose  a  rdf:Resource ;
+        rdf:label  "Anisha Ambrose" .
+
+node:brian_mcginn  a  rdf:Resource ;
+        rdf:label  "Brian McGinn" .
+
+node:rermthon_kemapech
+        a          rdf:Resource ;
+        rdf:label  "Rermthon Kemapech" .
+
+node:bruce_dern  a  rdf:Resource ;
+        rdf:label  "Bruce Dern" .
+
+node:80180449  a              node:tv_show ;
+        property:dateAdded    "September 29, 2017" ;
+        property:description  "A man haunted by his wife's affair moves to Sarajevo and starts to love again, until fate forces him to choose between his new life and old loyalty." ;
+        property:duration     "1 Season" ;
+        property:hasCast      node:mirza_salihovic , node:sara_ali , node:miller_khan , node:remy_ishak , node:rita_rudaini , node:hafizul_kamal ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "Satu Hari" ;
+        property:listedIn     "TV Dramas" , "International TV Shows" ;
+        property:releaseYear  "2014" .
+
+node:seda_bakan  a  rdf:Resource ;
+        rdf:label  "Seda Bakan" .
+
+node:dana_wheelernicholson
+        a          rdf:Resource ;
+        rdf:label  "Dana Wheeler-Nicholson" .
+
+node:80152447  a              node:movie ;
+        property:countries    "Belgium" , "France" ;
+        property:dateAdded    "September 7, 2017" ;
+        property:description  "This historical drama explores the long and often volatile friendship of painter Paul Cézanne and writer Émile Zola, who first met as schoolboys." ;
+        property:duration     "114 min" ;
+        property:hasCast      node:dborah_franois , node:alice_pol , node:freya_mavor , node:guillaume_canet , node:laurent_stocker , node:guillaume_gallienne , node:sabine_azma , node:isabelle_candelier ;
+        property:hasDirector  node:daniele_thompson ;
+        property:hasRating    "R" ;
+        property:hasTitle     "Cézanne et moi" ;
+        property:listedIn     "Independent Movies" , "International Movies" , "Dramas" ;
+        property:releaseYear  "2016" .
+
+node:aamir_khan  a  rdf:Resource ;
+        rdf:label  "Aamir Khan" .
+
+node:keerati_mahapreukpong
+        a          rdf:Resource ;
+        rdf:label  "Keerati Mahapreukpong" .
+
+node:80182596  a              node:movie ;
+        property:dateAdded    "September 8, 2017" ;
+        property:description  "A cat, monkey and donkey team up to narrate folktales about friendship from Northeast India, and the Indian regions of Bihar and Rajasthan." ;
+        property:duration     "65 min" ;
+        property:hasCast      node:deepak_chachra , node:damandeep_singh_baggan , node:smita_malhotra ;
+        property:hasDirector  node:munjal_shroff , node:tilak_shetty ;
+        property:hasRating    "TV-Y" ;
+        property:hasTitle     "Krish Trish and Baltiboy: Best Friends Forever" ;
+        property:listedIn     "Children & Family Movies" ;
+        property:releaseYear  "2016" .
+
+node:raj_arjun  a  rdf:Resource ;
+        rdf:label  "Raj Arjun" .
+
+node:80158838  a              node:movie ;
+        property:countries    "Thailand" ;
+        property:dateAdded    "September 5, 2018" ;
+        property:description  "Desperate to go to the U.S. to win back his girlfriend, Yim hires a tutor to teach him English. But things don't go according to plan." ;
+        property:duration     "116 min" ;
+        property:hasCast      node:puttachat_pongsuchat , node:sora_aoi , node:preechaya_pongthananikorn , node:popetorn_soonthornyanakij , node:sunny_suwanmethanont ;
+        property:hasDirector  node:mez_tharatorn ;
+        property:hasRating    "TV-14" ;
+        property:hasTitle     "I Fine... Thank You... Love You" ;
+        property:listedIn     "Romantic Movies" , "Comedies" , "International Movies" ;
+        property:releaseYear  "2014" .
+
+node:celeste_henderson
+        a          rdf:Resource ;
+        rdf:label  "Celeste Henderson" .
+
+node:tantoo_cardinal  a  rdf:Resource ;
+        rdf:label  "Tantoo Cardinal" .
+
+node:luca_jimnez  a  rdf:Resource ;
+        rdf:label  "Lucía Jiménez" .
+
+node:sam_spruell  a  rdf:Resource ;
+        rdf:label  "Sam Spruell" .
+
+node:desmin_borges  a  rdf:Resource ;
+        rdf:label  "Desmin Borges" .
+
+node:banjong_pisanthanakun
+        a          rdf:Resource ;
+        rdf:label  "Banjong Pisanthanakun" .
+
+node:yosi_mizrahi  a  rdf:Resource ;
+        rdf:label  "Yosi Mizrahi" .
+
+node:70241607  a              node:movie ;
+        property:countries    "Thailand" ;
+        property:dateAdded    "September 7, 2018" ;
+        property:description  "When a family moves into an upscale housing development, they encounter a series of paranormal events that drive them to the edge of insanity." ;
+        property:duration     "112 min" ;
+        property:hasCast      node:athipich_chutiwatkajornchai , node:sutatta_udomsilp , node:sahajak_boonthanakit , node:deuntem_salitul , node:pok_piyatida_woramusik , node:saharat_sangkapreecha ;
+        property:hasDirector  node:sopon_sukdapisit ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Laddaland" ;
+        property:listedIn     "Horror Movies" , "International Movies" ;
+        property:releaseYear  "2011" .
+
+node:tj_smith  a   rdf:Resource ;
+        rdf:label  "TJ Smith" .
+
+node:gornpop_janjaroen
+        a          rdf:Resource ;
+        rdf:label  "Gornpop Janjaroen" .
+
+node:sophie_kennedy_clark
+        a          rdf:Resource ;
+        rdf:label  "Sophie Kennedy Clark" .
+
+node:stuart_allan  a  rdf:Resource ;
+        rdf:label  "Stuart Allan" .
+
+node:paween_purikitpanya
+        a          rdf:Resource ;
+        rdf:label  "Paween Purikitpanya" .
+
+node:danny_mcbride  a  rdf:Resource ;
+        rdf:label  "Danny McBride" .
+
+node:florence_kasumba
+        a          rdf:Resource ;
+        rdf:label  "Florence Kasumba" .
+
+node:carla_gugino  a  rdf:Resource ;
+        rdf:label  "Carla Gugino" .
+
+node:80030186  a              node:tv_show ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 30, 2018" ;
+        property:description  "This series examines 1970s America, focusing on the major political and historical landmarks of the decade and the cultural response to those events." ;
+        property:duration     "1 Season" ;
+        property:hasRating    "TV-PG" ;
+        property:hasTitle     "The Seventies" ;
+        property:listedIn     "Docuseries" ;
+        property:releaseYear  "2015" .
+
+node:sananthachat_thanapatpisal
+        a          rdf:Resource ;
+        rdf:label  "Sananthachat Thanapatpisal" .
+
+node:jandino_asporaat
+        a          rdf:Resource ;
+        rdf:label  "Jandino Asporaat" .
+
+node:titikarn_tongprasearth
+        a          rdf:Resource ;
+        rdf:label  "Titikarn Tongprasearth" .
+
+node:phoebe_wallerbridge
+        a          rdf:Resource ;
+        rdf:label  "Phoebe Waller-Bridge" .
+
+node:80058026  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 6, 2018" ;
+        property:description  "When best friends break a blood oath, one of them is cast away to hell, and the other two must save him from the misfits of the underworld." ;
+        property:duration     "86 min" ;
+        property:hasCast      node:danny_mcbride , node:jennifer_coolidge , node:rob_riggle , node:susan_sarandon , node:bob_odenkirk , node:mila_kunis , node:maria_bamford , node:nick_swardson , node:tj_miller , node:john_farley ;
+        property:hasDirector  node:ross_r_shuman , node:tom_gianas ;
+        property:hasRating    "R" ;
+        property:hasTitle     "Hell and Back" ;
+        property:listedIn     "Action & Adventure" , "Independent Movies" , "Comedies" ;
+        property:releaseYear  "2015" .
+
+node:mez_tharatorn  a  rdf:Resource ;
+        rdf:label  "Mez Tharatorn" .
+
+node:pongsatorn_jongwilak
+        a          rdf:Resource ;
+        rdf:label  "Pongsatorn Jongwilak" .
+
+node:afdhal_yusman  a  rdf:Resource ;
+        rdf:label  "Afdhal Yusman" .
+
+node:81004470  a              node:movie ;
+        property:countries    "China" ;
+        property:dateAdded    "September 28, 2018" ;
+        property:description  "An unlucky, debt-ridden teen resorts to his math skills when he's forced into a deadly tournament of rock-paper-scissors run by a diabolical host." ;
+        property:duration     "130 min" ;
+        property:hasCast      node:li_yi_feng , node:zhang_jungyi , node:yijuan_li , node:bingkun_cao , node:zhou_dongyu , node:michael_douglas , node:ge_wang , node:su_ke , node:keanu_chi ;
+        property:hasDirector  node:han_yan ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Animal World" ;
+        property:listedIn     "Action & Adventure" , "International Movies" , "Sci-Fi & Fantasy" ;
+        property:releaseYear  "2018" .
+
+node:kat_gellin  a  rdf:Resource ;
+        rdf:label  "Kat Gellin" .
+
+node:alan_ruck  a  rdf:Resource ;
+        rdf:label  "Alan Ruck" .
+
+node:gv_prakash_kumar
+        a          rdf:Resource ;
+        rdf:label  "G.V. Prakash Kumar" .
+
+node:radha_bessy  a  rdf:Resource ;
+        rdf:label  "Radha Bessy" .
+
+node:ophelia_lovibond
+        a          rdf:Resource ;
+        rdf:label  "Ophelia Lovibond" .
+
+node:nathanael_wiseman
+        a          rdf:Resource ;
+        rdf:label  "Nathanael Wiseman" .
+
+node:80045922  a              node:movie ;
+        property:countries    "United States" ;
+        property:dateAdded    "September 8, 2015" ;
+        property:description  "As a volatile young couple who have been together for six years approach college graduation, unexpected career opportunities threaten their future." ;
+        property:duration     "80 min" ;
+        property:hasCast      node:ben_rosenfield , node:dana_wheelernicholson , node:jason_newman , node:peter_vack , node:taissa_farmiga , node:jennifer_lafleur , node:molly_mcmichael , node:lindsay_burdge , node:joshua_leonard ;
+        property:hasDirector  node:hannah_fidell ;
+        property:hasRating    "NR" ;
+        property:hasTitle     "6 Years" ;
+        property:listedIn     "Dramas" , "Romantic Movies" , "Independent Movies" ;
+        property:releaseYear  "2015" .
+
+node:jonathan_whitesell
+        a          rdf:Resource ;
+        rdf:label  "Jonathan Whitesell" .
+
+node:jorja_cadence  a  rdf:Resource ;
+        rdf:label  "Jorja Cadence" .
+
+node:80081155  a              node:movie ;
+        property:countries    "Denmark" , "United States" ;
+        property:dateAdded    "September 30, 2016" ;
+        property:description  "She was twice convicted and acquitted of murder. Amanda Knox and the people closest to her case speak out in this illuminating documentary." ;
+        property:duration     "92 min" ;
+        property:hasDirector  node:brian_mcginn , node:rod_blackhurst ;
+        property:hasRating    "TV-MA" ;
+        property:hasTitle     "Amanda Knox" ;
+        property:listedIn     "Documentaries" ;
+        property:releaseYear  "2016" .
+
+node:zhou_dongyu  a  rdf:Resource ;
+        rdf:label  "Zhou Dongyu" .
+
+node:kazuki_yano  a  rdf:Resource ;
+        rdf:label  "Kazuki Yano" .
+
+node:peyton_list  a  rdf:Resource ;
+        rdf:label  "Peyton List" .
+
+node:guy_pearce  a  rdf:Resource ;
+        rdf:label  "Guy Pearce" .
+
+node:dana_gourrier  a  rdf:Resource ;
+        rdf:label  "Dana Gourrier" .

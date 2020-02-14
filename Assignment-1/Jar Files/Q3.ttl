@@ -1,0 +1,126 @@
+@prefix rdf:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix custom: <http://www.iiitd.ac.in/winter2020/sweb/a1/> .
+
+custom:Synonym  rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Resource .
+
+<http://api.conceptnet.io/c/ja/å¼•å�ˆã�„/n/jmdict/1>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example> ;
+        custom:label     "å¼•å�ˆã�„" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/en/example/n/wn/cognition>
+        custom:Synonym   <http://api.conceptnet.io/c/en/exemplar/n/wn/cognition> ;
+        custom:label     "example" ;
+        custom:language  "en" .
+
+<http://api.conceptnet.io/c/eu/lezio/n/wn/communication>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example/n/wn/communication> ;
+        custom:label     "lezio" ;
+        custom:language  "eu" .
+
+<http://api.conceptnet.io/c/sq/ilustrim/n/wn/cognition>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        custom:label     "ilustrim" ;
+        custom:language  "sq" .
+
+<http://api.conceptnet.io/c/en/exemplar/n/wn/cognition>
+        custom:label     "exemplar" ;
+        custom:language  "en" .
+
+<http://api.conceptnet.io/c/zh/ä¾‹å­�/n/wn/cognition>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        custom:label     "ä¾‹å­�" ;
+        custom:language  "zh" .
+
+<http://api.conceptnet.io/c/en/example>
+        custom:label     "example" ;
+        custom:language  "en" .
+
+<http://api.conceptnet.io/c/fi/havainto_opetus/n/wn/communication>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example/n/wn/communication> ;
+        custom:label     "havainto-opetus" ;
+        custom:language  "fi" .
+
+<http://api.conceptnet.io/c/ja/è»Œç¯„/n>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example> ;
+        custom:label     "è»Œç¯„" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/es/ejemplo/n/wn/cognition>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        custom:label     "ejemplo" ;
+        custom:language  "es" .
+
+<http://api.conceptnet.io/c/en/example/n/wn/communication>
+        custom:label     "example" ;
+        custom:language  "en" .
+
+<http://api.conceptnet.io/c/fa/ÙˆÙ‡Ù„Ù‡/n/wn/cognition>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        custom:label     "ÙˆÙ‡Ù„Ù‡" ;
+        custom:language  "fa" .
+
+<http://api.conceptnet.io/c/ja/ç¯„/n>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example> ;
+        custom:label     "ç¯„" ;
+        custom:language  "ja" .
+
+custom:RelatedTo  rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Resource .
+
+<http://api.conceptnet.io/c/ja/å¼•å�ˆ/n/jmdict/1>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example> ;
+        custom:label     "å¼•å�ˆ" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/en/instance/n/wn/cognition>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        custom:label     "instance" ;
+        custom:language  "en" .
+
+<http://api.conceptnet.io/c/ja/è¦‹æœ¬>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example> ;
+        custom:label     "è¦‹æœ¬" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/en/exemplify/v>
+        custom:RelatedTo  <http://api.conceptnet.io/c/en/example> ;
+        custom:label      "exemplify" ;
+        custom:language   "en" .
+
+custom:label  rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+<http://api.conceptnet.io/c/zh/å¼•ä»¥ç‚ºæƒ•/n/wn/communication>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example/n/wn/communication> ;
+        custom:label     "å¼•ä»¥ç‚ºæƒ•" ;
+        custom:language  "zh" .
+
+<http://api.conceptnet.io/c/fa/Ù…Ø«Ù„/n/wn/cognition>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        custom:label     "Ù…Ø«Ù„" ;
+        custom:language  "fa" .
+
+<http://api.conceptnet.io/c/ja/æ§˜/n>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example> ;
+        custom:label     "æ§˜" ;
+        custom:language  "ja" .
+
+custom:language  rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+<http://api.conceptnet.io/c/ja/ä¾‹è­‰/n>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example> ;
+        custom:label     "ä¾‹è­‰" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/ja/å®Ÿä¾‹/n/wn/cognition>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        custom:label     "å®Ÿä¾‹" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/fi/esimerkki/n/wn/cognition>
+        custom:Synonym   <http://api.conceptnet.io/c/en/example/n/wn/cognition> ;
+        custom:label     "esimerkki" ;
+        custom:language  "fi" .
