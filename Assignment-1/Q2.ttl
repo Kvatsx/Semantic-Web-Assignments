@@ -43,22 +43,22 @@ property:FruitMealPreference  rdf:subPropertyOf property:Preference ;
     ] ;
     property:FruitMealPreference [
         a rdf:Alt ;
-        rdf:_1  "Pineapple"^^xsd:string ;
-        rdf:_2  "Orange"^^xsd:string ;
-        rdf:_3  "Apple"^^xsd:string
+        rdf:_1  :Pineapple ;
+        rdf:_2  :Orange ;
+        rdf:_3  :Apple
     ] .
 
 :MixedFruitJuice    property:madeOf     _:item1 .
 _:item1     
-    rdf:first   "Orange"^^xsd:string ;
+    rdf:first   :Orange ;
     rdf:rest    _:item2 .
 _:item2     
-    rdf:first   "Apple"^^xsd:string ;
+    rdf:first   :Apple ;
     rdf:rest    _:item3 .
 _:item3     
-    rdf:first   "Papaya"^^xsd:string ;
+    rdf:first   :Papaya ;
     rdf:rest    _:item4 .
 _:item4
-    rdf:first   "Banana"^^xsd:string ;
+    rdf:first   :Banana ;
     rdf:rest    rdf:nil .
 
