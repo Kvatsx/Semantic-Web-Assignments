@@ -67,241 +67,59 @@ def evaluate(expr, kBase):
             if flag:
                 kBase1 = kBase.copy()
                 kBase2 = kBase.copy()
-                # if len(F1) == 1:
-                #     if kBase[F1] == False:
-                #         return True
-                #     kBase1[F1] = True
-                # elif len(F1) == 2:
-                #     if kBase[F1] == True:
-                #         return True
-                #     kBase1[F1] = False
-                # if len(F2) == 1:
-                #     if kBase[F2] == False:
-                #         return True
-                #     kBase2[F2] = True
-                # elif len(F2) == 2:
-                #     if kBase[F2] == True:
-                #         return True
-                #     kBase2[F2] = False
                 expr1 = expr.copy()
                 expr2 = expr.copy()
-                # if len(F1) > 2:
                 expr1.append([F1, True])
-                # if len(F2) > 2:
                 expr2.append([F2, True])
                 return evaluate(expr1, kBase1) and evaluate(expr2, kBase2)
             else:
-                # if len(F1) == 1:
-                #     if kBase[F1] == True:
-                #         return True
-                #     kBase[F1] = False
-                # elif len(F1) == 2:
-                #     if kBase[F1] == False:
-                #         return True
-                #     kBase[F1] = True
-                # if len(F2) == 1:
-                #     if kBase[F2] == True:
-                #         return True
-                #     kBase[F2] = False
-                # elif len(F2) == 2:
-                #     if kBase[F2] == False:
-                #         return True
-                #     kBase[F2] = True
-                # if len(F1) > 2:
                 expr.append([F1, False])
-                # if len(F2) > 2:
                 expr.append([F2, False])
                 return evaluate(expr, kBase)
         elif formula[index] == '.':
             if flag:
-                # if len(F1) == 1:
-                #     if kBase[F1] == False:
-                #         return False
-                #     kBase[F1] = True
-                # elif len(F1) == 2:
-                #     if kBase[F1] == True:
-                #         return False
-                #     kBase[F1] = False
-                # if len(F2) == 1:
-                #     if kBase[F2] == False:
-                #         return False
-                #     kBase[F2] = True
-                # elif len(F2) == 2:
-                #     if kBase[F2] == True:
-                #         return False
-                #     kBase[F2] = False
-                # if len(F1) > 2:
                 expr.append([F1, True])
-                # if len(F2) > 2:
                 expr.append([F2, True])
                 return evaluate(expr, kBase)
             else:
                 kBase1 = kBase.copy()
                 kBase2 = kBase.copy()
-                # if len(F1) == 1:
-                #     if kBase[F1] == True:
-                #         return False
-                #     kBase1[F1] = False
-                # elif len(F1) == 2:
-                #     if kBase[F1] == False:
-                #         return False
-                #     kBase1[F1] = True
-                # if len(F2) == 1:
-                #     if kBase[F2] == True:
-                #         return False
-                #     kBase2[F2] = False
-                # elif len(F2) == 2:
-                #     if kBase[F2] == False:
-                #         return False
-                #     kBase2[F2] = True
                 expr1 = expr.copy()
                 expr2 = expr.copy()
-                # if len(F1) > 2:
                 expr1.append([F1, False])
-                # if len(F2) > 2:
                 expr2.append([F2, False])
                 return evaluate(expr1, kBase1) and evaluate(expr2, kBase2)
         elif formula[index] == '*':
             if flag:
                 kBase1 = kBase.copy()
                 kBase2 = kBase.copy()
-                # if len(F1) == 1:
-                #     if kBase[F1] == True:
-                #         return True
-                #     kBase1[F1] = False
-                # elif len(F1) == 2:
-                #     if kBase[F1] == False:
-                #         return True
-                #     kBase1[F1] = True
-                # if len(F2) == 1:
-                #     if kBase[F2] == False:
-                #         return True
-                #     kBase2[F2] = True
-                # elif len(F2) == 2:
-                #     if kBase[F2] == True:
-                #         return True
-                #     kBase2[F2] = False
                 expr1 = expr.copy()
                 expr2 = expr.copy()
-                # if len(F1) > 2:
                 expr1.append([F1, False])
-                # if len(F2) > 2:
                 expr2.append([F2, True])
                 return evaluate(expr1, kBase1) and evaluate(expr2, kBase2)
             else:
-                # if len(F1) == 1:
-                #     if kBase[F1] == False:
-                #         return True
-                #     kBase[F1] = True
-                # elif len(F1) == 2:
-                #     if kBase[F1] == True:
-                #         return True
-                #     kBase[F1] = False
-                # if len(F2) == 1:
-                #     if kBase[F2] == True:
-                #         return True
-                #     kBase[F2] = False
-                # elif len(F2) == 2:
-                #     if kBase[F2] == False:
-                #         return True
-                #     kBase[F2] = True
-                # if len(F1) > 2:
                 expr.append([F1, True])
-                # if len(F2) > 2:
                 expr.append([F2, False])
                 return evaluate(expr, kBase)
         else:
             if flag:
                 kBase1 = kBase.copy()
-                # if len(F1) == 1:
-                #     if kBase1[F1] == False:
-                #         return False
-                #     kBase1[F1] = True
-                # elif len(F1) == 2:
-                #     if kBase1[F1] == True:
-                #         return False
-                #     kBase1[F1] = False
-                # if len(F2) == 1:
-                #     if kBase1[F2] == False:
-                #         return False
-                #     kBase1[F2] = True
-                # elif len(F2) == 2:
-                #     if kBase1[F2] == True:
-                #         return False
-                #     kBase1[F2] = False
-
-                kBase2 = kBase.copy()
-                # if len(F1) == 1:
-                #     if kBase2[F1] == True:
-                #         return False
-                #     kBase2[F1] = False
-                # elif len(F1) == 2:
-                #     if kBase2[F1] == False:
-                #         return False
-                #     kBase2[F1] = True
-                # if len(F2) == 1:
-                #     if kBase2[F2] == True:
-                #         return False
-                #     kBase2[F2] = False
-                # elif len(F2) == 2:
-                #     if kBase2[F2] == False:
-                #         return False
-                #     kBase2[F2] = True
-
-                
+                kBase2 = kBase.copy()                
                 expr1 = expr.copy()
                 expr2 = expr.copy()
-                # if len(F1) > 2:
                 expr1.append([F1, True])
                 expr1.append([F2, True])
-                # if len(F2) > 2:
                 expr2.append([F1, False])
                 expr2.append([F2, False])
                 return evaluate(expr1, kBase1) and evaluate(expr2, kBase2)
             else:
                 kBase1 = kBase.copy()
-                # if len(F1) == 1:
-                #     if kBase1[F1] == False:
-                #         return False
-                #     kBase1[F1] = True
-                # elif len(F1) == 2:
-                #     if kBase1[F1] == True:
-                #         return False
-                #     kBase1[F1] = False
-                # if len(F2) == 1:
-                #     if kBase1[F2] == True:
-                #         return False
-                #     kBase1[F2] = False
-                # elif len(F2) == 2:
-                #     if kBase1[F2] == False:
-                #         return False
-                #     kBase1[F2] = True
-
-                kBase2 = kBase.copy()
-                # if len(F1) == 1:
-                #     if kBase2[F1] == True:
-                #         return False
-                #     kBase2[F1] = False
-                # elif len(F1) == 2:
-                #     if kBase2[F1] == False:
-                #         return False
-                #     kBase2[F1] = True
-                # if len(F2) == 1:
-                #     if kBase2[F2] == False:
-                #         return False
-                #     kBase2[F2] = True
-                # elif len(F2) == 2:
-                #     if kBase2[F2] == True:
-                #         return False
-                #     kBase2[F2] = False
-
-                
+                kBase2 = kBase.copy()                
                 expr1 = expr.copy()
                 expr2 = expr.copy()
-                # if len(F1) > 2:
                 expr1.append([F1, True])
                 expr1.append([F2, False])
-                # if len(F2) > 2:
                 expr2.append([F1, False])
                 expr2.append([F2, True])
                 return evaluate(expr1, kBase1) and evaluate(expr2, kBase2)
@@ -343,7 +161,7 @@ def clean(xp):
 
 if __name__ == "__main__":
     expr = str(input("Enter Expression:"))
-    # expr = "((A * B) * (A * C)), (A * (B * C))"
+    expr = "((A * B) * (A * C)), (A * (B * C))"
     expr = expr.split(",")
     expr = clean(expr)
     print(expr)
