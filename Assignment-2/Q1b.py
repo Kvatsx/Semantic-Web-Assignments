@@ -66,7 +66,7 @@ def evaluate(varMap, expr, varValues, pl=False):
     for i in range(len(expr)):
         if expr[i] == ')':
             temp = []
-            while(len(stack) >= 0 and stack[-1] != '('):
+            while(len(stack) > 0 and stack[-1] != '('):
                 temp.insert(0, stack.pop())
             if pl:
                 print(temp)
