@@ -4,6 +4,10 @@
 # @Author: Kaustav Vats (kaustav16048@iiitd.ac.in)
 # @Roll-No: 2016048
 # ------------------------------------------------------
+# Assumptions- 
+# 1. Given Formula should be contained within paranthesis.
+# 2. Given Formula should not contains consecutive negations.
+# 3. Eg- (~A + ~B), (A*~A) These type of formulas are valid.
 
 import re
 
@@ -52,9 +56,9 @@ def evaluate(expr, kBase):
                     return True
             kBase[form] = not flag
 
-    print(expr)
-    print(kBase)
-    print("--------------------")
+    # print(expr)
+    # print(kBase)
+    # print("--------------------")
     if len(expr) == 0:
         return False
     temp = expr.pop(0)
@@ -161,9 +165,9 @@ def clean(xp):
 
 if __name__ == "__main__":
     expr = str(input("Enter Expression:"))
-    expr = "((A * B) * (A * C)), (A * (B * C))"
+    # expr = "((A * B) * (A * C)), (A * (B * C))"
     expr = expr.split(",")
     expr = clean(expr)
-    print(expr)
+    # print(expr)
     run(expr)
     

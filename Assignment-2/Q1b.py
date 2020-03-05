@@ -4,6 +4,10 @@
 # @Author: Kaustav Vats (kaustav16048@iiitd.ac.in)
 # @Roll-No: 2016048
 # ------------------------------------------------------
+# Assumptions- 
+# 1. Given Formula should be contained within paranthesis.
+# 2. Given Formula should not contains consecutive negations.
+# 3. Eg- (~A + ~B), (A*~A) These type of formulas are valid.
 
 import re
 import itertools
@@ -127,11 +131,11 @@ def createTruthTable(truthTable, expr):
     results = [False for i in range(len(truthTable))]
     varMap = getVarMap(expr)
     for i in range(len(truthTable)):
-        if (i == 1):
-            results[i] = evaluate(varMap, expr, truthTable[i], pl=True)
-        else:
-            results[i] = evaluate(varMap, expr, truthTable[i])
-        print("------------------------------------\n")
+        # if (i == 1):
+            # results[i] = evaluate(varMap, expr, truthTable[i], pl=True)
+        # else:
+        results[i] = evaluate(varMap, expr, truthTable[i])
+        # print("------------------------------------\n")
     showTruthTable(truthTable, results, varMap)
 
 def showTruthTable(truthTable, results, varMap):
@@ -164,16 +168,16 @@ def disjunctionNormalForm(tTable, result, varMap):
 
 if __name__ == "__main__":
     
-    # expr = str(input("Enter Formula: "))
+    expr = str(input("Enter Formula: "))
     # expr = "(((A . B) *  C) * ((A * C) + (B * C)))"
     # expr = "(~A . ~B)"
-    expr = "((A + ~B) . ~C)"
+    # expr = "((A + ~B) . ~C)"
     # expr = "(A)"
     expr = re.sub(r"\s+", '', expr)
     # print(expr)
     varCount, _ = checkVariable(expr)
     # print(TruthTableSize)
     table = list(itertools.product([True, False], repeat=varCount))
-    print(table)
+    # print(table)
     createTruthTable(table, expr)
 
