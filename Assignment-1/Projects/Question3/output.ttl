@@ -1,0 +1,117 @@
+@prefix rdf:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix custom: <http://www.iiitd.ac.in/winter2020/sweb/a1/> .
+
+custom:Synonym  rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Resource .
+
+<http://api.conceptnet.io/c/fr/parce_que>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "parce que" ;
+        custom:language  "fr" .
+
+<http://api.conceptnet.io/c/ja/侭>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "侭" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/sh/zašto>
+        custom:RelatedTo  <http://api.conceptnet.io/c/en/because> ;
+        custom:label      "zašto" ;
+        custom:language   "sh" .
+
+<http://api.conceptnet.io/c/sh/pošto>
+        custom:RelatedTo  <http://api.conceptnet.io/c/en/because> ;
+        custom:label      "pošto" ;
+        custom:language   "sh" .
+
+<http://api.conceptnet.io/c/ja/に伴い>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "に伴い" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/ja/何にせよ/r>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "何にせよ" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/ja/儘>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "儘" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/ja/何故なら>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "何故なら" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/ja/何となれば>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "何となれば" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/ja/と言うのは>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "と言うのは" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/ja/から>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "から" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/ja/と言って>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "と言って" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/en/cause>
+        custom:RelatedTo  <http://api.conceptnet.io/c/en/because> ;
+        custom:label      "cause" ;
+        custom:language   "en" .
+
+custom:RelatedTo  rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Resource .
+
+<http://api.conceptnet.io/c/en/reason>
+        custom:label     "reason" ;
+        custom:language  "en" .
+
+<http://api.conceptnet.io/c/ja/以て>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "以て" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/ja/以って>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "以って" ;
+        custom:language  "ja" .
+
+<http://api.conceptnet.io/c/ja/何しろ/r>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "何しろ" ;
+        custom:language  "ja" .
+
+custom:label  rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+<http://api.conceptnet.io/c/ja/からには>
+        custom:Synonym   <http://api.conceptnet.io/c/en/because> ;
+        custom:label     "からには" ;
+        custom:language  "ja" .
+
+custom:language  rdf:domain  rdf:Resource ;
+        rdf:range   rdf:Literal .
+
+<http://api.conceptnet.io/c/en/why>
+        custom:label     "why" ;
+        custom:language  "en" .
+
+<http://api.conceptnet.io/c/en/cos>
+        custom:RelatedTo  <http://api.conceptnet.io/c/en/because> ;
+        custom:label      "cos" ;
+        custom:language   "en" .
+
+<http://api.conceptnet.io/c/en/because>
+        custom:RelatedTo  <http://api.conceptnet.io/c/en/why> , <http://api.conceptnet.io/c/en/reason> ;
+        custom:label      "because" ;
+        custom:language   "en" .

@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2020/2/subway"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/lenovo/ontologies/2020/2/subway">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#Beverage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sauce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Side"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sub"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wrap"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsVegetables"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#containsEgg"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isNonVeg"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isVeg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aloo_patty_signature_wrap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brownie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mayonnaise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mexican_patty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paneer_tikka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pepsi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tomato"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Beverage"/>
+        <Class IRI="#Side"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Wrap"/>
+        <NamedIndividual IRI="#aloo_patty_signature_wrap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Side"/>
+        <NamedIndividual IRI="#brownie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sauce"/>
+        <NamedIndividual IRI="#mayonnaise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sub"/>
+        <NamedIndividual IRI="#mexican_patty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sub"/>
+        <NamedIndividual IRI="#paneer_tikka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Beverage"/>
+        <NamedIndividual IRI="#pepsi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vegetable"/>
+        <NamedIndividual IRI="#tomato"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsVegetables"/>
+        <Class IRI="#Sub"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Sub"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsVegetables"/>
+        <Class IRI="#Vegetable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsVegetables"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#containsVegetables"/>
+            <Class IRI="#Vegetable"/>
+        </ObjectMinCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsVegetables"/>
+        <ObjectMaxCardinality cardinality="9">
+            <ObjectProperty IRI="#containsVegetables"/>
+            <Class IRI="#Vegetable"/>
+        </ObjectMaxCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Ingredient"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#containsEgg"/>
+        <DataProperty IRI="#isNonVeg"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#containsEgg"/>
+        <Class IRI="#Sub"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCost"/>
+        <Class IRI="#Sub"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSize"/>
+        <Class IRI="#Sub"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isVeg"/>
+        <Class IRI="#Sub"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#containsEgg"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCost"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSize"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isVeg"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#containsEgg"/>
+        <DataProperty IRI="#isVeg"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#isNonVeg"/>
+        <DataProperty IRI="#isVeg"/>
+    </DisjointDataProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
