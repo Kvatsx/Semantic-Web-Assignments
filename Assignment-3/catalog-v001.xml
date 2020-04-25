@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1587837455352" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="Question4/src/main/java/pizza.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1587837455352" name="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl" uri="agentrole.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1587837455352" name="http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl" uri="timeperiod.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1587837455352" name="http://www.semanticweb.org/kvats/ontologies/2020/3/A3" uri="Q2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1587837455352" name="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix" uri="2016048_Q3.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1587837455352" name="http://www.semanticweb.org/root/ontologies/2020/3/untitled-ontology-3" uri="Question4/src/main/java/inconsistentOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1587837455352" name="shadowed:http://www.semanticweb.org/kvats/ontologies/2020/3/A3" uri="Question4/src/main/java/Q2.owl"/>
+    </group>
+</catalog>
