@@ -15,16 +15,10 @@
     <Import>http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl</Import>
     <Import>http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl</Import>
     <Declaration>
-        <Class IRI="#Acting"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Actor"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Country"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Directing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Director"/>
@@ -33,31 +27,19 @@
         <Class IRI="#Genre"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Minutes"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Movie"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NetflixContent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Person"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Seasons"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#TvSeries"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasActorRole"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasCountry"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasDirectorRole"/>
+        <ObjectProperty IRI="#hasDuration"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasGenre"/>
@@ -78,29 +60,20 @@
         <DataProperty IRI="#hasTitle"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#hasUnit"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#releasedIn"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#Acting"/>
-        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Acting"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf"/>
-            <Class IRI="#Actor"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
+    <Declaration>
+        <NamedIndividual IRI="#acting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#directing"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Actor"/>
-        <Class IRI="#Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Actor"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasActorRole"/>
-            <Class IRI="#Acting"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Country"/>
@@ -110,26 +83,8 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Directing"/>
-        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Directing"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#isRoleOf"/>
-            <Class IRI="#Director"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Director"/>
-        <Class IRI="#Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Director"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasDirectorRole"/>
-            <Class IRI="#Directing"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Genre"/>
@@ -139,113 +94,96 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Minutes"/>
-        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#TimePeriodMeasurementUnit"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Movie"/>
         <Class IRI="#NetflixContent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NetflixContent"/>
-        <DataSomeValuesFrom>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasCountry"/>
+            <Class IRI="#Country"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NetflixContent"/>
+        <DataExactCardinality cardinality="1">
             <DataProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#timePeriodValue"/>
             <Datatype abbreviatedIRI="xsd:integer"/>
-        </DataSomeValuesFrom>
+        </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NetflixContent"/>
-        <DataSomeValuesFrom>
+        <DataExactCardinality cardinality="1">
             <DataProperty IRI="#dateAdded"/>
             <Datatype abbreviatedIRI="xsd:dateTime"/>
-        </DataSomeValuesFrom>
+        </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NetflixContent"/>
-        <DataSomeValuesFrom>
+        <DataExactCardinality cardinality="1">
             <DataProperty IRI="#hasDescription"/>
             <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
+        </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NetflixContent"/>
-        <DataSomeValuesFrom>
+        <DataExactCardinality cardinality="1">
             <DataProperty IRI="#hasRating"/>
             <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
+        </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NetflixContent"/>
-        <DataSomeValuesFrom>
+        <DataExactCardinality cardinality="1">
             <DataProperty IRI="#hasShowId"/>
             <Datatype abbreviatedIRI="xsd:integer"/>
-        </DataSomeValuesFrom>
+        </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NetflixContent"/>
-        <DataSomeValuesFrom>
+        <DataExactCardinality cardinality="1">
             <DataProperty IRI="#hasTitle"/>
             <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
+        </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NetflixContent"/>
-        <DataSomeValuesFrom>
+        <DataExactCardinality cardinality="1">
             <DataProperty IRI="#releasedIn"/>
             <Datatype abbreviatedIRI="xsd:dateTime"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Person"/>
-        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Seasons"/>
-        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#TimePeriodMeasurementUnit"/>
+        </DataExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TvSeries"/>
         <Class IRI="#NetflixContent"/>
     </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#Minutes"/>
-        <Class IRI="#Seasons"/>
-    </DisjointClasses>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasActorRole"/>
-        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasDirectorRole"/>
-        <ObjectProperty IRI="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole"/>
-    </SubObjectPropertyOf>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasActorRole"/>
-        <Class IRI="#Actor"/>
-    </ObjectPropertyDomain>
+    <ClassAssertion>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
+        <NamedIndividual IRI="#acting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
+        <NamedIndividual IRI="#directing"/>
+    </ClassAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasCountry"/>
         <Class IRI="#NetflixContent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasDirectorRole"/>
-        <Class IRI="#Director"/>
+        <ObjectProperty IRI="#hasDuration"/>
+        <Class IRI="#NetflixContent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasGenre"/>
         <Class IRI="#NetflixContent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasActorRole"/>
-        <Class IRI="#Acting"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasCountry"/>
         <Class IRI="#Country"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasDirectorRole"/>
-        <Class IRI="#Directing"/>
+        <ObjectProperty IRI="#hasDuration"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#TimePeriod"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasGenre"/>
@@ -270,6 +208,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="#hasTitle"/>
         <Class IRI="#NetflixContent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUnit"/>
+        <Class IRI="http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#TimePeriodMeasurementUnit"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#releasedIn"/>
@@ -294,6 +236,13 @@
     <DataPropertyRange>
         <DataProperty IRI="#hasTitle"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUnit"/>
+        <DataOneOf>
+            <Literal>Minutes</Literal>
+            <Literal>Seasons</Literal>
+        </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#releasedIn"/>

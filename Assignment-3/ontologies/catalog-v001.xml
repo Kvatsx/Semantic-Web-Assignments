@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1588766841753" name="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl" uri="agentrole.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1588766841753" name="http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl" uri="timeperiod.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1588766841753" name="http://www.semanticweb.org/kvats/ontologies/2020/3/A3" uri="2016048_Q2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1588766841753" name="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix" uri="2016048_Q3.owl"/>
+    </group>
+</catalog>

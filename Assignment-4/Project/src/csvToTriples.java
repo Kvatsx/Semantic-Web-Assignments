@@ -2,78 +2,78 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
-import org.apache.jena.rdf.model.*;
-import org.apache.jena.vocabulary.*;
-import org.apache.jena.rdf.model.Model ;
+import org.apache.jena.ontology.*;
+import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.shared.JenaException;
+import org.apache.jena.util.FileManager;
 
 public class csvToTriples {
-    public Model model;
-    public String properties_uri;
-    public String node_url;
+    public OntModel model;
+    public String baseURI;
     public String rdf, rdfProperty;
-    public Property hasTitle, hasCountry, hasRating, hasGenre, hasDescription, hasShowId, dateAdded, releasedIn, timePeriodValue, classifies, isRoleOf, hasTimePeriodMeasurementUnit, isClassifiedBy, hasRole, isTimePeriodMeasurementUnitOf;
-    public Resource Thing, Concept, Role, Acting, Directing, Country, Genre, NetflixContent, Movie, TvSeries, Object, Agent, Actor, Director, TimePeriod, TimePeriodMeasurementUnit, Minutes, Seasons;
+    public ObjectProperty hasCountry, hasDuration, hasGenre, hasDirectingRole, hasActingRole, hasActor, hasDirector, hasTimePeriodMeasurementUnit;
+    public DatatypeProperty hasTitle, hasRating, hasDescription, hasShowId, dateAdded, hasUnit, releasedIn, timePeriodValue;
+    public OntClass Country, Genre, NetflixContent, Movie, TvSeries, Actor, Director, TimePeriod, TimePeriodMeasurementUnit;
+    public Individual acting, directing;
 
-    public csvToTriples() {
-        this.model = ModelFactory.createDefaultModel();
-        this.properties_uri = "http://netflix.io/property/";
-        this.node_url = "http://netflix.io/node/";
+    public csvToTriples(String filename) {
+        createOntoModel(filename);
+        this.baseURI = "http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#";
         this.rdf = "http://www.w3.org/2000/01/rdf-schema#";
         this.rdfProperty = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 
         // Classes
-        this.Concept = this.model.createResource(node_url + "Concept");
-        this.Concept.addProperty(RDF.type, RDFS.Class);
+        Actor = this.model.getOntClass(this.baseURI + "Actor");
+        Country = this.model.getOntClass(this.baseURI + "Country");
+        Director = this.model.getOntClass(this.baseURI + "Director");
+        Genre = this.model.getOntClass(this.baseURI + "Genre");
+        Movie = this.model.getOntClass(this.baseURI + "Movie");
+        NetflixContent = this.model.getOntClass(this.baseURI + "NetflixContent");
+        TvSeries = this.model.getOntClass(this.baseURI + "TvSeries");
+        TimePeriod = this.model.getOntClass("http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#TimePeriod");
+        TimePeriodMeasurementUnit = this.model.getOntClass("http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#TimePeriodMeasurementUnit");
 
-        this.hasTitle = this.model.createProperty(properties_uri, "hasTitle");
-        this.hasTitle.addProperty(RDF.type, RDF.Property);
-        this.hasTitle.addProperty(RDFS.domain, RDFS.Resource);
-        this.hasTitle.addProperty(RDFS.range, RDFS.Literal);
+        // Object Property
+        hasCountry = this.model.getObjectProperty(this.baseURI + "hasCountry");
+        hasDuration = this.model.getObjectProperty(this.baseURI + "hasDuration");
+        hasGenre = this.model.getObjectProperty(this.baseURI + "hasGenre");
+        hasActingRole = this.model.getObjectProperty(this.baseURI + "hasActingRole");
+        hasDirectingRole = this.model.getObjectProperty(this.baseURI + "hasDirectingRole");
+        hasActor = this.model.getObjectProperty(this.baseURI + "hasActor");
+        hasDirector = this.model.getObjectProperty(this.baseURI + "hasDirector");
+        hasTimePeriodMeasurementUnit = this.model.getObjectProperty("http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#hasTimePeriodMeasurementUnit");
 
-        this.hasDirector = this.model.createProperty(properties_uri, "hasDirector");
-        this.hasDirector.addProperty(RDF.type, RDF.Property);
-        this.hasDirector.addProperty(RDFS.domain, RDFS.Resource);
-        this.hasDirector.addProperty(RDFS.range, this.person);
+        // Data Property
+        dateAdded = this.model.getDatatypeProperty(this.baseURI + "dateAdded");
+        hasDescription = this.model.getDatatypeProperty(this.baseURI + "hasDescription");
+        hasRating = this.model.getDatatypeProperty(this.baseURI + "hasRating");
+        hasShowId = this.model.getDatatypeProperty(this.baseURI + "hasShowId");
+        hasTitle = this.model.getDatatypeProperty(this.baseURI + "hasTitle");
+        hasUnit = this.model.getDatatypeProperty(this.baseURI + "hasUnit");
+        releasedIn = this.model.getDatatypeProperty(this.baseURI + "releasedIn");
+        timePeriodValue = this.model.getDatatypeProperty("http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#timePeriodValue");
 
-        this.hasCast = this.model.createProperty(properties_uri, "hasCast");
-        this.hasCast.addProperty(RDF.type, RDF.Property);
-        this.hasCast.addProperty(RDFS.domain, RDFS.Resource);
-        this.hasCast.addProperty(RDFS.range, this.person);
+        // Individuals
+        acting = this.model.getIndividual(this.baseURI + "acting");
+        directing = this.model.getIndividual(this.baseURI + "directing");
+    }
 
-        this.countries = this.model.createProperty(properties_uri, "countries");
-        this.countries.addProperty(RDF.type, RDF.Property);
-        this.countries.addProperty(RDFS.domain, RDFS.Resource);
-        this.countries.addProperty(RDFS.range, RDFS.Literal);
-
-        this.hasRating = this.model.createProperty(properties_uri, "hasRating");
-        this.hasRating.addProperty(RDF.type, RDF.Property);
-        this.hasRating.addProperty(RDFS.domain, RDFS.Resource);
-        this.hasRating.addProperty(RDFS.range, RDFS.Literal);
-
-        this.listedIn = this.model.createProperty(properties_uri, "listedIn");
-        this.listedIn.addProperty(RDF.type, RDF.Property);
-        this.listedIn.addProperty(RDFS.domain, RDFS.Resource);
-        this.listedIn.addProperty(RDFS.range, RDFS.Literal);
-
-        this.description = this.model.createProperty(properties_uri, "description");
-        this.description.addProperty(RDF.type, RDF.Property);
-        this.description.addProperty(RDFS.domain, RDFS.Resource);
-        this.description.addProperty(RDFS.range, RDFS.Literal);
-
-        this.dateAdded = this.model.createProperty(properties_uri, "dateAdded");
-        this.dateAdded.addProperty(RDF.type, RDF.Property);
-        this.dateAdded.addProperty(RDFS.domain, RDFS.Resource);
-        this.dateAdded.addProperty(RDFS.range, RDFS.Literal);
-
-        this.releaseYear = this.model.createProperty(properties_uri, "releaseYear");
-        this.releaseYear.addProperty(RDF.type, RDF.Property);
-        this.releaseYear.addProperty(RDFS.domain, RDFS.Resource);
-        this.releaseYear.addProperty(RDFS.range, RDFS.Literal);
-
-        this.duration = this.model.createProperty(properties_uri, "duration");
-        this.duration.addProperty(RDF.type, RDF.Property);
-        this.duration.addProperty(RDFS.domain, RDFS.Resource);
-        this.duration.addProperty(RDFS.range, RDFS.Literal);
+    public void createOntoModel(String ontofile) {
+        this.model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM, null);
+        try {
+            InputStream in = FileManager.get().open(ontofile);
+            try {
+                this.model.read(in, null);
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        catch (JenaException je) {
+            System.err.println("ERROR" + je.getMessage());
+            je.printStackTrace();
+            System.exit(0);
+        }
     }
 
     public void convertToTTL(String filepath) throws IOException {
@@ -81,48 +81,37 @@ public class csvToTriples {
         ArrayList<NetflixObject> Arr = csvNetflixParser.parse(filepath);
         List<String> temp;
 
-
         for (NetflixObject e : Arr) {
-            Resource movie = this.model.createResource(node_url + e.getShow_id());
-
-            // Type
-            Resource rType = this.model.createResource(node_url + createURI(e.getType()));
-            rType.addProperty(RDFS.label, e.getType());
-            rType.addProperty(RDF.type, RDFS.Class);
-            movie.addProperty(RDF.type, rType);
-
-            movie.addProperty(this.hasTitle, e.getTitle());
-            movie.addProperty(this.dateAdded, e.getDate_added());
-            movie.addProperty(this.releaseYear, e.getRelease_year());
-            movie.addProperty(this.duration, e.getDuration());
-            movie.addProperty(this.description, e.getDescription());
-            movie.addProperty(this.hasRating, e.getRating());
-
+            Individual netflixObject;
+            if (e.getType().equals("Movie")) {
+                netflixObject = this.model.createIndividual(this.baseURI + e.getShow_id(), Movie);
+            }
+            else {
+                netflixObject = this.model.createIndividual(this.baseURI + e.getShow_id(), TvSeries);
+            }
             temp = e.getListed_in();
             for (int i=0; i<temp.size(); i++) {
-                movie.addProperty(this.listedIn, temp.get(i));
+                this.model.add(netflixObject, hasGenre, this.model.createIndividual(this.baseURI + createURI(temp.get(i)), Genre));
             }
+            this.model.add(netflixObject, hasTitle, e.getTitle());
+            this.model.add(netflixObject, dateAdded, e.getDate_added());
+            this.model.add(netflixObject, releasedIn, e.getRelease_year());
+            this.model.add(netflixObject, hasDescription, e.getDescription());
+            this.model.add(netflixObject, hasRating, e.getRating());
+            this.model.add(netflixObject, hasShowId, e.getShow_id());
 
             temp = e.getDirectors();
             for (int i=0; i<temp.size(); i++) {
-                if (temp.get(i).length() == 0) {
-                    continue;
-                }
-                Resource rUser = this.model.createResource(node_url + createURI(temp.get(i)));
-                rUser.addProperty(RDFS.label, temp.get(i));
-                rUser.addProperty(RDF.type, RDFS.Resource);
-                movie.addProperty(this.hasDirector, rUser);
+                Individual t = this.model.createIndividual(this.baseURI + createURI(temp.get(i)), Director);
+                this.model.add(t, hasDirectingRole, directing);
+                this.model.add(netflixObject, hasDirector, t);
             }
 
             temp = e.getCast();
             for (int i=0; i<temp.size(); i++) {
-                if (temp.get(i).length() == 0) {
-                    continue;
-                }
-                Resource rUser = this.model.createResource(node_url + createURI(temp.get(i)));
-                rUser.addProperty(RDFS.label, temp.get(i));
-                rUser.addProperty(RDF.type, RDFS.Resource);
-                movie.addProperty(this.hasCast, rUser);
+                Individual t = this.model.createIndividual(this.baseURI + createURI(temp.get(i)), Actor);
+                this.model.add(t, hasActingRole, acting);
+                this.model.add(netflixObject, hasActor, t);
             }
 
             temp = e.getCountries();
@@ -130,11 +119,17 @@ public class csvToTriples {
                 if (temp.get(i).length() == 0) {
                     continue;
                 }
-                movie.addProperty(this.countries, temp.get(i));
+                this.model.add(netflixObject, hasCountry, this.model.createIndividual(this.baseURI + createURI(temp.get(i)), Country));
             }
+            temp = e.getDuration();
+            Individual tp = this.model.createIndividual(this.baseURI + e.getShow_id() + "-tp", TimePeriod);
+            Individual tpmu = this.model.createIndividual(this.baseURI + e.getShow_id() + "-tpmu", TimePeriodMeasurementUnit);
+            this.model.add(tpmu, hasUnit, temp.get(1));
+            this.model.add(tp, timePeriodValue, temp.get(0));
+            this.model.add(tp, hasTimePeriodMeasurementUnit, tpmu);
         }
-        this.model.setNsPrefix("node", this.node_url);
-        this.model.setNsPrefix("property", this.properties_uri);
+        this.model.setNsPrefix("tp", "http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#");
+        this.model.setNsPrefix("node", this.baseURI);
         this.model.setNsPrefix("rdf", this.rdf);
         this.model.setNsPrefix("rdfProperty", this.rdfProperty);
         Writer out = new OutputStreamWriter(new FileOutputStream("output.ttl"), StandardCharsets.UTF_8);
@@ -156,10 +151,14 @@ public class csvToTriples {
 
     public static void main(String[] args) throws IOException {
         BufferedReader Reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.print("Enter NetflixList.csv Relative or Absolute Path: ");
+        System.out.print("Enter ontology file Relative or Absolute Path: ");
         String filepath = Reader.readLine();
-        csvToTriples  q4 = new csvToTriples();
-        q4.convertToTTL(filepath);
+//        filepath = "D:\\College\\Semester-8\\Sweb\\Semantic-Web-Assignments\\Assignment-3\\ontologies\\2016048_Q3.owl";
+
+        filepath = "D:\\College\\Semester-8\\Sweb\\Semantic-Web-Assignments\\Assignment-4\\temp.owl";
+        String netflixFilePath = "src\\NetflixList.csv";
+        csvToTriples  q4 = new csvToTriples(filepath);
+        q4.convertToTTL(netflixFilePath);
         System.out.println("Output stored in output.ttl");
     }
 }

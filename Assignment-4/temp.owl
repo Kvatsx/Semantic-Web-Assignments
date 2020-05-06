@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix"
+     xml:base="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix">
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl"/>
+        <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasActingRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasActingRole">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Actor"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasActor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasActor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasCountry">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasDirectingRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasDirectingRole">
+        <rdfs:subPropertyOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Director"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasDirector -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasDirector">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Director"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasDuration -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasDuration">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#TimePeriod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasGenre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#dateAdded -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#dateAdded">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasRating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasShowId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasShowId">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasTitle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasUnit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasUnit">
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#TimePeriodMeasurementUnit"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Minutes</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Seasons</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#releasedIn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#releasedIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Country">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasCountry"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Director">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Genre">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasGenre"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Genre"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Movie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Movie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasCountry"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#timePeriodValue"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#dateAdded"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasDescription"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasRating"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasShowId"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#hasTitle"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#releasedIn"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#TvSeries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#TvSeries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#NetflixContent"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#acting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#acting">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#directing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#directing">
+        <rdf:type rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -99,8 +99,8 @@ public class NetflixObject {
         return rating;
     }
 
-    public String getDuration() {
-        return duration;
+    public List<String> getDuration() {
+        return Arrays.asList(duration.split(" "));
     }
 
     public List<String> getListed_in() {
