@@ -1,0 +1,4229 @@
+@prefix :      <http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix> .
+@prefix node:  <http://www.semanticweb.org/kvats/ontologies/2020/3/Netflix#> .
+@prefix rdf:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix cpannotationschema: <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tp:    <http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl#> .
+@prefix rdfProperty: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+node:80182597  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:rishi_gambhir , node:deepak_chachra , node:smita_malhotra ;
+        node:hasDescription  "A cat, monkey and donkey learn the consequences of cheating through stories from the Indian regions of Rajasthan, West Bengal and Maharashtra." ;
+        node:hasDirector     node:tilak_shetty ;
+        node:hasGenre        node:children__family_movies ;
+        node:hasRating       "TV-Y7" ;
+        node:hasShowId       "80182597" ;
+        node:hasTitle        "Krish Trish and Baltiboy: Oversmartness Never Pays" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:80158839  a             node:Movie ;
+        node:dateAdded       "September 5, 2018" ;
+        node:hasActor        node:jirayu_laongmanee , node:thawat_pornrattanaprasert , node:pachara_chirathivat , node:nattasha_nauljam ;
+        node:hasCountry      node:thailand ;
+        node:hasDescription  "When his boyhood crush Ern returns, Ped forms a band with his friend to impress her. Romantic rivalries bloom after the talented Ern joins the group." ;
+        node:hasDirector     node:chayanop_boonprakob ;
+        node:hasGenre        node:comedies , node:international_movies ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80158839" ;
+        node:hasTitle        "Suckseed" ;
+        node:releasedIn      "2011"^^xsd:int .
+
+node:david_ryall  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70241607  a             node:Movie ;
+        node:dateAdded       "September 7, 2018" ;
+        node:hasActor        node:athipich_chutiwatkajornchai , node:pok_piyatida_woramusik , node:deuntem_salitul , node:sahajak_boonthanakit , node:sutatta_udomsilp , node:saharat_sangkapreecha ;
+        node:hasCountry      node:thailand ;
+        node:hasDescription  "When a family moves into an upscale housing development, they encounter a series of paranormal events that drive them to the edge of insanity." ;
+        node:hasDirector     node:sopon_sukdapisit ;
+        node:hasGenre        node:horror_movies , node:international_movies ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "70241607" ;
+        node:hasTitle        "Laddaland" ;
+        node:releasedIn      "2011"^^xsd:int .
+
+node:samyuktha_hegde  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81173255-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81173255-tpmu ;
+        tp:timePeriodValue  "88" .
+
+node:paul_blake  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:james_badge_dale
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:music__musicals  a  node:Genre .
+
+node:belgium  a  node:Country .
+
+node:raj_arjun  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80057969-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80057969-tpmu ;
+        tp:timePeriodValue  "135" .
+
+node:john_krasinski  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:judy_greer  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:byeongeun_park  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:kate_beckinsale  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:vincent_maraval  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:yousef_erakat  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:chal_inoue  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80125979-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80058654-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:tom_gianas  a             node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:jesse_rath  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80221550-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:81132437-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:nathanael_wiseman
+        a                      node:Actor , node:Director ;
+        node:hasActingRole     node:acting ;
+        node:hasDirectingRole  node:directing .
+
+node:keerati_mahapreukpong
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:tv_dramas  a  node:Genre .
+
+node:remy_ishak  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80058026  a             node:Movie ;
+        node:dateAdded       "September 6, 2018" ;
+        node:hasActor        node:danny_mcbride , node:mila_kunis , node:jennifer_coolidge , node:john_farley , node:rob_riggle , node:maria_bamford , node:tj_miller , node:susan_sarandon , node:nick_swardson , node:bob_odenkirk ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "When best friends break a blood oath, one of them is cast away to hell, and the other two must save him from the misfits of the underworld." ;
+        node:hasDirector     node:ross_r_shuman , node:tom_gianas ;
+        node:hasGenre        node:action__adventure , node:comedies , node:independent_movies ;
+        node:hasRating       "R" ;
+        node:hasShowId       "80058026" ;
+        node:hasTitle        "Hell and Back" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:todd_haberkorn  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:rocky_soraya  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:80046727  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_states , node:uruguay ;
+        node:hasDescription  "As the newspaper industry takes a hit, The Denver Post breaks new ground with a section dedicated to cannabis culture." ;
+        node:hasDirector     node:mitch_dickman ;
+        node:hasGenre        node:documentaries ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80046727" ;
+        node:hasTitle        "Rolling Papers" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:han_yan  a                node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:hasShowId  a    owl:DatatypeProperty ;
+        rdfs:domain  node:NetflixContent ;
+        rdfs:range   xsd:integer .
+
+node:sungyu_jin  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:erasmo_carlos  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80058026-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80058026-tpmu ;
+        tp:timePeriodValue  "86" .
+
+node:reality_tv  a  node:Genre .
+
+node:jake_borelli  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:didi_petet  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:bingkun_cao  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:karen_strassman  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80988892-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:81011682-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:sarah_paulson  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:joaqun_reyes  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:alberto_ammann  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:banjong_pisanthanakun
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:jennifer_lafleur
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:thomas_cocquerel
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:bel_powley  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:zgr_emre_yldrm  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:chantavit_dhanasevi
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:chadwick_boseman
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:tom_obrien  a             node:Actor , node:Director ;
+        node:hasActingRole     node:acting ;
+        node:hasDirectingRole  node:directing .
+
+node:rebekah_graf  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:crime_tv_shows  a  node:Genre .
+
+node:80081155  a             node:Movie ;
+        node:dateAdded       "September 30, 2016" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_states , node:denmark ;
+        node:hasDescription  "She was twice convicted and acquitted of murder. Amanda Knox and the people closest to her case speak out in this illuminating documentary." ;
+        node:hasDirector     node:rod_blackhurst , node:brian_mcginn ;
+        node:hasGenre        node:documentaries ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80081155" ;
+        node:hasTitle        "Amanda Knox" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:jason_newman  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182482-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80182482-tpmu ;
+        tp:timePeriodValue  "61" .
+
+node:lea_thompson  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:alan_ruck  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:hidetoshi_hoshida
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80198585-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:elvira_devinamira
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ry_barrett  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80052612  a             node:Movie ;
+        node:dateAdded       "September 4, 2018" ;
+        node:hasActor        node:olivia_williams , node:rory_kinnear , node:lake_bell , node:sharon_horgan , node:henry_lloydhughes , node:simon_pegg , node:ophelia_lovibond , node:ken_stott , node:deancharles_chapman , node:phoebe_wallerbridge , node:harriet_walter , node:stephen_campbell_moore ;
+        node:hasCountry      node:france , node:united_kingdom ;
+        node:hasDescription  "A single woman seizes an opportunity when, while standing under a train station clock, she meets a stranger who mistakes her for his blind date." ;
+        node:hasDirector     node:ben_palmer ;
+        node:hasGenre        node:romantic_movies , node:comedies , node:international_movies ;
+        node:hasRating       "R" ;
+        node:hasShowId       "80052612" ;
+        node:hasTitle        "Man Up" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:cult_movies  a  node:Genre .
+
+node:joshua_sasse  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:karl_glusman  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:akarat_nimitchai
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:hafizul_kamal  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sharon_horgan  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81053892-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80199032-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:sharrieff_pugh  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81052275  a             node:Movie ;
+        node:dateAdded       "September 6, 2019" ;
+        node:hasActor        node:venkatesh_kakumanu , node:vishwaksen_naidu , node:anisha_ambrose , node:simran_choudhary , node:abhinav_gomatam , node:sushanth_reddy ;
+        node:hasCountry      node:india ;
+        node:hasDescription  "In Goa and in desperate need of cash, four childhood friends get another shot at making their long-abandoned dreams of becoming filmmakers come true." ;
+        node:hasDirector     node:tharun_bhascker ;
+        node:hasGenre        node:international_movies , node:comedies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "81052275" ;
+        node:hasTitle        "Ee Nagaraniki Emaindi" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:nuchanart_veerakaarn
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182480-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80182480-tpmu ;
+        tp:timePeriodValue  "58" .
+
+node:sissi_duparc  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81078908  a             node:Movie ;
+        node:dateAdded       "September 4, 2019" ;
+        node:hasActor        node:gregory_alan_williams , node:kevin_sizemore , node:rose_reid , node:caleb_castille ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "A teenage equestrian and a local football player for each other, but simmering racism in their small town puts their relationship to the test." ;
+        node:hasDirector     node:brian_baugh ;
+        node:hasGenre        node:dramas , node:romantic_movies ;
+        node:hasRating       "PG" ;
+        node:hasShowId       "81078908" ;
+        node:hasTitle        "The World We Make" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:rupert_grint  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81145628  a             node:Movie ;
+        node:dateAdded       "September 9, 2019" ;
+        node:hasActor        node:lee_tockar , node:cole_howard , node:jennifer_cameron , node:michael_dobson , node:jonathan_holmes , node:brian_dobson , node:alan_marriott , node:maya_kay , node:andrew_toth , node:lisa_durupt ;
+        node:hasCountry      node:china , node:south_korea , node:united_states , node:india ;
+        node:hasDescription  "Before planning an awesome wedding for his grandfather, a polar bear king must take back a stolen artifact from an evil archaeologist first." ;
+        node:hasDirector     node:tim_maltby , node:richard_finn ;
+        node:hasGenre        node:comedies , node:children__family_movies ;
+        node:hasRating       "TV-PG" ;
+        node:hasShowId       "81145628" ;
+        node:hasTitle        "Norm of the North: King Sized Adventure" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:fuka_koshiba  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:rodrigo_toro  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:shofia_shireen  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:humberto_carro  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81053893-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81053893-tpmu ;
+        tp:timePeriodValue  "45" .
+
+node:wendee_lee  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sutatta_udomsilp
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80158839-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80158839-tpmu ;
+        tp:timePeriodValue  "130" .
+
+node:rj_cyler  a            node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:gina_gershon  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:park_inje  a              node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:sopon_sukdapisit
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:80057700-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80057700-tpmu ;
+        tp:timePeriodValue  "90" .
+
+node:80157072-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:martin_freeman  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:bob_odenkirk  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81053893-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80164077-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:canada  a  node:Country .
+
+node:jos_miguel_contreras
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:81052275-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81052275-tpmu ;
+        tp:timePeriodValue  "133" .
+
+node:france  a  node:Country .
+
+node:81002866-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:sterling_k_brown
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81016044-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81016044-tpmu ;
+        tp:timePeriodValue  "126" .
+
+node:luca_jimnez  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80117902-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:lee_taylor  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:brazil  a  node:Country .
+
+node:80058026-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:keith_powers  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182597-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:juan_saavedra  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80128722-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:harriet_walter  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81154455-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81154455-tpmu ;
+        tp:timePeriodValue  "125" .
+
+node:kristen_bell  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:theeradej_wongpuapan
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jessica_mila  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:tony_hale  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80164077  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:fabrizio_copano ;
+        node:hasCountry      node:chile ;
+        node:hasDescription  "Fabrizio Copano takes audience participation to the next level in this stand-up set while reflecting on sperm banks, family WhatsApp groups and more." ;
+        node:hasDirector     node:rodrigo_toro , node:francisco_schultz ;
+        node:hasGenre        node:standup_comedy ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80164077" ;
+        node:hasTitle        "Fabrizio Copano: Solo pienso en mi" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:80060297-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80060297-tpmu ;
+        tp:timePeriodValue  "98" .
+
+node:sutthatip_wutichaipradit
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:stephen_campbell_moore
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nittha_jirayungyurn
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81001809  a             node:Movie ;
+        node:dateAdded       "September 28, 2018" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "Two priests – one from Dunblane, Scotland, the other from Newtown, Connecticut – bond over school tragedies that occurred 16 years apart." ;
+        node:hasDirector     node:kim_a_snyder ;
+        node:hasGenre        node:documentaries ;
+        node:hasRating       "TV-PG" ;
+        node:hasShowId       "81001809" ;
+        node:hasTitle        "Lessons from a School Shooting: Notes from Dunblane" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:ted_danson  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:hasCountry  a   owl:ObjectProperty ;
+        rdfs:domain  node:NetflixContent ;
+        rdfs:range   node:Country .
+
+node:sinad_cusack  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182596-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80182596-tpmu ;
+        tp:timePeriodValue  "65" .
+
+node:achita_sikamana  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:visute_poolvoralaks
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:paul_hollywood  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80996949  a             node:TvSeries ;
+        node:dateAdded       "September 30, 2018" ;
+        node:hasActor        node:adam_conover , node:emily_axford , node:adam_lustick ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "Education can be fun – and funny. Comedian Adam Conover bursts misconceptions, deconstructs topics and leaves with positive takeaways." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:tv_comedies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80996949" ;
+        node:hasTitle        "Adam Ruins Everything" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:joshua_leonard  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80159880-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:nina_richmond  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:alexander_skarsgrd
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:chiara_aurelia  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:eric_edelstein  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:pachara_chirathivat
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:rinna_hassim  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:henry_thomas  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:rose_reid  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nicolas_cage  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80117902  a             node:TvSeries ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "As California's 2016 fire season rages, brave backcountry firefighters race to put out the flames, protect homes and save lives in this docuseries." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:docuseries , node:science__nature_tv ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80117902" ;
+        node:hasTitle        "Fire Chasers" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:70304988  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:sinad_cusack , node:brendan_gleeson , node:michael_caine , node:edmund_kingsley , node:jason_flemyng , node:sophie_kennedy_clark , node:ben_kingsley , node:david_thewlis , node:jim_sturgess , node:kate_beckinsale ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "In 1899, a young doctor arrives at an asylum for an apprenticeship and becomes suspicious of his mentor's methods while falling for a female patient." ;
+        node:hasDirector     node:brad_anderson ;
+        node:hasGenre        node:thrillers , node:horror_movies ;
+        node:hasRating       "PG-13" ;
+        node:hasShowId       "70304988" ;
+        node:hasTitle        "Stonehearst Asylum" ;
+        node:releasedIn      "2014"^^xsd:int .
+
+node:shannon_purser  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:pandji_pragiwaksono
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:guillaume_canet  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:radha_bessy  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:selina_lo  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80128722-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80128722-tpmu ;
+        tp:timePeriodValue  "103" .
+
+node:80200087-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80200087-tpmu ;
+        tp:timePeriodValue  "89" .
+
+node:jeremy_saulnier  a        node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:zhou_dongyu  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:hasActor  a     owl:ObjectProperty ;
+        rdfs:domain  node:NetflixContent ;
+        rdfs:range   node:Actor .
+
+node:kazuki_yano  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sunny_suwanmethanont
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80128317-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:raditya_dika  a           node:Actor , node:Director ;
+        node:hasActingRole     node:acting ;
+        node:hasDirectingRole  node:directing .
+
+node:pok_piyatida_woramusik
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80046728-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80046728-tpmu ;
+        tp:timePeriodValue  "96" .
+
+node:peyton_list  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ungsumalynn_sirapatsakmetha
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jandino_asporaat
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81160036-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81160036-tpmu ;
+        tp:timePeriodValue  "128" .
+
+node:hasActingRole  a       owl:ObjectProperty ;
+        rdfs:domain         node:Actor ;
+        rdfs:range          <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role> ;
+        rdfs:subPropertyOf  <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole> .
+
+node:jooyeon_lee  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:spain  a   node:Country .
+
+node:80182480  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:baba_sehgal , node:damandeep_singh_baggan , node:smita_malhotra ;
+        node:hasDescription  "A team of minstrels, including a monkey, cat and donkey, narrate folktales from the Indian regions of Rajasthan, Kerala and Punjab." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:children__family_movies ;
+        node:hasRating       "TV-Y7" ;
+        node:hasShowId       "80182480" ;
+        node:hasTitle        "Krish Trish and Baltiboy" ;
+        node:releasedIn      "2009"^^xsd:int .
+
+node:80244601-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:vladimir_kulich  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80119349-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:tania_gunadi  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sushanth_reddy  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80113482  a             node:TvSeries ;
+        node:dateAdded       "September 5, 2017" ;
+        node:hasActor        node:jesse_rath , node:jonathan_langdon , node:joshua_sasse , node:tori_anderson , node:sarayu_blue , node:amy_pietz ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "Her straitjacketed life turned topsy-turvy by hunky Xavier, Evie discovers a new freedom – even though her man just might be an end-of-days crackpot." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:tv_comedies , node:romantic_tv_shows , node:tv_dramas ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80113482" ;
+        node:hasTitle        "No Tomorrow" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:andy_lucas  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:diarmaid_murtagh
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:pongkool_suebsung
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:deancharles_chapman
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ophelia_lovibond
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ted_mcginley  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:anisha_ambrose  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:robert_forster  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:caitlin_fitzgerald
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80239639-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80239639-tpmu ;
+        tp:timePeriodValue  "106" .
+
+node:mary_pat_gleason
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:francisco_schultz
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:songyos_sugmakanan
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:kumud_mishra  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70234439-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:70234439-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:austin_stark  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:rukhsar  a             node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80147760-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:70142798-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80182480-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:subba_rao_vepada
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:emily_axford  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:taksaorn_paksukcharern
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:miran_ra  a            node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:deuntem_salitul  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:fedi_nuril  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81173255  a             node:Movie ;
+        node:dateAdded       "September 4, 2019" ;
+        node:hasActor        node:will_king , node:nina_kiri , node:jorja_cadence , node:ry_barrett , node:nina_richmond ;
+        node:hasCountry      node:canada ;
+        node:hasDescription  "A withdrawn young woman hunted by a malicious cult is abducted by a brooding stranger and undergoes a bizarre transformation." ;
+        node:hasDirector     node:chad_archibald ;
+        node:hasGenre        node:horror_movies ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "81173255" ;
+        node:hasTitle        "The Heretics" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:michael_douglas  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:desmin_borges  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:charlie_trairat  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ernie_hudson  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:pongsatorn_jongwilak
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:mo_gilligan  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80159586-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80057969-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:gabe_ibez  a              node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:81011955  a             node:Movie ;
+        node:dateAdded       "September 29, 2018" ;
+        node:hasActor        node:erasmo_carlos , node:felipe_abib , node:marjorie_estiano , node:malu_galli , node:humberto_carro , node:jaloo , node:seu_jorge , node:julia_konrad , node:jlio_andrade , node:lee_taylor , node:hermila_guedes ;
+        node:hasCountry      node:brazil ;
+        node:hasDescription  "A cop moonlights as the bodyguard for a young drag queen at a nightclub, and grows closer to the family of misfit singers that perform there." ;
+        node:hasDirector     node:monique_gardenberg ;
+        node:hasGenre        node:independent_movies , node:international_movies , node:dramas ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "81011955" ;
+        node:hasTitle        "Paradise Lost" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:danny_mcbride  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70142798-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:70142798-tpmu ;
+        tp:timePeriodValue  "125" .
+
+node:80104068-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:ryosuke_yusa  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:parkpoom_wongpoom
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:sanjay_dutt  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80162141  a             node:Movie ;
+        node:dateAdded       "September 6, 2017" ;
+        node:hasActor        node:kat_gellin , node:oliver_stark , node:ralph_brown , node:beverly_hills , node:alexandra_newick , node:mem_ferda , node:andy_lucas , node:nathanael_wiseman ;
+        node:hasCountry      node:united_kingdom ;
+        node:hasDescription  "A drug dealer who's been emulating his father's successful criminal career is forced to go on the run with a young girl in this fact-based thriller." ;
+        node:hasDirector     node:nathanael_wiseman , node:robert_osman ;
+        node:hasGenre        node:independent_movies , node:dramas ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80162141" ;
+        node:hasTitle        "Hard Tide" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:80201906-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:sushant_singh_rajput
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:constance_doll  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:united_states  a  node:Country .
+
+node:monique_gardenberg
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:ausavaterakul_ausavapat
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182481-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:mez_tharatorn  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:kari_wahlgren  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70304988-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:70304988-tpmu ;
+        tp:timePeriodValue  "113" .
+
+node:81113928-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:horror_movies  a  node:Genre .
+
+node:80239337-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:guillaume_gallienne
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:katherine_waterston
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:tj_miller  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:derek_lyons  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:hasDirectingRole
+        a                   owl:ObjectProperty ;
+        rdfs:domain         node:Director ;
+        rdfs:range          <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role> ;
+        rdfs:subPropertyOf  <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#hasRole> .
+
+node:daryl_sabara  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80181555  a             node:TvSeries ;
+        node:dateAdded       "September 30, 2017" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_kingdom ;
+        node:hasDescription  "Drawing on newly available info, this show traces how the British royal family has survived the last 100 years of power struggles, politics and more." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:international_tv_shows , node:docuseries , node:british_tv_shows ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80181555" ;
+        node:hasTitle        "The Royal House of Windsor" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:mohammed_zeeshan_ayyub
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:julia_reichert  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jorja_cadence  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:popetorn_soonthornyanakij
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:umie_aida  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81001809-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81001809-tpmu ;
+        tp:timePeriodValue  "24" .
+
+node:daniel_alfredson
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:denny_sumargo  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jirayu_laongmanee
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:rory_kinnear  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:saleem_mairaj  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:standup_comedy  a  node:Genre .
+
+node:zach_grenier  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80239337-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80239337-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:80201906-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80201906-tpmu ;
+        tp:timePeriodValue  "135" .
+
+node:80190843  a             node:TvSeries ;
+        node:dateAdded       "September 7, 2018" ;
+        node:hasActor        node: ;
+        node:hasDescription  "Take an intimate look at the emotionally charged first and last days of new and soon-to-be released inmates at Georgia's Gwinnett County Jail." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:docuseries ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80190843" ;
+        node:hasTitle        "First and Last" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:80988892  a             node:Movie ;
+        node:dateAdded       "September 7, 2018" ;
+        node:hasActor        node:jason_sudeikis , node:john_krasinski , node:charlyne_yi , node:michael_pea , node:david_cross , node:constance_wu ;
+        node:hasCountry      node:canada , node:united_states , node:china ;
+        node:hasDescription  "When lonely Mai forms an unlikely bond with a top-secret robot, they embark on an intense, action-packed adventure to foil the plot of a vicious villain." ;
+        node:hasDirector     node:kevin_r_adams , node:joe_ksander ;
+        node:hasGenre        node:scifi__fantasy , node:comedies , node:children__family_movies ;
+        node:hasRating       "TV-PG" ;
+        node:hasShowId       "80988892" ;
+        node:hasTitle        "Next Gen" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:80125979  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:rebekah_graf , node:john_michael_higgins , node:yousef_erakat , node:kid_ink , node:keith_powers , node:anne_winters , node:peter_gilroy , node:jake_borelli , node:kate_walsh , node:alicia_sanz , node:nesta_cooper , node:patrick_davis ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "When nerdy high schooler Dani finally attracts the interest of her longtime crush, she lands in the cross hairs of his ex, a social media celebrity." ;
+        node:hasDirector     node:fernando_lebrija ;
+        node:hasGenre        node:comedies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80125979" ;
+        node:hasTitle        "#realityhigh" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:80181555-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:gaspar_no  a              node:Actor , node:Director ;
+        node:hasActingRole     node:acting ;
+        node:hasDirectingRole  node:directing .
+
+node:80180449-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:tinna_harahap  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:paprika_steen  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80203094  a             node:Movie ;
+        node:dateAdded       "September 7, 2018" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "Women who've been sexually brutalized in war-torn Congo begin to heal at City of Joy, a center that helps them regain a sense of self and empowerment." ;
+        node:hasDirector     node:madeleine_gavin ;
+        node:hasGenre        node:documentaries ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80203094" ;
+        node:hasTitle        "City of Joy" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:nick_swardson  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:comedies  a  node:Genre .
+
+node:anita_hara  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81016750  a             node:Movie ;
+        node:dateAdded       "September 28, 2018" ;
+        node:hasActor        node:citra_prima , node:jessica_mila , node:derry_drajat , node:anita_hara , node:denny_sumargo , node:shofia_shireen , node:afdhal_yusman , node:voke_victoria , node:epy_kusnandar , node:bianca_hello ;
+        node:hasCountry      node:indonesia ;
+        node:hasDescription  "When her little sister claims she sees the dead, Alia consults a psychic, who opens her own eyes to the vengeful ghosts haunting their childhood home." ;
+        node:hasDirector     node:rocky_soraya ;
+        node:hasGenre        node:horror_movies , node:international_movies ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "81016750" ;
+        node:hasTitle        "The 3rd Eye" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:80058654  a             node:TvSeries ;
+        node:dateAdded       "September 8, 2018" ;
+        node:hasActor        node:constance_zimmer , node:mitchell_whitfield , node:stuart_allan , node:darren_criss , node:ted_mcginley , node:will_friedle , node:khary_payton , node:peter_cullen ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "When a prison ship crash unleashes hundreds of Decepticons on Earth, Bumblebee leads a new Autobot force to protect humankind." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:kids_tv ;
+        node:hasRating       "TV-Y7" ;
+        node:hasShowId       "80058654" ;
+        node:hasTitle        "Transformers: Robots in Disguise" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:rizal_mantovani  a        node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:nattasha_nauljam
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80178151-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:scott_william_winters
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:bobby_moynihan  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+:       a            owl:Ontology ;
+        owl:imports  <http://www.ontologydesignpatterns.org/cp/owl/timeperiod.owl> , <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl> .
+
+node:fernando_lebrija
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:81011682-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81011682-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:ross_r_shuman  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:81176188-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81176188-tpmu ;
+        tp:timePeriodValue  "10" .
+
+node:helena_kaittani  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81002850-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:riley_smith  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sarayu_blue  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:kevin_sizemore  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:praneetha_patnaik
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:najiba_faiz  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80992039-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:haluk_bilginer  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81002864  a             node:Movie ;
+        node:dateAdded       "September 28, 2018" ;
+        node:hasActor        node:dede_yusuf , node:raditya_dika , node:tinna_harahap , node:pandji_pragiwaksono , node:elvira_devinamira , node:annisa_rawles , node:chandra_liow , node:pevita_pearce , node:dewi_hughes , node:rinna_hassim , node:babe_cabita ;
+        node:hasCountry      node:indonesia ;
+        node:hasDescription  "Unemployed and immature, a somewhat pathetic bachelor sets his sights on finding a date for the wedding of his younger, more successful brother." ;
+        node:hasDirector     node:raditya_dika ;
+        node:hasGenre        node:romantic_movies , node:comedies , node:international_movies ;
+        node:hasRating       "TV-PG" ;
+        node:hasShowId       "81002864" ;
+        node:hasTitle        "Single" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:alice_lee  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80177405-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80177405-tpmu ;
+        tp:timePeriodValue  "70" .
+
+node:michael_b_jordan
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:louis_cancelmi  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:dborah_franois  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:rod_blackhurst  a         node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:sam_worthington  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80992039-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80992039-tpmu ;
+        tp:timePeriodValue  "117" .
+
+node:minsik_choi  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80128317  a             node:TvSeries ;
+        node:dateAdded       "September 30, 2018" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "This nostalgic documentary series relives the 1980s from a variety of angles, exploring its impact on the politics, technology and culture of today." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:docuseries ;
+        node:hasRating       "TV-PG" ;
+        node:hasShowId       "80128317" ;
+        node:hasTitle        "The Eighties" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:80058654-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80058654-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:80057969  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:juan_saavedra , node:ugo_fox , node:aomi_muyock , node:klara_kristin , node:vincent_maraval , node:isabelle_nicou , node:dborah_rvy , node:karl_glusman , node:benot_debie , node:gaspar_no ;
+        node:hasCountry      node:belgium , node:france ;
+        node:hasDescription  "A man in an unsatisfying marriage recalls the details of an intense past relationship with an ex-girlfriend when he gets word that she may be missing." ;
+        node:hasDirector     node:gaspar_no ;
+        node:hasGenre        node:cult_movies , node:independent_movies , node:dramas ;
+        node:hasRating       "NR" ;
+        node:hasShowId       "80057969" ;
+        node:hasTitle        "Love" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:jane_fonda  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81016044  a             node:Movie ;
+        node:dateAdded       "September 5, 2018" ;
+        node:hasActor        node:sirin_horwang , node:theeradej_wongpuapan , node:kazuki_yano , node:taksaorn_paksukcharern , node:panissara_phimpru , node:ungsumalynn_sirapatsakmetha , node:charlie_trairat ;
+        node:hasCountry      node:thailand ;
+        node:hasDescription  "After an encounter with an engineer working the night shift for the city train, a 30-year-old woman struggles against all odds to pursue true love." ;
+        node:hasDirector     node:adisorn_tresirikasem ;
+        node:hasGenre        node:romantic_movies , node:comedies , node:international_movies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "81016044" ;
+        node:hasTitle        "Bangkok Traffic (Love) Story" ;
+        node:releasedIn      "2009"^^xsd:int .
+
+node:a_l_vijay  a              node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:80019931  a             node:Movie ;
+        node:dateAdded       "September 29, 2015" ;
+        node:hasActor        node:tj_smith , node:america_young , node:celeste_henderson , node:karen_strassman , node:rachel_staman , node:wendee_lee , node:laura_bailey ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "Cleo is invited to a gala in the big city celebrating a magical comet and brings her best friends along. But the sinister Nefera has other plans." ;
+        node:hasDirector     node:william_lau ;
+        node:hasGenre        node:music__musicals , node:children__family_movies ;
+        node:hasRating       "TV-Y7" ;
+        node:hasShowId       "80019931" ;
+        node:hasTitle        "Monster High: Boo York, Boo York" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:olivia_williams  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:brad_anderson  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:jonathan_whitesell
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nikolaj_costerwaldau
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:subhrajyoti_barat
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:robert_redford  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:antonio_banderas
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80169755  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:joaqun_reyes ;
+        node:hasDescription  "Comedian and celebrity impersonator Joaquín Reyes decides to be his zesty self for a night of stories about buses, bathroom habits, royalty and more." ;
+        node:hasDirector     node:jos_miguel_contreras ;
+        node:hasGenre        node:standup_comedy ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80169755" ;
+        node:hasTitle        "Joaquín Reyes: Una y no más" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:engin_altan_dzyatan
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70212504-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:forest_whitaker  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:chayanop_boonprakob
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:bulgaria  a  node:Country .
+
+node:daniel_kaluuya  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80177405  a             node:Movie ;
+        node:dateAdded       "September 5, 2017" ;
+        node:hasActor        node:marc_maron ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "Battle-scarred stand-up comedian Marc Maron unleashes a storm of ideas about meditation, mortality, documentary films and our weird modern world." ;
+        node:hasDirector     node:lynn_shelton ;
+        node:hasGenre        node:standup_comedy ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80177405" ;
+        node:hasTitle        "Marc Maron: Too Real" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:denmark  a  node:Country .
+
+node:steve_blum  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:antoine_bardoujacquet
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:81016750-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:david_prowse  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81173255-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:daran_norris  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80095641-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80095641-tpmu ;
+        tp:timePeriodValue  "102" .
+
+node:john_kani  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sananthachat_thanapatpisal
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:rahim_razali  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:hasDuration  a  owl:ObjectProperty ;
+        rdfs:domain  node:NetflixContent ;
+        rdfs:range   tp:TimePeriod .
+
+node:tony_todd  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81132437  a             node:Movie ;
+        node:dateAdded       "September 6, 2019" ;
+        node:hasActor        node:aelya_topalolu , node:yosi_mizrahi , node:dilad_imek , node:ali_yourtuolu , node:seda_bakan , node:seda_gven , node:zgr_emre_yldrm , node:murat_boz ;
+        node:hasDescription  "Bogged down with money problems, a couple grows cautious of each other but hit the lottery and decide to stay together – till death do they part." ;
+        node:hasDirector     node:enol_snmez ;
+        node:hasGenre        node:comedies , node:international_movies , node:romantic_movies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "81132437" ;
+        node:hasTitle        "Kill Me If You Dare" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:80182115-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80182115-tpmu ;
+        tp:timePeriodValue  "40" .
+
+node:80104068-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80104068-tpmu ;
+        tp:timePeriodValue  "103" .
+
+node:simran_choudhary
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81027384-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:80182482  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:baba_sehgal , node:damandeep_singh_baggan , node:smita_malhotra ;
+        node:hasDescription  "In three comic-strip-style tales, a boy tries to sell wisdom, a demon is released from captivity, and a king assigns impossible tasks to his minister." ;
+        node:hasDirector     node:tilak_shetty ;
+        node:hasGenre        node:children__family_movies ;
+        node:hasRating       "TV-Y7" ;
+        node:hasShowId       "80182482" ;
+        node:hasTitle        "Krish Trish and Baltiboy: Comics of India" ;
+        node:releasedIn      "2012"^^xsd:int .
+
+node:chindavanich_primrose
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nathan_lane  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:kris_srepoomseth
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jordan_fisher  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:damandeep_singh_baggan
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:kristine_froseth
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:voke_victoria  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:derry_drajat  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80158838-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80113641  a             node:TvSeries ;
+        node:dateAdded       "September 4, 2017" ;
+        node:hasActor        node:riley_smith , node:mekhi_phifer , node:peyton_list , node:lenny_jacobson , node:anthony_ruivivar , node:daniel_bonjour , node:devin_kelley ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "A detective seizes a precious opportunity to change the past when she finds she can communicate with her deceased, estranged father via a time warp." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:crime_tv_shows , node:tv_dramas , node:tv_mysteries ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80113641" ;
+        node:hasTitle        "Frequency" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:jeffrey_wright  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:india  a   node:Country .
+
+node:81132437-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81132437-tpmu ;
+        tp:timePeriodValue  "100" .
+
+node:benot_debie  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:john_michael_higgins
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:tom_audenaert  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70299204  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:sam_worthington , node:mark_van_eeuwen , node:jim_sturgess , node:jemima_west , node:thomas_cocquerel , node:anthony_hopkins , node:david_dencik , node:ryan_kwanten ;
+        node:hasCountry      node:united_kingdom , node:netherlands , node:united_states , node:belgium ;
+        node:hasDescription  "When beer magnate Alfred \"Freddy\" Heineken is kidnapped in 1983, his abductors make the largest ransom demand in history." ;
+        node:hasDirector     node:daniel_alfredson ;
+        node:hasGenre        node:dramas , node:international_movies , node:action__adventure ;
+        node:hasRating       "R" ;
+        node:hasShowId       "70299204" ;
+        node:hasTitle        "Kidnapping Mr. Heineken" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:directing  a  <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role> , owl:NamedIndividual .
+
+node:81016044-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:laura_bailey  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:peter_gilroy  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:maria_bamford  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70304989-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:jennifer_cameron
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80117401  a             node:Movie ;
+        node:dateAdded       "September 9, 2016" ;
+        node:hasActor        node:jandino_asporaat ;
+        node:hasCountry      node:united_kingdom ;
+        node:hasDescription  "Jandino Asporaat riffs on the challenges of raising kids and serenades the audience with a rousing rendition of \"Sex on Fire\" in his comedy show." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:standup_comedy ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80117401" ;
+        node:hasTitle        "Jandino: Whatever it Takes" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:kid_ink  a             node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:eloy_azorn  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80128722  a             node:Movie ;
+        node:dateAdded       "September 29, 2017" ;
+        node:hasActor        node:carla_gugino , node:chiara_aurelia , node:carel_struycken , node:henry_thomas , node:bruce_greenwood ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "When her husband's sex game goes wrong, Jessie – handcuffed to a bed in a remote lake house – faces warped visions, dark secrets and a dire choice." ;
+        node:hasDirector     node:mike_flanagan ;
+        node:hasGenre        node:thrillers , node:horror_movies ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80128722" ;
+        node:hasTitle        "Gerald's Game" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:oliver_stark  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80203094-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80203094-tpmu ;
+        tp:timePeriodValue  "77" .
+
+node:miller_khan  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70234439-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:spanishlanguage_tv_shows
+        a       node:Genre .
+
+node:80117401-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:hyeyoung_ryu  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:julian_black_antelope
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:laurie_goode  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:peter_mcrobbie  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:omar_sy  a             node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:kids_tv  a  node:Genre .
+
+node:stan_lee  a            node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sunil_soraya  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:tv_mysteries  a  node:Genre .
+
+node:shuri_tanaka  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:gregory_alan_williams
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:matthias_schoenaerts
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:beverly_hills  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:dilad_imek  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:adisorn_tresirikasem
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:80158839-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:hermila_guedes  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80180449  a             node:TvSeries ;
+        node:dateAdded       "September 29, 2017" ;
+        node:hasActor        node:sara_ali , node:mirza_salihovic , node:rita_rudaini , node:remy_ishak , node:hafizul_kamal , node:miller_khan ;
+        node:hasDescription  "A man haunted by his wife's affair moves to Sarajevo and starts to love again, until fate forces him to choose between his new life and old loyalty." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:tv_dramas , node:international_tv_shows ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80180449" ;
+        node:hasTitle        "Satu Hari" ;
+        node:releasedIn      "2014"^^xsd:int .
+
+node:80113482-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80113482-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:eric_lampaert  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80057700-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:thawat_pornrattanaprasert
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81016045-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:andy_pessoa  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:frank_welker  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80152447  a             node:Movie ;
+        node:dateAdded       "September 7, 2017" ;
+        node:hasActor        node:laurent_stocker , node:freya_mavor , node:guillaume_gallienne , node:guillaume_canet , node:alice_pol , node:isabelle_candelier , node:sabine_azma , node:dborah_franois ;
+        node:hasCountry      node:france , node:belgium ;
+        node:hasDescription  "This historical drama explores the long and often volatile friendship of painter Paul Cézanne and writer Émile Zola, who first met as schoolboys." ;
+        node:hasDirector     node:daniele_thompson ;
+        node:hasGenre        node:international_movies , node:independent_movies , node:dramas ;
+        node:hasRating       "R" ;
+        node:hasShowId       "80152447" ;
+        node:hasTitle        "Cézanne et moi" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:80182596  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:damandeep_singh_baggan , node:deepak_chachra , node:smita_malhotra ;
+        node:hasDescription  "A cat, monkey and donkey team up to narrate folktales about friendship from Northeast India, and the Indian regions of Bihar and Rajasthan." ;
+        node:hasDirector     node:tilak_shetty , node:munjal_shroff ;
+        node:hasGenre        node:children__family_movies ;
+        node:hasRating       "TV-Y" ;
+        node:hasShowId       "80182596" ;
+        node:hasTitle        "Krish Trish and Baltiboy: Best Friends Forever" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:gerardo_olivares
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:erma_fatima  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81155784-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:mem_ferda  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80158838  a             node:Movie ;
+        node:dateAdded       "September 5, 2018" ;
+        node:hasActor        node:puttachat_pongsuchat , node:sunny_suwanmethanont , node:sora_aoi , node:preechaya_pongthananikorn , node:popetorn_soonthornyanakij ;
+        node:hasCountry      node:thailand ;
+        node:hasDescription  "Desperate to go to the U.S. to win back his girlfriend, Yim hires a tutor to teach him English. But things don't go according to plan." ;
+        node:hasDirector     node:mez_tharatorn ;
+        node:hasGenre        node:romantic_movies , node:international_movies , node:comedies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80158838" ;
+        node:hasTitle        "I Fine... Thank You... Love You" ;
+        node:releasedIn      "2014"^^xsd:int .
+
+node:80181555-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80181555-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:kaz_sawamura  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:patrick_davis  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ryan_coogler  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:wendell_pierce  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:brian_de_palma  a         node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:tj_smith  a            node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:peter_vack  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nassim_lyes  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80046728-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:81054495-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81054495-tpmu ;
+        tp:timePeriodValue  "64" .
+
+node:isha_talwar  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:anna_friel  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:TvSeries  a         owl:Class ;
+        rdfs:subClassOf  node:NetflixContent .
+
+node:louis_mandylor  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:bruce_greenwood  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:anthony_ruivivar
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ali_yourtuolu  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:mana_yasuda  a            node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:dana_wheelernicholson
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182621-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:smita_malhotra  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80030186  a             node:TvSeries ;
+        node:dateAdded       "September 30, 2018" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "This series examines 1970s America, focusing on the major political and historical landmarks of the decade and the cultural response to those events." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:docuseries ;
+        node:hasRating       "TV-PG" ;
+        node:hasShowId       "80030186" ;
+        node:hasTitle        "The Seventies" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:michel_fau  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80162141-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80162141-tpmu ;
+        tp:timePeriodValue  "79" .
+
+node:acting  a  <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role> , owl:NamedIndividual .
+
+node:jonathan_holmes  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:robert_patrick  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nattapong_chartpong
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80239337  a             node:TvSeries ;
+        node:dateAdded       "September 30, 2018" ;
+        node:hasActor        node:montse_hernandez , node:todd_haberkorn , node:roger_craig_smith , node:david_kaye , node:dwight_schultz , node:tara_strong , node:daryl_sabara ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "Ben can transform into ten types of aliens. He'll try 'em all while adventuring across the country with his cousin Gwen and Grandpa Max." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:kids_tv ;
+        node:hasRating       "TV-Y7" ;
+        node:hasShowId       "80239337" ;
+        node:hasTitle        "Ben 10" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:noah_emmerich  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:fabrizio_copano  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:gacha_plienwithi
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:munjal_shroff  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:80119349-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80119349-tpmu ;
+        tp:timePeriodValue  "85" .
+
+node:70062814-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:lake_bell  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:munishkanth  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81004470  a             node:Movie ;
+        node:dateAdded       "September 28, 2018" ;
+        node:hasActor        node:zhang_jungyi , node:su_ke , node:ge_wang , node:keanu_chi , node:yijuan_li , node:michael_douglas , node:bingkun_cao , node:zhou_dongyu , node:li_yi_feng ;
+        node:hasCountry      node:china ;
+        node:hasDescription  "An unlucky, debt-ridden teen resorts to his math skills when he's forced into a deadly tournament of rock-paper-scissors run by a diabolical host." ;
+        node:hasDirector     node:han_yan ;
+        node:hasGenre        node:action__adventure , node:international_movies , node:scifi__fantasy ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "81004470" ;
+        node:hasTitle        "Animal World" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:80182621-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80182621-tpmu ;
+        tp:timePeriodValue  "60" .
+
+node:edmund_kingsley  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:hadar_ratzon_rotem
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:michael_caine  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80045922  a             node:Movie ;
+        node:dateAdded       "September 8, 2015" ;
+        node:hasActor        node:dana_wheelernicholson , node:taissa_farmiga , node:jennifer_lafleur , node:jason_newman , node:ben_rosenfield , node:joshua_leonard , node:lindsay_burdge , node:peter_vack , node:molly_mcmichael ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "As a volatile young couple who have been together for six years approach college graduation, unexpected career opportunities threaten their future." ;
+        node:hasDirector     node:hannah_fidell ;
+        node:hasGenre        node:independent_movies , node:romantic_movies , node:dramas ;
+        node:hasRating       "NR" ;
+        node:hasShowId       "80045922" ;
+        node:hasTitle        "6 Years" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:lvaro_longoria  a         node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:keanu_chi  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sweden  a  node:Country .
+
+node:81154455-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:81054495  a             node:Movie ;
+        node:dateAdded       "September 30, 2019" ;
+        node:hasActor        node:mo_gilligan ;
+        node:hasCountry      node:united_kingdom ;
+        node:hasDescription  "Comedian Mo Gilligan blends smooth moves and sharp humor as he riffs on humble beginnings, family dynamics and the complex art of dancing in the club." ;
+        node:hasDirector     node:chris_howe ;
+        node:hasGenre        node:standup_comedy ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "81054495" ;
+        node:hasTitle        "Mo Gilligan: Momentum" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:80113641-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:kate_walsh  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:natthaweeranuch_thongmee
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:rishi_gambhir  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81011955-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:carla_gugino  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:maha_venkatesh  a         node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:81002866  a             node:Movie ;
+        node:dateAdded       "September 28, 2018" ;
+        node:hasActor        node:reza_rahadian , node:gesya_shandy , node:arzetti_bilbina , node:pevita_pearce , node:herjunot_ali , node:randy_nidji , node:kevin_andrean ;
+        node:hasCountry      node:indonesia ;
+        node:hasDescription  "When a young man leaves home to fulfill the wishes of his late father, he meets and falls in love with a woman from a very different background." ;
+        node:hasDirector     node:sunil_soraya ;
+        node:hasGenre        node:dramas , node:romantic_movies , node:international_movies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "81002866" ;
+        node:hasTitle        "The Sinking Of Van Der Wijck" ;
+        node:releasedIn      "2013"^^xsd:int .
+
+node:yanee_tramoth  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:tilak_shetty  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:imran_aslam  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:enol_snmez  a             node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:mila_kunis  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:tantoo_cardinal  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:drew_barrymore  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80030186-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:children__family_movies
+        a       node:Genre .
+
+node:erika_sainte  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nassar  a              node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80117902-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80117902-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:kate_hudson  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:mohan_bhagath  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sara_ali  a            node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80187061-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:ken_kwapis  a             node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:kornpassorn_duaysianklao
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70212504  a             node:Movie ;
+        node:dateAdded       "September 30, 2018" ;
+        node:hasActor        node:dermot_mulroney , node:stephen_root , node:ted_danson , node:drew_barrymore , node:tim_blake_nelson , node:vinessa_shaw , node:kristen_bell , node:rob_riggle , node:john_krasinski , node:michael_gaston ;
+        node:hasCountry      node:united_kingdom , node:united_states ;
+        node:hasDescription  "After a reporter writes about whales trapped in the Arctic Circle, the U.S. and U.S.S.R. team up to rescue them in this tale inspired by true events." ;
+        node:hasDirector     node:ken_kwapis ;
+        node:hasGenre        node:children__family_movies , node:dramas ;
+        node:hasRating       "PG" ;
+        node:hasShowId       "70212504" ;
+        node:hasTitle        "Big Miracle" ;
+        node:releasedIn      "2012"^^xsd:int .
+
+node:babe_cabita  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81027384-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81027384-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:adam_pally  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80203094-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:karthik_rathnam  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:paween_purikitpanya
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:80057700  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:wendell_pierce , node:dana_gourrier , node:sarah_paulson , node:peter_fonda , node:bryan_batt , node:nicolas_cage , node:connie_nielsen ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "A New Orleans politician finds his idealistic plans for rebuilding after a toxic oil spill unraveling thanks to a sex scandal." ;
+        node:hasDirector     node:austin_stark ;
+        node:hasGenre        node:dramas , node:independent_movies ;
+        node:hasRating       "R" ;
+        node:hasShowId       "80057700" ;
+        node:hasTitle        "The Runner" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:70241607-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:70241607-tpmu ;
+        tp:timePeriodValue  "112" .
+
+node:kevin_michael_richardson
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80169755-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80152447-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:sivagorn_muttamara
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:henry_lloydhughes
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:phoebe_wallerbridge
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80178151  a             node:TvSeries ;
+        node:dateAdded       "September 6, 2019" ;
+        node:hasActor        node:waleed_zuaiter , node:hadar_ratzon_rotem , node:noah_emmerich , node:sacha_baron_cohen , node:nassim_lyes , node:alexander_siddig ;
+        node:hasCountry      node:france ;
+        node:hasDescription  "In the 1960s, Israeli clerk-turned-secret agent Eli Cohen goes deep undercover inside Syria on a perilous, years-long mission to spy for Mossad." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:tv_dramas , node:tv_thrillers , node:international_tv_shows ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80178151" ;
+        node:hasTitle        "The Spy" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:tara_strong  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:south_korea  a  node:Country .
+
+node:action__adventure
+        a       node:Genre .
+
+node:80147760  a             node:Movie ;
+        node:dateAdded       "September 5, 2017" ;
+        node:hasActor        node:nathan_lane , node:desmin_borges , node:bel_powley , node:vanessa_bayer , node:jason_ritter , node:william_moseley , node:gabriel_byrne , node:colin_odonoghue ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "A socially awkward 19-year-old genius makes big plans to step out of her shell and make a friend, get a job and – maybe – even go on a date." ;
+        node:hasDirector     node:susan_johnson ;
+        node:hasGenre        node:dramas , node:comedies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80147760" ;
+        node:hasTitle        "Carrie Pilby" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:nicole_theriault
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:thomas_arnold  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:mitchell_whitfield
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:pevita_pearce  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81054495-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:felipe_abib  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:christa_campbell
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80159880-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80159880-tpmu ;
+        tp:timePeriodValue  "122" .
+
+node:chris_howe  a             node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:rosamund_pike  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80163890  a             node:TvSeries ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:alberto_ammann , node:eloy_azorn , node:claudia_traisac , node:luca_jimnez , node:vernica_echegui ;
+        node:hasCountry      node:spain ;
+        node:hasDescription  "A young journalist is forced into a life of crime to save his father and family in this series based on the novel by Miguel Sáez Carral." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:spanishlanguage_tv_shows , node:crime_tv_shows , node:international_tv_shows ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80163890" ;
+        node:hasTitle        "Apaches" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:reza_rahadian  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70062814  a             node:Movie ;
+        node:dateAdded       "September 5, 2018" ;
+        node:hasActor        node:ananda_everingham , node:chachchaya_chalemphol , node:achita_sikamana , node:titikarn_tongprasearth , node:natthaweeranuch_thongmee , node:kachormsak_naruepatr , node:sivagorn_muttamara , node:unnop_chanpaibool ;
+        node:hasCountry      node:thailand ;
+        node:hasDescription  "After killing a young girl in a hit-and-run accident, a couple is haunted by more than just the memory of their deadly choice." ;
+        node:hasDirector     node:banjong_pisanthanakun , node:parkpoom_wongpoom ;
+        node:hasGenre        node:horror_movies , node:international_movies ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "70062814" ;
+        node:hasTitle        "Shutter" ;
+        node:releasedIn      "2004"^^xsd:int .
+
+node:80113641-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80113641-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:cole_howard  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sam_spruell  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70233894-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:hasRating  a    owl:DatatypeProperty ;
+        rdfs:domain  node:NetflixContent ;
+        rdfs:range   xsd:string .
+
+node:julie_recoing  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:diana_hardcastle
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:waleed_zuaiter  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80060297  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:katherine_waterston , node:tom_obrien , node:gaby_hoffmann , node:zach_grenier , node:louis_cancelmi , node:caitlin_fitzgerald ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "A filmmaker working on a documentary about love in modern Manhattan becomes personally entangled in the romantic lives of his subjects." ;
+        node:hasDirector     node:tom_obrien ;
+        node:hasGenre        node:independent_movies , node:romantic_movies , node:comedies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80060297" ;
+        node:hasTitle        "Manhattan Romance" ;
+        node:releasedIn      "2014"^^xsd:int .
+
+node:li_yi_feng  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70299204-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:70299204-tpmu ;
+        tp:timePeriodValue  "95" .
+
+node:ken_stott  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ben_kingsley  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81053893  a             node:Movie ;
+        node:dateAdded       "September 28, 2019" ;
+        node:hasActor        node: ;
+        node:hasDescription  "An in-depth look at the full-cycle breeding program for bluefin Kindai tuna pioneered by Kinki University’s Aqua Culture Research Institute." ;
+        node:hasDirector     node:mana_yasuda ;
+        node:hasGenre        node:documentaries , node:international_movies ;
+        node:hasRating       "TV-G" ;
+        node:hasShowId       "81053893" ;
+        node:hasTitle        "Cultivating the Seas: History and Future of the Full-Cycle Cultured Kindai Tuna" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:80184358-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:rermthon_kemapech
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:john_chapman  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:carel_struycken  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70303496-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:70303496-tpmu ;
+        tp:timePeriodValue  "146" .
+
+node:lee_tockar  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:maya_coline  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jemima_west  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jlio_andrade  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182483-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80182483-tpmu ;
+        tp:timePeriodValue  "62" .
+
+node:arzetti_bilbina  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80159880  a             node:Movie ;
+        node:dateAdded       "September 5, 2018" ;
+        node:hasActor        node:chantavit_dhanasevi , node:gornpop_janjaroen , node:pongkool_suebsung , node:chaleumpol_tikumpornteerawong , node:sananthachat_thanapatpisal , node:puttachat_pongsuchat , node:pongsatorn_jongwilak , node:preechaya_pongthananikorn , node:thawat_pornrattanaprasert , node:yanee_tramoth ;
+        node:hasCountry      node:united_states , node:canada ;
+        node:hasDescription  "When a broken ATM dishes out a fortune, a couple who works at the bank vies to see who can recover the most cash – and the loser must find a new job." ;
+        node:hasDirector     node:mez_tharatorn ;
+        node:hasGenre        node:international_movies , node:comedies , node:romantic_movies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80159880" ;
+        node:hasTitle        "ATM" ;
+        node:releasedIn      "2012"^^xsd:int .
+
+node:chaleumpol_tikumpornteerawong
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:khary_payton  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:mustafa_sandal  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:mekhi_phifer  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:aelya_topalolu  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80030186-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80030186-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:parikshat_sahni  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:indonesia  a  node:Country .
+
+node:81004470-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81004470-tpmu ;
+        tp:timePeriodValue  "130" .
+
+node:michael_par  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:farhan_alam  a            node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:dowon_kwak  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:riley_keough  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182481-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80182481-tpmu ;
+        tp:timePeriodValue  "58" .
+
+node:hasUnit  a      owl:DatatypeProperty ;
+        rdfs:domain  tp:TimePeriodMeasurementUnit ;
+        rdfs:range   [ a          rdfs:Datatype ;
+                       owl:oneOf  [ a                  rdfProperty:List ;
+                                    rdfProperty:first  "Minutes" ;
+                                    rdfProperty:rest   [ a                  rdfProperty:List ;
+                                                         rdfProperty:first  "Seasons" ;
+                                                         rdfProperty:rest   ()
+                                                       ]
+                                  ]
+                     ] .
+
+node:70303496  a             node:Movie ;
+        node:dateAdded       "September 6, 2018" ;
+        node:hasActor        node:aamir_khan , node:rukhsar , node:sanjay_dutt , node:saurabh_shukla , node:boman_irani , node:parikshat_sahni , node:sushant_singh_rajput , node:anuskha_sharma ;
+        node:hasCountry      node:india ;
+        node:hasDescription  "Aamir Khan teams with director Rajkumar Hirani to play a social crusader in a political satire on the state of corruption in India." ;
+        node:hasDirector     node:rajkumar_hirani ;
+        node:hasGenre        node:international_movies , node:dramas , node:comedies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "70303496" ;
+        node:hasTitle        "PK" ;
+        node:releasedIn      "2014"^^xsd:int .
+
+node:mike_flanagan  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:yijuan_li  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:anthony_hopkins  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:gornpop_janjaroen
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80198585  a             node:Movie ;
+        node:dateAdded       "September 3, 2018" ;
+        node:hasActor        node:selina_lo , node:rachel_brann , node:tony_todd , node:michael_par , node:louis_mandylor , node:scott_adkins , node:vladimir_kulich ;
+        node:hasCountry      node:united_states , node:united_kingdom ;
+        node:hasDescription  "A broke martial arts instructor takes a side gig with a mobster, who pairs him with a veteran thug for a weekend of fisticuffs-fueled debt collection." ;
+        node:hasDirector     node:jesse_v_johnson ;
+        node:hasGenre        node:action__adventure ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80198585" ;
+        node:hasTitle        "The Debt Collector" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:ralph_brown  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81145628-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:florence_kasumba
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jeremy_bulloch  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:brendan_byrne  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:montse_hernandez
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80201933-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80201933-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:mark_van_eeuwen  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80221550-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80221550-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:80163293-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:malu_galli  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:marsha_wattanapanich
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:david_kaye  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:united_kingdom  a  node:Country .
+
+node:81053892-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81053892-tpmu ;
+        tp:timePeriodValue  "90" .
+
+node:80158838-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80158838-tpmu ;
+        tp:timePeriodValue  "116" .
+
+node:80113482-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:manoj_pahwa  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:kesava_karri  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sayani_gupta  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80126507-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:gv_prakash_kumar
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81016045-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81016045-tpmu ;
+        tp:timePeriodValue  "135" .
+
+node:80244601  a             node:TvSeries ;
+        node:dateAdded       "September 7, 2018" ;
+        node:hasActor        node:akarat_nimitchai , node:kornpassorn_duaysianklao , node:yong_armchair , node:nattapong_chartpong , node:jintanutda_lummakanon , node:chaiyapol_pupart , node:ornjira_lamwilai , node:worrawech_danuwong , node:keerati_mahapreukpong ;
+        node:hasDescription  "As four couples with different lifestyles go through the ebbs and flows of joy and sorrow, each must learn how to live a good life." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:international_tv_shows , node:romantic_tv_shows , node:tv_comedies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80244601" ;
+        node:hasTitle        "Castle of Stars" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:sren_malling  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80116921  a             node:TvSeries ;
+        node:dateAdded       "September 30, 2018" ;
+        node:hasActor        node:demetri_martin , node:eric_edelstein , node:bobby_moynihan ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "Grizzly, Panda and Ice Bear are three adopted bear brothers struggling against their animal instincts to fit into the civilized, modern human world." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:tv_comedies , node:kids_tv ;
+        node:hasRating       "TV-Y7" ;
+        node:hasShowId       "80116921" ;
+        node:hasTitle        "We Bare Bears" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:81113928  a             node:Movie ;
+        node:dateAdded       "September 6, 2019" ;
+        node:hasActor        node:praneetha_patnaik , node:karthik_rathnam , node:kesava_karri , node:subba_rao_vepada , node:radha_bessy , node:mohan_bhagath , node:nithyasri_goru , node:praveena_paruchuri ;
+        node:hasDescription  "From a schoolboy’s crush to a middle-aged bachelor’s office romance, four love stories spanning age, religion and status unfold in a small Indian town." ;
+        node:hasDirector     node:maha_venkatesh ;
+        node:hasGenre        node:dramas , node:independent_movies , node:comedies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "81113928" ;
+        node:hasTitle        "Care of Kancharapalem" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:julia_konrad  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80200087-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80187061-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80187061-tpmu ;
+        tp:timePeriodValue  "130" .
+
+node:anuskha_sharma  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80190843-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80190843-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:preechaya_pongthananikorn
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:oliver_dimsdale  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sora_aoi  a            node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80184358  a             node:TvSeries ;
+        node:dateAdded       "September 3, 2018" ;
+        node:hasActor        node:luangsodsai_anupart , node:phumphothingam_nawat , node:chindavanich_primrose , node:nuchanart_veerakaarn , node:nungira_hanwutinanon , node:charnmanoon_pannin , node:nontapan_chuenwarin , node:sirikiet_saejea , node:ausavaterakul_ausavapat , node:kongyingyong_chonlathorn ;
+        node:hasDescription  "Love and academics get complicated at an all-male college that happens to be located next to an all-female high school." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:international_tv_shows , node:tv_dramas , node:romantic_tv_shows ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80184358" ;
+        node:hasTitle        "Lovesick" ;
+        node:releasedIn      "2014"^^xsd:int .
+
+node:dborah_rvy  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:takeshi_masu  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182597-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80182597-tpmu ;
+        tp:timePeriodValue  "65" .
+
+node:81002864-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:lupita_nyongo  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:kevin_andrean  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:adam_lustick  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80046728  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:stephen_campbell_moore , node:kevin_bishop , node:rupert_grint , node:eric_lampaert , node:robert_sheehan , node:erika_sainte , node:tom_audenaert , node:ron_perlman ;
+        node:hasCountry      node:belgium , node:france ;
+        node:hasDescription  "A brain-addled war vet, a failing band manager and a Stanley Kubrick impersonator help the CIA construct an epic scam by faking the 1969 moon landing." ;
+        node:hasDirector     node:antoine_bardoujacquet ;
+        node:hasGenre        node:comedies , node:international_movies , node:action__adventure ;
+        node:hasRating       "R" ;
+        node:hasShowId       "80046728" ;
+        node:hasTitle        "Moonwalkers" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:netherlands  a  node:Country .
+
+node:baba_sehgal  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:tim_blake_nelson
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:gabriel_byrne  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sirin_horwang  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:michael_pea  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nithyasri_goru  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:danny_glover  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80095641  a             node:Movie ;
+        node:dateAdded       "September 6, 2016" ;
+        node:hasActor        node:david_prowse , node:pam_rose , node:garrick_hagon , node:john_chapman , node:laurie_goode , node:anthony_forrest , node:angus_macinnes , node:derek_lyons , node:paul_blake , node:jeremy_bulloch ;
+        node:hasCountry      node:united_kingdom ;
+        node:hasDescription  "Then and now footage of bit players who appeared in \"Star Wars\" tells the story of how the film and its legions of fans changed their lives forever." ;
+        node:hasDirector     node:jon_spira ;
+        node:hasGenre        node:documentaries ;
+        node:hasRating       "TV-PG" ;
+        node:hasShowId       "80095641" ;
+        node:hasTitle        "Elstree 1976" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:mohammed_azaay  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:mirza_salihovic  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:anubhav_sinha  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:charlyne_yi  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jon_spira  a              node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:tv_comedies  a  node:Genre .
+
+node:unnop_chanpaibool
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jeffrey_combs  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81160036-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:constance_wu  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:david_s_lee  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:andrew_toth  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:susan_johnson  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:anna_mouglalis  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:james_franco  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:richard_finn  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:will_friedle  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:Director  a         owl:Class ;
+        rdfs:subClassOf  <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> .
+
+node:phyllis_somerville
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:dwight_schultz  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:colin_odonoghue  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:gesya_shandy  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:deepak_chachra  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:john_farley  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:eric_godon  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81078908-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81078908-tpmu ;
+        tp:timePeriodValue  "108" .
+
+node:yong_armchair  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:roger_craig_smith
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80199032-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80199032-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:randy_nidji  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:claudia_traisac  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182596-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:william_lau  a            node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:suteerush_channukool
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:anthony_forrest  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:america_young  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:Country  a          owl:Class ;
+        rdfs:subClassOf  [ a                   owl:Restriction ;
+                           owl:onProperty      node:hasCountry ;
+                           owl:someValuesFrom  node:Country
+                         ] .
+
+node:william_moseley  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:carice_van_houten
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:athipich_chutiwatkajornchai
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80046727-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80046727-tpmu ;
+        tp:timePeriodValue  "79" .
+
+node:jacob_lamendola  a        node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:suman  a               node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:constance_zimmer
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81002850  a             node:Movie ;
+        node:dateAdded       "September 28, 2018" ;
+        node:hasActor        node:firrina_sinatrya , node:didi_petet , node:saykoji , node:fedi_nuril , node:raline_shah , node:herjunot_ali , node:pevita_pearce , node:denny_sumargo ;
+        node:hasCountry      node:indonesia ;
+        node:hasDescription  "Five friends embark on a mission to climb the highest peak in Java, overcoming obstacles on the way and discovering the true meaning of friendship." ;
+        node:hasDirector     node:rizal_mantovani ;
+        node:hasGenre        node:dramas , node:international_movies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "81002850" ;
+        node:hasTitle        "5CM" ;
+        node:releasedIn      "2012"^^xsd:int .
+
+node:raline_shah  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nontapan_chuenwarin
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182482-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:uruguay  a  node:Country .
+
+node:80152447-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80152447-tpmu ;
+        tp:timePeriodValue  "114" .
+
+node:susan_sarandon  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:angela_bassett  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:murat_boz  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80163293  a             node:TvSeries ;
+        node:dateAdded       "September 29, 2017" ;
+        node:hasActor        node:rahim_razali , node:erma_fatima , node:umie_aida , node:nora_danish ;
+        node:hasDescription  "A woman with an entrepreneurial spirit takes life into her own hands by starting a beauty cream business that inspires other women to take chances." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:international_tv_shows , node:tv_comedies , node:tv_dramas ;
+        node:hasRating       "TV-PG" ;
+        node:hasShowId       "80163293" ;
+        node:hasTitle        "Mak Cun" ;
+        node:releasedIn      "2015"^^xsd:int .
+
+node:80178151-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80178151-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:80239639-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:venkatesh_kakumanu
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:luangsodsai_anupart
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:andy_nyman  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:independent_movies
+        a       node:Genre .
+
+node:81002850-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81002850-tpmu ;
+        tp:timePeriodValue  "126" .
+
+node:hasGenre  a     owl:ObjectProperty ;
+        rdfs:domain  node:NetflixContent ;
+        rdfs:range   node:Genre .
+
+node:turkey  a  node:Country .
+
+node:david_thewlis  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70304990  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:tom_wilkinson , node:diana_hardcastle , node:omar_sy , node:diarmaid_murtagh , node:michael_jibson , node:james_franco , node:thomas_arnold , node:anna_friel , node:sam_spruell , node:kate_hudson , node:oliver_dimsdale ;
+        node:hasCountry      node:denmark , node:sweden , node:united_kingdom , node:united_states ;
+        node:hasDescription  "A struggling couple can't believe their luck when they find a stash of money in the apartment of a neighbor who was recently murdered." ;
+        node:hasDirector     node:henrik_ruben_genz ;
+        node:hasGenre        node:action__adventure , node:thrillers ;
+        node:hasRating       "R" ;
+        node:hasShowId       "70304990" ;
+        node:hasTitle        "Good People" ;
+        node:releasedIn      "2014"^^xsd:int .
+
+node:kevin_bishop  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:alicia_sanz  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80126507-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80126507-tpmu ;
+        tp:timePeriodValue  "106" .
+
+node:jim_sturgess  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:brian_baugh  a            node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:darren_criss  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:releasedIn  a   owl:DatatypeProperty ;
+        rdfs:domain  node:NetflixContent ;
+        rdfs:range   xsd:dateTime .
+
+node:yogi_babu  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:isabelle_candelier
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:simon_pegg  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:iain_armitage  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81016750-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81016750-tpmu ;
+        tp:timePeriodValue  "108" .
+
+node:81155784-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81155784-tpmu ;
+        tp:timePeriodValue  "93" .
+
+node:david_cross  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:andr_wilms  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182483-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:81002866-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81002866-tpmu ;
+        tp:timePeriodValue  "163" .
+
+node:bruce_dern  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nora_danish  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:seu_jorge  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:hasDescription  a  owl:DatatypeProperty ;
+        rdfs:domain  node:NetflixContent ;
+        rdfs:range   xsd:string .
+
+node:loretta_devine  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:seda_bakan  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:herjunot_ali  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:mahsun_krmzgl  a          node:Actor , node:Director ;
+        node:hasActingRole     node:acting ;
+        node:hasDirectingRole  node:directing .
+
+node:70304989-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:70304989-tpmu ;
+        tp:timePeriodValue  "110" .
+
+node:80119349  a             node:Movie ;
+        node:dateAdded       "September 29, 2017" ;
+        node:hasActor        node: ;
+        node:hasDescription  "Picking up 40 years after six were convicted for two strange murders in Iceland, this chilling documentary proves confessions can’t always be trusted." ;
+        node:hasDirector     node:dylan_howitt ;
+        node:hasGenre        node:documentaries , node:international_movies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80119349" ;
+        node:hasTitle        "Out of Thin Air" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:aamir_khan  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81176188-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:70304989  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:andy_nyman , node:robert_forster , node:antonio_banderas , node:dylan_mcdermott , node:tim_mcinnerny , node:christa_campbell , node:birgitte_hjort_srensen , node:melanie_griffith , node:david_ryall ;
+        node:hasCountry      node:canada , node:spain , node:united_states , node:bulgaria ;
+        node:hasDescription  "In a dystopian future, an insurance adjuster for a tech company investigates a robot killed for violating protocol and discovers a global conspiracy." ;
+        node:hasDirector     node:gabe_ibez ;
+        node:hasGenre        node:scifi__fantasy , node:thrillers , node:international_movies ;
+        node:hasRating       "R" ;
+        node:hasShowId       "70304989" ;
+        node:hasTitle        "Automata" ;
+        node:releasedIn      "2014"^^xsd:int .
+
+node:70062814-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:70062814-tpmu ;
+        tp:timePeriodValue  "96" .
+
+node:80162141-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:nina_kiri  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80198585-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80198585-tpmu ;
+        tp:timePeriodValue  "96" .
+
+node:80060297-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80045922-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:81002864-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81002864-tpmu ;
+        tp:timePeriodValue  "127" .
+
+node:sori_moon  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70241607-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:Actor  a            owl:Class ;
+        rdfs:subClassOf  <http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl#Agent> .
+
+node:aomi_muyock  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80221550  a             node:TvSeries ;
+        node:dateAdded       "September 6, 2019" ;
+        node:hasActor        node:kari_wahlgren , node:jordan_fisher , node:rosamund_pike , node:tony_hale , node:adam_pally , node:chelsea_kane ;
+        node:hasDescription  "Happy-go-lucky chicken Archibald may not remember to do his chores, but he never forgets to have fun. After all, life's an adventure!" ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:tv_comedies , node:kids_tv ;
+        node:hasRating       "TV-Y7" ;
+        node:hasShowId       "80221550" ;
+        node:hasTitle        "Archibald's Next Big Thing" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:70304990-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:jason_flemyng  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80163890-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80163890-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:jason_sudeikis  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:brendan_gleeson  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80201933-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:birgitte_hjort_srensen
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80163293-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80163293-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:70299204-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:melanie_griffith
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jennifer_coolidge
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:chile  a   node:Country .
+
+node:80199032  a             node:TvSeries ;
+        node:dateAdded       "September 29, 2017" ;
+        node:hasActor        node:paul_hollywood ;
+        node:hasCountry      node:united_kingdom ;
+        node:hasDescription  "Gear up for a fast-paced journey as celebrity chef and avid auto enthusiast Paul Hollywood takes in the cars and culture of France, Italy and Germany." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:docuseries , node:british_tv_shows , node:international_tv_shows ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80199032" ;
+        node:hasTitle        "Paul Hollywood's Big Continental Road Trip" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:80182481  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:baba_sehgal , node:damandeep_singh_baggan , node:smita_malhotra ;
+        node:hasDescription  "Animal minstrels narrate stories about a monkey's friendship with a crocodile, two monkeys' foolishness and a villager's encounter with a demon." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:children__family_movies ;
+        node:hasRating       "TV-Y7" ;
+        node:hasShowId       "80182481" ;
+        node:hasTitle        "Krish Trish and Baltiboy: Part II" ;
+        node:releasedIn      "2010"^^xsd:int .
+
+node:boman_irani  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80996949-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80996949-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:sophie_kennedy_clark
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:vernica_echegui  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:theerapat_sajakul
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:david_dencik  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:daniele_thompson
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:peter_cullen  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:bianca_hello  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:rita_rudaini  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:hannah_fidell  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:marjorie_estiano
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:pam_rose  a            node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:kat_gellin  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:chandra_liow  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:chachchaya_chalemphol
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:marc_maron  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:international_movies
+        a       node:Genre .
+
+node:80159586  a             node:Movie ;
+        node:dateAdded       "September 7, 2018" ;
+        node:hasActor        node:anna_mouglalis , node:julie_recoing , node:maya_coline , node:constance_doll , node:niels_schneider , node:andr_wilms , node:eric_godon , node:jeanmichel_balthazar , node:sissi_duparc , node:michel_fau ;
+        node:hasCountry      node:united_kingdom , node:united_states , node:belgium ;
+        node:hasDescription  "In 1930s Paris, an actress famous for her gory death scenes at the Grand Guignol Theater contends with a mysterious stalker and ghosts from her past." ;
+        node:hasDirector     node:franck_ribire ;
+        node:hasGenre        node:dramas , node:thrillers , node:international_movies ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80159586" ;
+        node:hasTitle        "The Most Assassinated Woman in the World" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:eriq_ebouaney  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ayushmann_khurrana
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80157072-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80157072-tpmu ;
+        tp:timePeriodValue  "126" .
+
+node:NetflixContent  a   owl:Class ;
+        rdfs:subClassOf  [ a                         owl:Restriction ;
+                           owl:onDataRange           xsd:dateTime ;
+                           owl:onProperty            node:releasedIn ;
+                           owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger
+                         ] ;
+        rdfs:subClassOf  [ a                         owl:Restriction ;
+                           owl:onDataRange           xsd:string ;
+                           owl:onProperty            node:hasTitle ;
+                           owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger
+                         ] ;
+        rdfs:subClassOf  [ a                         owl:Restriction ;
+                           owl:onDataRange           xsd:integer ;
+                           owl:onProperty            node:hasShowId ;
+                           owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger
+                         ] ;
+        rdfs:subClassOf  [ a                         owl:Restriction ;
+                           owl:onDataRange           xsd:string ;
+                           owl:onProperty            node:hasRating ;
+                           owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger
+                         ] ;
+        rdfs:subClassOf  [ a                         owl:Restriction ;
+                           owl:onDataRange           xsd:string ;
+                           owl:onProperty            node:hasDescription ;
+                           owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger
+                         ] ;
+        rdfs:subClassOf  [ a                         owl:Restriction ;
+                           owl:onDataRange           xsd:dateTime ;
+                           owl:onProperty            node:dateAdded ;
+                           owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger
+                         ] ;
+        rdfs:subClassOf  [ a                         owl:Restriction ;
+                           owl:onDataRange           xsd:integer ;
+                           owl:onProperty            tp:timePeriodValue ;
+                           owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger
+                         ] ;
+        rdfs:subClassOf  [ a                            owl:Restriction ;
+                           owl:minQualifiedCardinality  "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass                  node:Country ;
+                           owl:onProperty               node:hasCountry
+                         ] .
+
+node:guy_pearce  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:noah_centineo  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182115-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80116921-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80116921-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:thailand  a  node:Country .
+
+node:jintanutda_lummakanon
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:peeratchai_roompol
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:scott_adkins  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:rob_riggle  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:danai_gurira  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:tv_thrillers  a  node:Genre .
+
+node:mitch_dickman  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:80116921-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:brian_dobson  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:citra_prima  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:michael_gaston  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80169755-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80169755-tpmu ;
+        tp:timePeriodValue  "78" .
+
+node:jesse_v_johnson  a        node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:demetri_martin  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:winston_duke  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sushil_pandey  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sumalee_montano  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:garrick_hagon  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:worrawech_danuwong
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:afdhal_yusman  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:Movie  a            owl:Class ;
+        rdfs:subClassOf  node:NetflixContent .
+
+node:jeanmichel_balthazar
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:lynn_shelton  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:daniel_bonjour  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:eunkyung_shim  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:pakistan  a  node:Country .
+
+node:charnmanoon_pannin
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:vinessa_shaw  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81176188  a             node:Movie ;
+        node:dateAdded       "September 5, 2019" ;
+        node:hasActor        node:julia_reichert , node:michelle_obama , node:steven_bognar , node:president_barack_obama ;
+        node:hasDescription  "Barack and Michelle Obama talk with directors Steven Bognar and Julia Reichert about the documentary and the importance of storytelling." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:documentaries ;
+        node:hasRating       "TV-G" ;
+        node:hasShowId       "81176188" ;
+        node:hasTitle        "American Factory: A Conversation with the Obamas" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:ryan_kwanten  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:tom_wilkinson  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:chumphorn_thepphithak
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:niels_schneider  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:saharat_sangkapreecha
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:steven_bognar  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81160036  a             node:Movie ;
+        node:dateAdded       "September 4, 2019" ;
+        node:hasActor        node:ali_hafiz , node:sohail_malik , node:imran_aslam , node:najiba_faiz , node:karam_hussain , node:daniyal_yousuf , node:saleem_mairaj , node:arif_bahlim ;
+        node:hasCountry      node:pakistan ;
+        node:hasDescription  "Outcast from society and left to die in the wilderness, a young boy with polio embarks on a journey to connect with his mother. Based on a true story." ;
+        node:hasDirector     node:farhan_alam ;
+        node:hasGenre        node:dramas , node:international_movies , node:independent_movies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "81160036" ;
+        node:hasTitle        "Saawan" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:ananda_everingham
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:daniyal_yousuf  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:madeleine_gavin  a        node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:giorgia_whigham  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:titikarn_tongprasearth
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:dana_gourrier  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:   a                      node:Actor , node:Director ;
+        node:hasActingRole     node:acting ;
+        node:hasDirectingRole  node:directing .
+
+node:81154455  a             node:Movie ;
+        node:dateAdded       "September 6, 2019" ;
+        node:hasActor        node:subhrajyoti_barat , node:nassar , node:kumud_mishra , node:isha_talwar , node:aakash_dabhade , node:manoj_pahwa , node:sayani_gupta , node:sushil_pandey , node:ayushmann_khurrana , node:mohammed_zeeshan_ayyub ;
+        node:hasCountry      node:india ;
+        node:hasDescription  "The grim realities of caste discrimination come to light as an entitled but upright city cop ventures into India’s heartland to investigate a murder." ;
+        node:hasDirector     node:anubhav_sinha ;
+        node:hasGenre        node:thrillers , node:international_movies , node:dramas ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "81154455" ;
+        node:hasTitle        "Article 15" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:81113928-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81113928-tpmu ;
+        tp:timePeriodValue  "142" .
+
+node:karam_hussain  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:prim_bulakul  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:amy_pietz  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80104068  a             node:Movie ;
+        node:dateAdded       "September 29, 2017" ;
+        node:hasActor        node:phyllis_somerville , node:jane_fonda , node:judy_greer , node:robert_redford , node:matthias_schoenaerts , node:bruce_dern , node:iain_armitage ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "After widowed neighbors Addie and Louis begin sleeping in bed together platonically to alleviate their loneliness, a real romance begins to blossom." ;
+        node:hasDirector     node:ritesh_batra ;
+        node:hasGenre        node:romantic_movies , node:dramas ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80104068" ;
+        node:hasTitle        "Our Souls at Night" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:praveena_paruchuri
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:molly_mcmichael  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81027384  a             node:TvSeries ;
+        node:dateAdded       "September 30, 2018" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "This U.S.-focused series dives into the cultural and political changes that swept the last decade of the 20th century. Executive produced by Tom Hanks." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:docuseries ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "81027384" ;
+        node:hasTitle        "The Nineties" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:80988892-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80988892-tpmu ;
+        tp:timePeriodValue  "106" .
+
+node:josh_keaton  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:abhinav_gomatam  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:maya_kay  a            node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80164077-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80164077-tpmu ;
+        tp:timePeriodValue  "60" .
+
+node:Genre  a            owl:Class ;
+        rdfs:subClassOf  [ a                   owl:Restriction ;
+                           owl:onProperty      node:hasGenre ;
+                           owl:someValuesFrom  node:Genre
+                         ] .
+
+node:tim_maltby  a             node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:ge_wang  a             node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:brian_mcginn  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:michael_jibson  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81155784  a             node:Movie ;
+        node:dateAdded       "September 4, 2019" ;
+        node:hasActor        node:suman , node:munishkanth , node:raj_arjun , node:gv_prakash_kumar , node:yogi_babu , node:samyuktha_hegde ;
+        node:hasCountry      node:india ;
+        node:hasDescription  "Rushing to pay off a loan shark, a young man breaks into a bungalow to steal the cash, unprepared for the dog standing guard – or the trouble inside." ;
+        node:hasDirector     node:a_l_vijay ;
+        node:hasGenre        node:dramas , node:international_movies , node:comedies ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "81155784" ;
+        node:hasTitle        "Watchman" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:isabelle_nicou  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:will_king  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:klara_kristin  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:arif_bahlim  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:tharun_bhascker  a        node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:sahajak_boonthanakit
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:aakash_dabhade  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:dylan_mcdermott  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:saykoji  a             node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80200087  a             node:Movie ;
+        node:dateAdded       "September 28, 2019" ;
+        node:hasActor        node:sren_malling , node:nikolaj_costerwaldau , node:eriq_ebouaney , node:mohammed_azaay , node:guy_pearce , node:paprika_steen , node:helena_kaittani , node:carice_van_houten ;
+        node:hasCountry      node:france , node:italy , node:denmark , node:netherlands , node:belgium ;
+        node:hasDescription  "A Copenhagen police officer hunts for the man who attacked his partner, only to stumble into a high-stakes game of espionage." ;
+        node:hasDirector     node:brian_de_palma ;
+        node:hasGenre        node:international_movies , node:thrillers ;
+        node:hasRating       "R" ;
+        node:hasShowId       "80200087" ;
+        node:hasTitle        "Domino" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:kongyingyong_chonlathorn
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jonathan_langdon
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:dewi_hughes  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80184358-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80184358-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:ki_hong_lee  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:takashi_taniguchi
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80019931-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:documentaries  a  node:Genre .
+
+node:thrillers  a  node:Genre .
+
+node:80081155-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:ian_samuels  a            node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:henrik_ruben_genz
+        a                      node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:romantic_movies  a  node:Genre .
+
+node:kachormsak_naruepatr
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:yosi_mizrahi  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nesta_cooper  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:alan_marriott  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70233894  a             node:Movie ;
+        node:dateAdded       "September 29, 2018" ;
+        node:hasActor        node:mahsun_krmzgl , node:mustafa_sandal , node:haluk_bilginer , node:robert_patrick , node:danny_glover , node:engin_altan_dzyatan , node:gina_gershon , node:sharrieff_pugh , node:scott_william_winters ;
+        node:hasCountry      node:united_states , node:turkey ;
+        node:hasDescription  "Two Turkish agents are sent to New York City on a mission to capture a notorious terrorist known only as \"Dejjal\" (Arabic for Antichrist)." ;
+        node:hasDirector     node:mahsun_krmzgl ;
+        node:hasGenre        node:action__adventure , node:international_movies ;
+        node:hasRating       "NR" ;
+        node:hasShowId       "70233894" ;
+        node:hasTitle        "Act of Vengeance" ;
+        node:releasedIn      "2010"^^xsd:int .
+
+node:stuart_allan  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:dramas  a  node:Genre .
+
+node:alice_pol  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:franck_ribire  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:seda_gven  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81004470-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:letitia_wright  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80081155-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80081155-tpmu ;
+        tp:timePeriodValue  "92" .
+
+node:tori_anderson  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:hasTitle  a     owl:DatatypeProperty ;
+        rdfs:domain  node:NetflixContent ;
+        rdfs:range   xsd:string .
+
+node:ritesh_batra  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:panissara_phimpru
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:gaby_hoffmann  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:docuseries  a  node:Genre .
+
+node:kevin_r_adams  a          node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:saurabh_shukla  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:nungira_hanwutinanon
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81016045  a             node:Movie ;
+        node:dateAdded       "September 5, 2018" ;
+        node:hasActor        node:nittha_jirayungyurn , node:sutthatip_wutichaipradit , node:prim_bulakul , node:kaz_sawamura , node:chantavit_dhanasevi , node:theerapat_sajakul , node:rermthon_kemapech , node:kris_srepoomseth , node:somyos_matures ;
+        node:hasCountry      node:thailand ;
+        node:hasDescription  "When his colleague (and crush) temporarily loses her memory, an overlooked geek seizes the chance to make an impression before she remembers again." ;
+        node:hasDirector     node:banjong_pisanthanakun ;
+        node:hasGenre        node:dramas , node:romantic_movies , node:international_movies ;
+        node:hasRating       "TV-PG" ;
+        node:hasShowId       "81016045" ;
+        node:hasTitle        "One Day" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:ron_perlman  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80182115  a             node:Movie ;
+        node:dateAdded       "September 29, 2017" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "When Juan Catalan is arrested for a murder he didn't commit, he builds his case for innocence around raw footage from a popular TV show. A documentary." ;
+        node:hasDirector     node:jacob_lamendola ;
+        node:hasGenre        node:documentaries ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80182115" ;
+        node:hasTitle        "Long Shot" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:tim_mcinnerny  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80190843-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:somyos_matures  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:dateAdded  a    owl:DatatypeProperty ;
+        rdfs:domain  node:NetflixContent ;
+        rdfs:range   xsd:dateTime .
+
+node:alexander_siddig
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:connie_nielsen  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:phumphothingam_nawat
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:jason_ritter  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81011955-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81011955-tpmu ;
+        tp:timePeriodValue  "111" .
+
+node:chaiyapol_pupart
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:laurent_stocker  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ornjira_lamwilai
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70304988-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:joe_ksander  a            node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:freya_mavor  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:macon_blair  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ben_rosenfield  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:dylan_howitt  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:80126507  a             node:Movie ;
+        node:dateAdded       "September 28, 2017" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_kingdom , node:ireland ;
+        node:hasDescription  "In 1981, an imprisoned Irish Republican Army soldier went on a hunger strike that galvanized his movement and made him a controversial global icon." ;
+        node:hasDirector     node:brendan_byrne ;
+        node:hasGenre        node:documentaries ;
+        node:hasRating       "TV-14" ;
+        node:hasShowId       "80126507" ;
+        node:hasTitle        "Bobby Sands: 66 Days" ;
+        node:releasedIn      "2016"^^xsd:int .
+
+node:annisa_rawles  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ben_palmer  a             node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:80177405-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80180449-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80180449-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:80187061  a             node:Movie ;
+        node:dateAdded       "September 30, 2017" ;
+        node:hasActor        node:miran_ra , node:minsik_choi , node:ki_hong_lee , node:dowon_kwak , node:byeongeun_park , node:sungyu_jin , node:sori_moon , node:jooyeon_lee , node:eunkyung_shim , node:hyeyoung_ryu ;
+        node:hasCountry      node:south_korea ;
+        node:hasDescription  "With the presidency in mind, the incumbent mayor of Seoul runs for an unprecedented third term – and will stop at nothing to keep his secrets hidden." ;
+        node:hasDirector     node:park_inje ;
+        node:hasGenre        node:dramas , node:international_movies ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80187061" ;
+        node:hasTitle        "The Mayor" ;
+        node:releasedIn      "2017"^^xsd:int .
+
+node:81078908-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:80201906  a             node:Movie ;
+        node:dateAdded       "September 4, 2018" ;
+        node:hasActor        node:letitia_wright , node:florence_kasumba , node:danai_gurira , node:andy_serkis , node:michael_b_jordan , node:stan_lee , node:sterling_k_brown , node:daniel_kaluuya , node:lupita_nyongo , node:john_kani , node:martin_freeman , node:winston_duke , node:forest_whitaker , node:chadwick_boseman , node:angela_bassett , node:david_s_lee ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "T'Challa, the superpowered new leader of the hidden, highly advanced African nation of Wakanda, strives to protect his home from enemies old and new." ;
+        node:hasDirector     node:ryan_coogler ;
+        node:hasGenre        node:scifi__fantasy , node:action__adventure ;
+        node:hasRating       "PG-13" ;
+        node:hasShowId       "80201906" ;
+        node:hasTitle        "Black Panther" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:taissa_farmiga  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80045922-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80045922-tpmu ;
+        tp:timePeriodValue  "80" .
+
+node:romantic_tv_shows
+        a       node:Genre .
+
+node:lenny_jacobson  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ireland  a  node:Country .
+
+node:80095641-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:andy_serkis  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:vishwaksen_naidu
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80239639  a             node:Movie ;
+        node:dateAdded       "September 7, 2018" ;
+        node:hasActor        node:alice_lee , node:alan_ruck , node:kristine_froseth , node:rj_cyler , node:chrissy_metz , node:shannon_purser , node:lea_thompson , node:mary_pat_gleason , node:giorgia_whigham , node:loretta_devine , node:noah_centineo ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "A wrong-number text sparks a virtual romance between a smart but unpopular teen and a sweet jock who thinks he's talking to a gorgeous cheerleader." ;
+        node:hasDirector     node:ian_samuels ;
+        node:hasGenre        node:comedies , node:romantic_movies ;
+        node:hasRating       "PG-13" ;
+        node:hasShowId       "80239639" ;
+        node:hasTitle        "Sierra Burgess Is A Loser" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:80182483  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:baba_sehgal , node:deepak_chachra , node:damandeep_singh_baggan , node:smita_malhotra ;
+        node:hasDescription  "An artisan is cheated of his payment, a lion of his throne and a brother of his inheritance in these three stories of deception and justice." ;
+        node:hasDirector     node:munjal_shroff , node:tilak_shetty ;
+        node:hasGenre        node:children__family_movies ;
+        node:hasRating       "TV-Y7" ;
+        node:hasShowId       "80182483" ;
+        node:hasTitle        "Krish Trish and Baltiboy: Battle of Wits" ;
+        node:releasedIn      "2013"^^xsd:int .
+
+node:president_barack_obama
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:puttachat_pongsuchat
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:dede_yusuf  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70142798  a             node:Movie ;
+        node:dateAdded       "September 5, 2018" ;
+        node:hasActor        node:charlie_trairat , node:nicole_theriault , node:gacha_plienwithi , node:peeratchai_roompol , node:chumphorn_thepphithak , node:suteerush_channukool , node:nattapong_chartpong , node:worrawech_danuwong , node:jirayu_laongmanee , node:marsha_wattanapanich ;
+        node:hasCountry      node:thailand ;
+        node:hasDescription  "From disfiguring punishments to festering souls, Thai horror masters present five supernatural tales of karma in this sequel to the 4bia anthology." ;
+        node:hasDirector     node:parkpoom_wongpoom , node:visute_poolvoralaks , node:banjong_pisanthanakun , node:paween_purikitpanya , node:songyos_sugmakanan ;
+        node:hasGenre        node:horror_movies , node:international_movies ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "70142798" ;
+        node:hasTitle        "Phobia 2" ;
+        node:releasedIn      "2009"^^xsd:int .
+
+node:rachel_staman  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:stephen_root  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80019931-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80019931-tpmu ;
+        tp:timePeriodValue  "72" .
+
+node:china  a   node:Country .
+
+node:80244601-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80244601-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:80052612-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80052612-tpmu ;
+        tp:timePeriodValue  "88" .
+
+node:angus_macinnes  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:scifi__fantasy  a  node:Genre .
+
+node:adam_conover  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70233894-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:70233894-tpmu ;
+        tp:timePeriodValue  "112" .
+
+node:81053892  a             node:Movie ;
+        node:dateAdded       "September 28, 2019" ;
+        node:hasActor        node:shuri_tanaka , node:tom_fujita , node:fuka_koshiba , node:ryosuke_yusa , node:hidetoshi_hoshida , node:hiroto_kanai , node:chal_inoue , node:takashi_taniguchi , node:takeshi_masu ;
+        node:hasDescription  "A clumsy but cheerful fisheries student struggles to find her place at a research institute renowned for its tuna cultivation. The work isn't easy." ;
+        node:hasDirector     node:mana_yasuda ;
+        node:hasGenre        node:international_movies , node:dramas ;
+        node:hasRating       "TV-PG" ;
+        node:hasShowId       "81053892" ;
+        node:hasTitle        "TUNA GIRL" ;
+        node:releasedIn      "2019"^^xsd:int .
+
+node:devin_kelley  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:lindsay_burdge  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70304990-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:70304990-tpmu ;
+        tp:timePeriodValue  "90" .
+
+node:caleb_castille  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:british_tv_shows
+        a       node:Genre .
+
+node:80159586-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80159586-tpmu ;
+        tp:timePeriodValue  "102" .
+
+node:70234439  a             node:TvSeries ;
+        node:dateAdded       "September 8, 2018" ;
+        node:hasActor        node:ernie_hudson , node:steve_blum , node:tania_gunadi , node:sumalee_montano , node:daran_norris , node:josh_keaton , node:will_friedle , node:peter_cullen , node:frank_welker , node:jeffrey_combs , node:andy_pessoa , node:kevin_michael_richardson ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "With the help of three human allies, the Autobots once again protect Earth from the onslaught of the Decepticons and their leader, Megatron." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:kids_tv ;
+        node:hasRating       "TV-Y7-FV" ;
+        node:hasShowId       "70234439" ;
+        node:hasTitle        "Transformers Prime" ;
+        node:releasedIn      "2013"^^xsd:int .
+
+node:rachel_brann  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81011682  a             node:TvSeries ;
+        node:dateAdded       "September 30, 2018" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "A contextual, acculturated dive into how adults in six, big global cities celebrate love and accentuate sex. CNN's Christiane Amanpour reports." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:docuseries ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "81011682" ;
+        node:hasTitle        "Christiane Amanpour: Sex & Love Around the World" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:sohail_malik  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ugo_fox  a             node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:lisa_durupt  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:chelsea_kane  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70303496-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:robert_osman  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:dermot_mulroney  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:ali_hafiz  a           node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:70212504-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:70212504-tpmu ;
+        tp:timePeriodValue  "107" .
+
+node:epy_kusnandar  a       node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:alexandra_newick
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:sabine_azma  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:firrina_sinatrya
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:peter_fonda  a         node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80125979-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80125979-tpmu ;
+        tp:timePeriodValue  "99" .
+
+node:italy  a   node:Country .
+
+node:hasDirector  a  owl:ObjectProperty ;
+        rdfs:domain  node:NetflixContent ;
+        rdfs:range   node:Director .
+
+node:80992039  a             node:Movie ;
+        node:dateAdded       "September 28, 2018" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:spain ;
+        node:hasDescription  "Lawmakers and activists with conflicting ideologies speak about the complexities of Catalonia's politics and the fight for its independence from Spain." ;
+        node:hasDirector     node:gerardo_olivares , node:lvaro_longoria ;
+        node:hasGenre        node:documentaries , node:international_movies ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80992039" ;
+        node:hasTitle        "Two Catalonias" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:sirikiet_saejea  a     node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81145628-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:81145628-tpmu ;
+        tp:timePeriodValue  "90" .
+
+node:tom_fujita  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:bryan_batt  a          node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:celeste_henderson
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80201933  a             node:TvSeries ;
+        node:dateAdded       "September 28, 2018" ;
+        node:hasActor        node: ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "These Mexico City socialites may lead opulent lives, but a peek behind the curtain reveals a tangled web of intrigue, envy and personal struggles." ;
+        node:hasDirector     node: ;
+        node:hasGenre        node:international_tv_shows , node:reality_tv , node:spanishlanguage_tv_shows ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80201933" ;
+        node:hasTitle        "Made in Mexico" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:80046727-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:rajkumar_hirani  a        node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:80128317-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80128317-tpmu ;
+        tp:timePeriodValue  "1" .
+
+node:anne_winters  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:zhang_jungyi  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:81001809-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:sacha_baron_cohen
+        a                   node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:hiroto_kanai  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:michael_dobson  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:kim_a_snyder  a           node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:chrissy_metz  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:michelle_obama  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80117401-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80117401-tpmu ;
+        tp:timePeriodValue  "94" .
+
+node:80163890-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:science__nature_tv
+        a       node:Genre .
+
+node:robert_sheehan  a      node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:international_tv_shows
+        a       node:Genre .
+
+node:su_ke  a               node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80996949-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "Season" .
+
+node:80157072  a             node:Movie ;
+        node:dateAdded       "September 28, 2018" ;
+        node:hasActor        node:jeffrey_wright , node:peter_mcrobbie , node:alexander_skarsgrd , node:tantoo_cardinal , node:james_badge_dale , node:riley_keough , node:jonathan_whitesell , node:julian_black_antelope , node:macon_blair ;
+        node:hasCountry      node:united_states ;
+        node:hasDescription  "In the grim Alaskan winter, a naturalist hunts for wolves blamed for killing a local boy, but he soon finds himself swept into a chilling mystery." ;
+        node:hasDirector     node:jeremy_saulnier ;
+        node:hasGenre        node:dramas , node:action__adventure ;
+        node:hasRating       "TV-MA" ;
+        node:hasShowId       "80157072" ;
+        node:hasTitle        "Hold the Dark" ;
+        node:releasedIn      "2018"^^xsd:int .
+
+node:80182621  a             node:Movie ;
+        node:dateAdded       "September 8, 2017" ;
+        node:hasActor        node:damandeep_singh_baggan , node:baba_sehgal , node:smita_malhotra ;
+        node:hasDescription  "The consequences of trickery are explored in stories involving an inconsiderate husband, two greedy courtiers, and a kind man who loses everything." ;
+        node:hasDirector     node:tilak_shetty , node:munjal_shroff ;
+        node:hasGenre        node:children__family_movies ;
+        node:hasRating       "TV-Y7" ;
+        node:hasShowId       "80182621" ;
+        node:hasTitle        "Krish Trish and Baltiboy: The Greatest Trick" ;
+        node:releasedIn      "2013"^^xsd:int .
+
+node:80147760-tp  a         tp:TimePeriod ;
+        tp:hasTimePeriodMeasurementUnit
+                node:80147760-tpmu ;
+        tp:timePeriodValue  "98" .
+
+node:81052275-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:jaloo  a               node:Actor ;
+        node:hasActingRole  node:acting .
+
+node:80052612-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
+
+node:chad_archibald  a         node:Director ;
+        node:hasDirectingRole  node:directing .
+
+node:vanessa_bayer  a       node:Actor ;
+        node:hasActingRole  node:acting .
