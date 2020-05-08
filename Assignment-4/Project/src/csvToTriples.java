@@ -3,6 +3,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 import org.apache.jena.ontology.*;
+import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.shared.JenaException;
 import org.apache.jena.util.FileManager;
@@ -95,10 +96,12 @@ public class csvToTriples {
             }
             this.model.add(netflixObject, hasTitle, e.getTitle());
             this.model.add(netflixObject, dateAdded, e.getDate_added());
-            this.model.add(netflixObject, releasedIn, e.getRelease_year());
+//            this.model.add(netflixObject, releasedIn, e.getRelease_year());
             this.model.add(netflixObject, hasDescription, e.getDescription());
             this.model.add(netflixObject, hasRating, e.getRating());
             this.model.add(netflixObject, hasShowId, e.getShow_id());
+            Literal l = this.model.createTypedLiteral(Integer.valueOf(e.getRelease_year()));
+            this.model.add(netflixObject, releasedIn, l);
 
             temp = e.getDirectors();
             for (int i=0; i<temp.size(); i++) {

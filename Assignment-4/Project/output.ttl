@@ -18,7 +18,7 @@ node:80182597  a             node:Movie ;
         node:hasRating       "TV-Y7" ;
         node:hasShowId       "80182597" ;
         node:hasTitle        "Krish Trish and Baltiboy: Oversmartness Never Pays" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:80158839  a             node:Movie ;
         node:dateAdded       "September 5, 2018" ;
@@ -30,7 +30,7 @@ node:80158839  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80158839" ;
         node:hasTitle        "Suckseed" ;
-        node:releasedIn      "2011" .
+        node:releasedIn      "2011"^^xsd:int .
 
 node:david_ryall  a         node:Actor ;
         node:hasActingRole  node:acting .
@@ -45,7 +45,7 @@ node:70241607  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "70241607" ;
         node:hasTitle        "Laddaland" ;
-        node:releasedIn      "2011" .
+        node:releasedIn      "2011"^^xsd:int .
 
 node:samyuktha_hegde  a     node:Actor ;
         node:hasActingRole  node:acting .
@@ -137,7 +137,7 @@ node:80058026  a             node:Movie ;
         node:hasRating       "R" ;
         node:hasShowId       "80058026" ;
         node:hasTitle        "Hell and Back" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:todd_haberkorn  a      node:Actor ;
         node:hasActingRole  node:acting .
@@ -155,7 +155,7 @@ node:80046727  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80046727" ;
         node:hasTitle        "Rolling Papers" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:han_yan  a                node:Director ;
         node:hasDirectingRole  node:directing .
@@ -186,17 +186,17 @@ node:didi_petet  a          node:Actor ;
 node:bingkun_cao  a         node:Actor ;
         node:hasActingRole  node:acting .
 
-node:80988892-tpmu  a  tp:TimePeriodMeasurementUnit ;
-        node:hasUnit  "min" .
-
 node:karen_strassman  a     node:Actor ;
         node:hasActingRole  node:acting .
 
-node:sarah_paulson  a       node:Actor ;
-        node:hasActingRole  node:acting .
+node:80988892-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
 
 node:81011682-tpmu  a  tp:TimePeriodMeasurementUnit ;
         node:hasUnit  "Season" .
+
+node:sarah_paulson  a       node:Actor ;
+        node:hasActingRole  node:acting .
 
 node:joaqun_reyes  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -249,7 +249,7 @@ node:80081155  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80081155" ;
         node:hasTitle        "Amanda Knox" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:jason_newman  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -289,7 +289,7 @@ node:80052612  a             node:Movie ;
         node:hasRating       "R" ;
         node:hasShowId       "80052612" ;
         node:hasTitle        "Man Up" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:cult_movies  a  node:Genre .
 
@@ -328,7 +328,7 @@ node:81052275  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "81052275" ;
         node:hasTitle        "Ee Nagaraniki Emaindi" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:nuchanart_veerakaarn
         a                   node:Actor ;
@@ -352,7 +352,7 @@ node:81078908  a             node:Movie ;
         node:hasRating       "PG" ;
         node:hasShowId       "81078908" ;
         node:hasTitle        "The World We Make" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:rupert_grint  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -367,7 +367,7 @@ node:81145628  a             node:Movie ;
         node:hasRating       "TV-PG" ;
         node:hasShowId       "81145628" ;
         node:hasTitle        "Norm of the North: King Sized Adventure" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:fuka_koshiba  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -513,7 +513,7 @@ node:80164077  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80164077" ;
         node:hasTitle        "Fabrizio Copano: Solo pienso en mi" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:80060297-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -542,7 +542,7 @@ node:81001809  a             node:Movie ;
         node:hasRating       "TV-PG" ;
         node:hasShowId       "81001809" ;
         node:hasTitle        "Lessons from a School Shooting: Notes from Dunblane" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:ted_danson  a          node:Actor ;
         node:hasActingRole  node:acting .
@@ -579,7 +579,7 @@ node:80996949  a             node:TvSeries ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80996949" ;
         node:hasTitle        "Adam Ruins Everything" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:joshua_leonard  a      node:Actor ;
         node:hasActingRole  node:acting .
@@ -626,7 +626,7 @@ node:80117902  a             node:TvSeries ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80117902" ;
         node:hasTitle        "Fire Chasers" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:70304988  a             node:Movie ;
         node:dateAdded       "September 8, 2017" ;
@@ -638,7 +638,7 @@ node:70304988  a             node:Movie ;
         node:hasRating       "PG-13" ;
         node:hasShowId       "70304988" ;
         node:hasTitle        "Stonehearst Asylum" ;
-        node:releasedIn      "2014" .
+        node:releasedIn      "2014"^^xsd:int .
 
 node:shannon_purser  a      node:Actor ;
         node:hasActingRole  node:acting .
@@ -734,7 +734,7 @@ node:80182480  a             node:Movie ;
         node:hasRating       "TV-Y7" ;
         node:hasShowId       "80182480" ;
         node:hasTitle        "Krish Trish and Baltiboy" ;
-        node:releasedIn      "2009" .
+        node:releasedIn      "2009"^^xsd:int .
 
 node:80244601-tpmu  a  tp:TimePeriodMeasurementUnit ;
         node:hasUnit  "Season" .
@@ -761,7 +761,7 @@ node:80113482  a             node:TvSeries ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80113482" ;
         node:hasTitle        "No Tomorrow" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:andy_lucas  a          node:Actor ;
         node:hasActingRole  node:acting .
@@ -865,7 +865,7 @@ node:81173255  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "81173255" ;
         node:hasTitle        "The Heretics" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:michael_douglas  a     node:Actor ;
         node:hasActingRole  node:acting .
@@ -905,7 +905,7 @@ node:81011955  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "81011955" ;
         node:hasTitle        "Paradise Lost" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:danny_mcbride  a       node:Actor ;
         node:hasActingRole  node:acting .
@@ -938,7 +938,7 @@ node:80162141  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80162141" ;
         node:hasTitle        "Hard Tide" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:80201906-tpmu  a  tp:TimePeriodMeasurementUnit ;
         node:hasUnit  "min" .
@@ -1015,7 +1015,7 @@ node:80181555  a             node:TvSeries ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80181555" ;
         node:hasTitle        "The Royal House of Windsor" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:mohammed_zeeshan_ayyub
         a                   node:Actor ;
@@ -1080,7 +1080,7 @@ node:80190843  a             node:TvSeries ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80190843" ;
         node:hasTitle        "First and Last" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:80988892  a             node:Movie ;
         node:dateAdded       "September 7, 2018" ;
@@ -1092,7 +1092,7 @@ node:80988892  a             node:Movie ;
         node:hasRating       "TV-PG" ;
         node:hasShowId       "80988892" ;
         node:hasTitle        "Next Gen" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:80125979  a             node:Movie ;
         node:dateAdded       "September 8, 2017" ;
@@ -1104,7 +1104,7 @@ node:80125979  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80125979" ;
         node:hasTitle        "#realityhigh" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:80181555-tpmu  a  tp:TimePeriodMeasurementUnit ;
         node:hasUnit  "Season" .
@@ -1132,7 +1132,7 @@ node:80203094  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80203094" ;
         node:hasTitle        "City of Joy" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:nick_swardson  a       node:Actor ;
         node:hasActingRole  node:acting .
@@ -1152,7 +1152,7 @@ node:81016750  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "81016750" ;
         node:hasTitle        "The 3rd Eye" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:80058654  a             node:TvSeries ;
         node:dateAdded       "September 8, 2018" ;
@@ -1164,7 +1164,7 @@ node:80058654  a             node:TvSeries ;
         node:hasRating       "TV-Y7" ;
         node:hasShowId       "80058654" ;
         node:hasTitle        "Transformers: Robots in Disguise" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:rizal_mantovani  a        node:Director ;
         node:hasDirectingRole  node:directing .
@@ -1241,7 +1241,7 @@ node:81002864  a             node:Movie ;
         node:hasRating       "TV-PG" ;
         node:hasShowId       "81002864" ;
         node:hasTitle        "Single" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:alice_lee  a           node:Actor ;
         node:hasActingRole  node:acting .
@@ -1285,7 +1285,7 @@ node:80128317  a             node:TvSeries ;
         node:hasRating       "TV-PG" ;
         node:hasShowId       "80128317" ;
         node:hasTitle        "The Eighties" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:80058654-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -1302,7 +1302,7 @@ node:80057969  a             node:Movie ;
         node:hasRating       "NR" ;
         node:hasShowId       "80057969" ;
         node:hasTitle        "Love" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:jane_fonda  a          node:Actor ;
         node:hasActingRole  node:acting .
@@ -1317,7 +1317,7 @@ node:81016044  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "81016044" ;
         node:hasTitle        "Bangkok Traffic (Love) Story" ;
-        node:releasedIn      "2009" .
+        node:releasedIn      "2009"^^xsd:int .
 
 node:a_l_vijay  a              node:Director ;
         node:hasDirectingRole  node:directing .
@@ -1332,7 +1332,7 @@ node:80019931  a             node:Movie ;
         node:hasRating       "TV-Y7" ;
         node:hasShowId       "80019931" ;
         node:hasTitle        "Monster High: Boo York, Boo York" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:olivia_williams  a     node:Actor ;
         node:hasActingRole  node:acting .
@@ -1368,7 +1368,7 @@ node:80169755  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80169755" ;
         node:hasTitle        "Joaquín Reyes: Una y no más" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:engin_altan_dzyatan
         a                   node:Actor ;
@@ -1399,7 +1399,7 @@ node:80177405  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80177405" ;
         node:hasTitle        "Marc Maron: Too Real" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:denmark  a  node:Country .
 
@@ -1453,7 +1453,7 @@ node:81132437  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "81132437" ;
         node:hasTitle        "Kill Me If You Dare" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:80182115-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -1481,7 +1481,7 @@ node:80182482  a             node:Movie ;
         node:hasRating       "TV-Y7" ;
         node:hasShowId       "80182482" ;
         node:hasTitle        "Krish Trish and Baltiboy: Comics of India" ;
-        node:releasedIn      "2012" .
+        node:releasedIn      "2012"^^xsd:int .
 
 node:chindavanich_primrose
         a                   node:Actor ;
@@ -1508,6 +1508,9 @@ node:kristine_froseth
 node:voke_victoria  a       node:Actor ;
         node:hasActingRole  node:acting .
 
+node:derry_drajat  a        node:Actor ;
+        node:hasActingRole  node:acting .
+
 node:80158838-tpmu  a  tp:TimePeriodMeasurementUnit ;
         node:hasUnit  "min" .
 
@@ -1517,13 +1520,13 @@ node:80113641  a             node:TvSeries ;
         node:hasCountry      node:united_states ;
         node:hasDescription  "A detective seizes a precious opportunity to change the past when she finds she can communicate with her deceased, estranged father via a time warp." ;
         node:hasDirector     node: ;
-        node:hasGenre        node:crime_tv_shows , node:tv_mysteries , node:tv_dramas ;
+        node:hasGenre        node:crime_tv_shows , node:tv_dramas , node:tv_mysteries ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80113641" ;
         node:hasTitle        "Frequency" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
-node:derry_drajat  a        node:Actor ;
+node:jeffrey_wright  a      node:Actor ;
         node:hasActingRole  node:acting .
 
 node:india  a   node:Country .
@@ -1553,10 +1556,7 @@ node:70299204  a             node:Movie ;
         node:hasRating       "R" ;
         node:hasShowId       "70299204" ;
         node:hasTitle        "Kidnapping Mr. Heineken" ;
-        node:releasedIn      "2015" .
-
-node:jeffrey_wright  a      node:Actor ;
-        node:hasActingRole  node:acting .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:directing  a  <http://www.ontologydesignpatterns.org/cp/owl/objectrole.owl#Role> , owl:NamedIndividual .
 
@@ -1589,7 +1589,7 @@ node:80117401  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80117401" ;
         node:hasTitle        "Jandino: Whatever it Takes" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:kid_ink  a             node:Actor ;
         node:hasActingRole  node:acting .
@@ -1607,7 +1607,7 @@ node:80128722  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80128722" ;
         node:hasTitle        "Gerald's Game" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:oliver_stark  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -1691,7 +1691,7 @@ node:80180449  a             node:TvSeries ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80180449" ;
         node:hasTitle        "Satu Hari" ;
-        node:releasedIn      "2014" .
+        node:releasedIn      "2014"^^xsd:int .
 
 node:80113482-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -1727,7 +1727,7 @@ node:80152447  a             node:Movie ;
         node:hasRating       "R" ;
         node:hasShowId       "80152447" ;
         node:hasTitle        "Cézanne et moi" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:80182596  a             node:Movie ;
         node:dateAdded       "September 8, 2017" ;
@@ -1738,7 +1738,7 @@ node:80182596  a             node:Movie ;
         node:hasRating       "TV-Y" ;
         node:hasShowId       "80182596" ;
         node:hasTitle        "Krish Trish and Baltiboy: Best Friends Forever" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:gerardo_olivares
         a                      node:Director ;
@@ -1763,7 +1763,7 @@ node:80158838  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80158838" ;
         node:hasTitle        "I Fine... Thank You... Love You" ;
-        node:releasedIn      "2014" .
+        node:releasedIn      "2014"^^xsd:int .
 
 node:80181555-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -1847,7 +1847,7 @@ node:80030186  a             node:TvSeries ;
         node:hasRating       "TV-PG" ;
         node:hasShowId       "80030186" ;
         node:hasTitle        "The Seventies" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:michel_fau  a          node:Actor ;
         node:hasActingRole  node:acting .
@@ -1879,7 +1879,7 @@ node:80239337  a             node:TvSeries ;
         node:hasRating       "TV-Y7" ;
         node:hasShowId       "80239337" ;
         node:hasTitle        "Ben 10" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:noah_emmerich  a       node:Actor ;
         node:hasActingRole  node:acting .
@@ -1918,7 +1918,7 @@ node:81004470  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "81004470" ;
         node:hasTitle        "Animal World" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:80182621-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -1945,7 +1945,7 @@ node:80045922  a             node:Movie ;
         node:hasRating       "NR" ;
         node:hasShowId       "80045922" ;
         node:hasTitle        "6 Years" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:lvaro_longoria  a         node:Director ;
         node:hasDirectingRole  node:directing .
@@ -1968,7 +1968,7 @@ node:81054495  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "81054495" ;
         node:hasTitle        "Mo Gilligan: Momentum" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:80113641-tpmu  a  tp:TimePeriodMeasurementUnit ;
         node:hasUnit  "Season" .
@@ -2002,7 +2002,7 @@ node:81002866  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "81002866" ;
         node:hasTitle        "The Sinking Of Van Der Wijck" ;
-        node:releasedIn      "2013" .
+        node:releasedIn      "2013"^^xsd:int .
 
 node:yanee_tramoth  a       node:Actor ;
         node:hasActingRole  node:acting .
@@ -2071,7 +2071,7 @@ node:70212504  a             node:Movie ;
         node:hasRating       "PG" ;
         node:hasShowId       "70212504" ;
         node:hasTitle        "Big Miracle" ;
-        node:releasedIn      "2012" .
+        node:releasedIn      "2012"^^xsd:int .
 
 node:babe_cabita  a         node:Actor ;
         node:hasActingRole  node:acting .
@@ -2104,7 +2104,7 @@ node:80057700  a             node:Movie ;
         node:hasRating       "R" ;
         node:hasShowId       "80057700" ;
         node:hasTitle        "The Runner" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:70241607-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -2143,7 +2143,7 @@ node:80178151  a             node:TvSeries ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80178151" ;
         node:hasTitle        "The Spy" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:tara_strong  a         node:Actor ;
         node:hasActingRole  node:acting .
@@ -2163,7 +2163,7 @@ node:80147760  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80147760" ;
         node:hasTitle        "Carrie Pilby" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:nicole_theriault
         a                   node:Actor ;
@@ -2210,7 +2210,7 @@ node:80163890  a             node:TvSeries ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80163890" ;
         node:hasTitle        "Apaches" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:reza_rahadian  a       node:Actor ;
         node:hasActingRole  node:acting .
@@ -2225,7 +2225,7 @@ node:70062814  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "70062814" ;
         node:hasTitle        "Shutter" ;
-        node:releasedIn      "2004" .
+        node:releasedIn      "2004"^^xsd:int .
 
 node:80113641-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -2265,7 +2265,7 @@ node:80060297  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80060297" ;
         node:hasTitle        "Manhattan Romance" ;
-        node:releasedIn      "2014" .
+        node:releasedIn      "2014"^^xsd:int .
 
 node:li_yi_feng  a          node:Actor ;
         node:hasActingRole  node:acting .
@@ -2290,7 +2290,7 @@ node:81053893  a             node:Movie ;
         node:hasRating       "TV-G" ;
         node:hasShowId       "81053893" ;
         node:hasTitle        "Cultivating the Seas: History and Future of the Full-Cycle Cultured Kindai Tuna" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:80184358-tpmu  a  tp:TimePeriodMeasurementUnit ;
         node:hasUnit  "Season" .
@@ -2340,7 +2340,7 @@ node:80159880  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80159880" ;
         node:hasTitle        "ATM" ;
-        node:releasedIn      "2012" .
+        node:releasedIn      "2012"^^xsd:int .
 
 node:chaleumpol_tikumpornteerawong
         a                   node:Actor ;
@@ -2412,7 +2412,7 @@ node:70303496  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "70303496" ;
         node:hasTitle        "PK" ;
-        node:releasedIn      "2014" .
+        node:releasedIn      "2014"^^xsd:int .
 
 node:mike_flanagan  a          node:Director ;
         node:hasDirectingRole  node:directing .
@@ -2437,7 +2437,7 @@ node:80198585  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80198585" ;
         node:hasTitle        "The Debt Collector" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:ralph_brown  a         node:Actor ;
         node:hasActingRole  node:acting .
@@ -2530,7 +2530,7 @@ node:80244601  a             node:TvSeries ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80244601" ;
         node:hasTitle        "Castle of Stars" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:sren_malling  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -2545,7 +2545,7 @@ node:80116921  a             node:TvSeries ;
         node:hasRating       "TV-Y7" ;
         node:hasShowId       "80116921" ;
         node:hasTitle        "We Bare Bears" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:81113928  a             node:Movie ;
         node:dateAdded       "September 6, 2019" ;
@@ -2556,7 +2556,7 @@ node:81113928  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "81113928" ;
         node:hasTitle        "Care of Kancharapalem" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:julia_konrad  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -2596,7 +2596,7 @@ node:80184358  a             node:TvSeries ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80184358" ;
         node:hasTitle        "Lovesick" ;
-        node:releasedIn      "2014" .
+        node:releasedIn      "2014"^^xsd:int .
 
 node:dborah_rvy  a          node:Actor ;
         node:hasActingRole  node:acting .
@@ -2631,7 +2631,7 @@ node:80046728  a             node:Movie ;
         node:hasRating       "R" ;
         node:hasShowId       "80046728" ;
         node:hasTitle        "Moonwalkers" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:netherlands  a  node:Country .
 
@@ -2667,7 +2667,7 @@ node:80095641  a             node:Movie ;
         node:hasRating       "TV-PG" ;
         node:hasShowId       "80095641" ;
         node:hasTitle        "Elstree 1976" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:mohammed_azaay  a      node:Actor ;
         node:hasActingRole  node:acting .
@@ -2826,7 +2826,7 @@ node:81002850  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "81002850" ;
         node:hasTitle        "5CM" ;
-        node:releasedIn      "2012" .
+        node:releasedIn      "2012"^^xsd:int .
 
 node:raline_shah  a         node:Actor ;
         node:hasActingRole  node:acting .
@@ -2863,7 +2863,7 @@ node:80163293  a             node:TvSeries ;
         node:hasRating       "TV-PG" ;
         node:hasShowId       "80163293" ;
         node:hasTitle        "Mak Cun" ;
-        node:releasedIn      "2015" .
+        node:releasedIn      "2015"^^xsd:int .
 
 node:80178151-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -2911,7 +2911,7 @@ node:70304990  a             node:Movie ;
         node:hasRating       "R" ;
         node:hasShowId       "70304990" ;
         node:hasTitle        "Good People" ;
-        node:releasedIn      "2014" .
+        node:releasedIn      "2014"^^xsd:int .
 
 node:kevin_bishop  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -3014,7 +3014,7 @@ node:80119349  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80119349" ;
         node:hasTitle        "Out of Thin Air" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:aamir_khan  a          node:Actor ;
         node:hasActingRole  node:acting .
@@ -3032,7 +3032,7 @@ node:70304989  a             node:Movie ;
         node:hasRating       "R" ;
         node:hasShowId       "70304989" ;
         node:hasTitle        "Automata" ;
-        node:releasedIn      "2014" .
+        node:releasedIn      "2014"^^xsd:int .
 
 node:70062814-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -3082,7 +3082,7 @@ node:80221550  a             node:TvSeries ;
         node:hasRating       "TV-Y7" ;
         node:hasShowId       "80221550" ;
         node:hasTitle        "Archibald's Next Big Thing" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:70304990-tpmu  a  tp:TimePeriodMeasurementUnit ;
         node:hasUnit  "min" .
@@ -3136,7 +3136,7 @@ node:80199032  a             node:TvSeries ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80199032" ;
         node:hasTitle        "Paul Hollywood's Big Continental Road Trip" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:80182481  a             node:Movie ;
         node:dateAdded       "September 8, 2017" ;
@@ -3147,7 +3147,7 @@ node:80182481  a             node:Movie ;
         node:hasRating       "TV-Y7" ;
         node:hasShowId       "80182481" ;
         node:hasTitle        "Krish Trish and Baltiboy: Part II" ;
-        node:releasedIn      "2010" .
+        node:releasedIn      "2010"^^xsd:int .
 
 node:boman_irani  a         node:Actor ;
         node:hasActingRole  node:acting .
@@ -3220,7 +3220,7 @@ node:80159586  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80159586" ;
         node:hasTitle        "The Most Assassinated Woman in the World" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:eriq_ebouaney  a       node:Actor ;
         node:hasActingRole  node:acting .
@@ -3390,7 +3390,7 @@ node:81176188  a             node:Movie ;
         node:hasRating       "TV-G" ;
         node:hasShowId       "81176188" ;
         node:hasTitle        "American Factory: A Conversation with the Obamas" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:ryan_kwanten  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -3414,7 +3414,7 @@ node:steven_bognar  a       node:Actor ;
 
 node:81160036  a             node:Movie ;
         node:dateAdded       "September 4, 2019" ;
-        node:hasActor        node:ali_hafiz , node:imran_aslam , node:sohail_malik , node:najiba_faiz , node:karam_hussain , node:daniyal_yousuf , node:saleem_mairaj , node:arif_bahlim ;
+        node:hasActor        node:ali_hafiz , node:sohail_malik , node:imran_aslam , node:najiba_faiz , node:karam_hussain , node:daniyal_yousuf , node:saleem_mairaj , node:arif_bahlim ;
         node:hasCountry      node:pakistan ;
         node:hasDescription  "Outcast from society and left to die in the wilderness, a young boy with polio embarks on a journey to connect with his mother. Based on a true story." ;
         node:hasDirector     node:farhan_alam ;
@@ -3422,7 +3422,7 @@ node:81160036  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "81160036" ;
         node:hasTitle        "Saawan" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:ananda_everingham
         a                   node:Actor ;
@@ -3458,7 +3458,7 @@ node:81154455  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "81154455" ;
         node:hasTitle        "Article 15" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:81113928-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -3484,7 +3484,7 @@ node:80104068  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80104068" ;
         node:hasTitle        "Our Souls at Night" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:praveena_paruchuri
         a                   node:Actor ;
@@ -3503,7 +3503,7 @@ node:81027384  a             node:TvSeries ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "81027384" ;
         node:hasTitle        "The Nineties" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:80988892-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
@@ -3548,11 +3548,11 @@ node:81155784  a             node:Movie ;
         node:hasCountry      node:india ;
         node:hasDescription  "Rushing to pay off a loan shark, a young man breaks into a bungalow to steal the cash, unprepared for the dog standing guard – or the trouble inside." ;
         node:hasDirector     node:a_l_vijay ;
-        node:hasGenre        node:international_movies , node:dramas , node:comedies ;
+        node:hasGenre        node:dramas , node:international_movies , node:comedies ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "81155784" ;
         node:hasTitle        "Watchman" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:isabelle_nicou  a      node:Actor ;
         node:hasActingRole  node:acting .
@@ -3592,7 +3592,7 @@ node:80200087  a             node:Movie ;
         node:hasRating       "R" ;
         node:hasShowId       "80200087" ;
         node:hasTitle        "Domino" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:kongyingyong_chonlathorn
         a                   node:Actor ;
@@ -3659,7 +3659,7 @@ node:70233894  a             node:Movie ;
         node:hasRating       "NR" ;
         node:hasShowId       "70233894" ;
         node:hasTitle        "Act of Vengeance" ;
-        node:releasedIn      "2010" .
+        node:releasedIn      "2010"^^xsd:int .
 
 node:stuart_allan  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -3669,14 +3669,14 @@ node:dramas  a  node:Genre .
 node:alice_pol  a           node:Actor ;
         node:hasActingRole  node:acting .
 
-node:81004470-tpmu  a  tp:TimePeriodMeasurementUnit ;
-        node:hasUnit  "min" .
-
 node:franck_ribire  a          node:Director ;
         node:hasDirectingRole  node:directing .
 
 node:seda_gven  a           node:Actor ;
         node:hasActingRole  node:acting .
+
+node:81004470-tpmu  a  tp:TimePeriodMeasurementUnit ;
+        node:hasUnit  "min" .
 
 node:letitia_wright  a      node:Actor ;
         node:hasActingRole  node:acting .
@@ -3725,7 +3725,7 @@ node:81016045  a             node:Movie ;
         node:hasRating       "TV-PG" ;
         node:hasShowId       "81016045" ;
         node:hasTitle        "One Day" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:ron_perlman  a         node:Actor ;
         node:hasActingRole  node:acting .
@@ -3740,7 +3740,7 @@ node:80182115  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80182115" ;
         node:hasTitle        "Long Shot" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:tim_mcinnerny  a       node:Actor ;
         node:hasActingRole  node:acting .
@@ -3813,7 +3813,7 @@ node:80126507  a             node:Movie ;
         node:hasRating       "TV-14" ;
         node:hasShowId       "80126507" ;
         node:hasTitle        "Bobby Sands: 66 Days" ;
-        node:releasedIn      "2016" .
+        node:releasedIn      "2016"^^xsd:int .
 
 node:annisa_rawles  a       node:Actor ;
         node:hasActingRole  node:acting .
@@ -3839,7 +3839,7 @@ node:80187061  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80187061" ;
         node:hasTitle        "The Mayor" ;
-        node:releasedIn      "2017" .
+        node:releasedIn      "2017"^^xsd:int .
 
 node:81078908-tpmu  a  tp:TimePeriodMeasurementUnit ;
         node:hasUnit  "min" .
@@ -3854,7 +3854,7 @@ node:80201906  a             node:Movie ;
         node:hasRating       "PG-13" ;
         node:hasShowId       "80201906" ;
         node:hasTitle        "Black Panther" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:taissa_farmiga  a      node:Actor ;
         node:hasActingRole  node:acting .
@@ -3892,7 +3892,7 @@ node:80239639  a             node:Movie ;
         node:hasRating       "PG-13" ;
         node:hasShowId       "80239639" ;
         node:hasTitle        "Sierra Burgess Is A Loser" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:80182483  a             node:Movie ;
         node:dateAdded       "September 8, 2017" ;
@@ -3903,7 +3903,7 @@ node:80182483  a             node:Movie ;
         node:hasRating       "TV-Y7" ;
         node:hasShowId       "80182483" ;
         node:hasTitle        "Krish Trish and Baltiboy: Battle of Wits" ;
-        node:releasedIn      "2013" .
+        node:releasedIn      "2013"^^xsd:int .
 
 node:president_barack_obama
         a                   node:Actor ;
@@ -3926,7 +3926,7 @@ node:70142798  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "70142798" ;
         node:hasTitle        "Phobia 2" ;
-        node:releasedIn      "2009" .
+        node:releasedIn      "2009"^^xsd:int .
 
 node:rachel_staman  a       node:Actor ;
         node:hasActingRole  node:acting .
@@ -3973,7 +3973,7 @@ node:81053892  a             node:Movie ;
         node:hasRating       "TV-PG" ;
         node:hasShowId       "81053892" ;
         node:hasTitle        "TUNA GIRL" ;
-        node:releasedIn      "2019" .
+        node:releasedIn      "2019"^^xsd:int .
 
 node:devin_kelley  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -4007,7 +4007,7 @@ node:70234439  a             node:TvSeries ;
         node:hasRating       "TV-Y7-FV" ;
         node:hasShowId       "70234439" ;
         node:hasTitle        "Transformers Prime" ;
-        node:releasedIn      "2013" .
+        node:releasedIn      "2013"^^xsd:int .
 
 node:rachel_brann  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -4022,7 +4022,7 @@ node:81011682  a             node:TvSeries ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "81011682" ;
         node:hasTitle        "Christiane Amanpour: Sex & Love Around the World" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:sohail_malik  a        node:Actor ;
         node:hasActingRole  node:acting .
@@ -4091,7 +4091,7 @@ node:80992039  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80992039" ;
         node:hasTitle        "Two Catalonias" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:sirikiet_saejea  a     node:Actor ;
         node:hasActingRole  node:acting .
@@ -4121,7 +4121,7 @@ node:80201933  a             node:TvSeries ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80201933" ;
         node:hasTitle        "Made in Mexico" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:80046727-tpmu  a  tp:TimePeriodMeasurementUnit ;
         node:hasUnit  "min" .
@@ -4195,7 +4195,7 @@ node:80157072  a             node:Movie ;
         node:hasRating       "TV-MA" ;
         node:hasShowId       "80157072" ;
         node:hasTitle        "Hold the Dark" ;
-        node:releasedIn      "2018" .
+        node:releasedIn      "2018"^^xsd:int .
 
 node:80182621  a             node:Movie ;
         node:dateAdded       "September 8, 2017" ;
@@ -4206,7 +4206,7 @@ node:80182621  a             node:Movie ;
         node:hasRating       "TV-Y7" ;
         node:hasShowId       "80182621" ;
         node:hasTitle        "Krish Trish and Baltiboy: The Greatest Trick" ;
-        node:releasedIn      "2013" .
+        node:releasedIn      "2013"^^xsd:int .
 
 node:80147760-tp  a         tp:TimePeriod ;
         tp:hasTimePeriodMeasurementUnit
